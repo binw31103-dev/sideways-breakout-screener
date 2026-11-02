@@ -1,0 +1,8 @@
+Roles / lanes:
+- Planner: Defined the four-view product contract, tracking semantics, and acceptance checks.
+- Researcher: Mapped the v1.8 methodology and eleven report cohorts into a single data model.
+- Architect: Chose a reproducible report parser plus generated JSON consumed by a local React/Vite app.
+- Builder: Implemented data refresh, dashboard views, filters, timeline, category aggregation, and stock detail.
+- Verifier: Ran data refresh, production build, Playwright screenshots, interaction checks, console checks, and overflow checks.
+- Critic: Flagged selection-date semantics, missing Escape handling, favicon noise, and responsive density issues.
+- Integrator: Corrected the findings, rebuilt the dataset/app, and recorded final QA evidence.

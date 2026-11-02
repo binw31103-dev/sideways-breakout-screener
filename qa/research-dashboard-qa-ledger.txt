@@ -1,0 +1,36 @@
+Auto Loop QA Ledger: research-dashboard
+
+Universal checks:
+- [x] deliverable exists
+- [x] explicit requirements covered
+- [x] relevant specialist skills/tools used
+- [x] artifact-specific QA run
+- [x] role review or multi-agent review completed
+- [x] improvement pass completed
+- [x] stage entry gate was verified
+- [x] external side effects stayed within authorization
+- [x] stage exit evidence was collected
+- [x] next-stage handoff was produced when applicable
+- [x] final handoff includes paths and validation
+
+Findings:
+- Initial Tencent quote requests returned 501; all failures were contained and no partial stock records were emitted.
+- Sina daily K-line was added as a fallback; final refresh produced 48 stocks and zero failures.
+- Initial report parsing used row data dates as selection dates; corrected to report creation dates while price lookup uses the latest prior trading day.
+- Initial browser run had one favicon 404; fixed with a local favicon.
+- Stock drawer initially lacked Escape handling and background scroll lock; both were added.
+- Desktop 1440x900, intermediate 1024x768, and mobile 390x844 layouts showed no incoherent overlap.
+- Document width equals viewport width at 1024 and 390; no page-level horizontal overflow.
+- Search reduced the 48-stock table to one matching result; stock drawer opened and closed with Escape.
+- Current browser console reports zero errors and zero warnings.
+
+Artifacts:
+- output/playwright/overview-desktop-viewport.png
+- output/playwright/overview-desktop.png
+- output/playwright/overview-tablet.png
+- output/playwright/overview-mobile-viewport.png
+- output/playwright/overview-mobile.png
+- output/playwright/reports-mobile.png
+- output/playwright/timeline-mobile.png
+- output/playwright/categories-mobile.png
+- output/playwright/stock-drawer-mobile.png

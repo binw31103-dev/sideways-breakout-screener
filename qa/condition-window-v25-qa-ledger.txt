@@ -1,0 +1,52 @@
+Auto Loop QA Ledger: condition-window-v25
+
+Universal checks:
+- [x] deliverable exists
+- [x] explicit requirements covered
+- [x] relevant specialist skills/tools used
+- [x] artifact-specific QA run
+- [x] role review or multi-agent review completed
+- [x] improvement pass completed
+- [x] stage entry gate was verified
+- [x] external side effects stayed within authorization
+- [x] stage exit evidence was collected
+- [x] next-stage handoff was produced when applicable
+- [x] final handoff includes paths and validation
+
+Findings:
+- The small strict pool is mainly caused by a short same-day intersection, not by market-cap limits alone.
+- Widening all RSI, MA, gain, and low-distance thresholds would change the v1.3 red-box target.
+- A recent-trigger right-edge state preserves research continuity without becoming a fresh-entry shortcut.
+- The previous generic one-failed-condition boundary rule conflicted with v2.5 and was retired from the current execution path.
+- The 2026-07-29 北摩高科 snapshot lacks a valid market-cap field and must remain data pending.
+
+Fixes applied:
+- Kept HPRED231 unchanged and added independent HPEDGE25.
+- Added three-observation recent-trigger gating and ten-observation state tracking.
+- Added strict, right-edge, launch, invalidation, data-pending, and expiry states.
+- Added current-day strict registration and idempotent same-date history updates.
+- Added daily and weekly RSI direction plus weekly MACD direction to the right-edge repair check.
+- Updated requirements, TongdaXin instructions, README, and the reusable stock-screen skill.
+
+Validation:
+- `python3 -m unittest discover -s tests -p 'test_*.py' -v`: 5 tests passed.
+- Repeated tracking command kept each 2026-07-29 history at one entry.
+- Nine-stock case: 中国电研 current strict; 吉林化纤/万丰奥威/川发龙蟒 right-edge; 广东宏大/微光股份/三角防务 launch; 北摩高科 data pending; 东方通信 not registered because the sector switch did not pass.
+- HPEDGE25 static check found 62 complete statements and exactly one XG output.
+- The v2.5 ZIP was rebuilt with UTF-8 filename flags, and the packaged HPEDGE25 bytes match the source formula.
+- `quick_validate.py` reported the reusable skill is valid.
+
+Residual risks:
+- HPEDGE25 still requires compilation and historical-date testing in the user's TongdaXin version.
+- Concept-board five-day breadth is documented but not implemented inside TongdaXin.
+- The three-day and ten-day windows are hypotheses that need at least 20 trading days of forward evidence.
+- Intraday 2026-07-29 data is provisional and cannot replace a completed close snapshot.
+
+Final artifacts:
+- v2.5时间窗口与分层优化方案.md
+- 通达信公式/04_HPEDGE25_红框右沿跟踪选股.txt
+- scripts/update_v25_tracking_pool.py
+- tests/test_update_v25_tracking_pool.py
+- v2.5红框状态跟踪.md
+- output/v25-tracking-pool.json
+- output/通达信横盘启动选股公式-v2.5.zip

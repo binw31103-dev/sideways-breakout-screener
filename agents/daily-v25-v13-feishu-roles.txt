@@ -1,0 +1,8 @@
+Roles / lanes:
+- Planner: define the two-model contract and no-stale/no-forced-count behavior.
+- Researcher: derive concise factors from prior v1.3/v2.5 discussions.
+- Architect: separate scanners, dated archives, tracking state, and notification delivery.
+- Builder: implement v1.3 scan and daily Feishu orchestrator.
+- Verifier: run unit/schema/network tests and inspect the final card payload.
+- Critic: check for model mixing, overextension, hidden scoring, secret leakage, and stale data.
+- Integrator: apply fixes, send the test message, and create the recurring automation.

@@ -1,0 +1,26 @@
+Auto Loop Input Checklist: condition-window-v25
+
+Completeness:
+- [x] goal
+- [x] artifact type
+- [x] audience/user
+- [x] inputs/source paths
+- [x] output format/path
+- [x] constraints
+- [x] quality bar
+- [x] autonomy level
+- [x] risks/sensitive boundaries
+- [x] current stage and entry gate
+- [x] inherited artifacts/evidence
+- [x] user-only prerequisites
+- [x] authorized external side effects
+- [x] stage exit evidence and handoff
+
+Missing items: none that block local design, implementation, or case validation.
+
+Autofill assumptions:
+- Keep HPRED231 unchanged as the strict trigger.
+- Use completed close data as the official daily state; intraday data is provisional.
+- A recent strict trigger may feed a separate right-edge state for three trading days.
+- A selected stock remains in the tracking ledger for at most ten observed trading days unless invalidated.
+- No external deployment, trading action, or account change is authorized.

@@ -1,0 +1,25 @@
+Auto Loop Input Checklist: daily-v25-v13-feishu
+
+Completeness:
+- [x] goal
+- [x] artifact type
+- [x] audience/user
+- [x] inputs/source paths
+- [x] output format/path
+- [x] constraints
+- [x] quality bar
+- [x] autonomy level
+- [x] risks/sensitive boundaries
+- [x] current stage and entry gate
+- [x] inherited artifacts/evidence
+- [x] user-only prerequisites
+- [x] authorized external side effects
+- [x] stage exit evidence and handoff
+
+Missing items: exact send time was not specified.
+
+Autofill assumptions:
+- Run at 17:00 Asia/Singapore on weekdays, after A-share close-data availability.
+- Skip sending when the latest market data date is not the local date.
+- Return at most five stocks per model and never relax rules to force five.
+- Store the Feishu webhook in macOS Keychain, not in project files.

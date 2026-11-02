@@ -1,0 +1,8 @@
+Roles / lanes:
+- Planner: preserve the strict target while separating trigger and persistence semantics.
+- Researcher: compare the July 28 close and July 29 intraday state changes.
+- Architect: define core trigger, right-edge, launch, invalidation, and expiry states.
+- Builder: create HPEDGE25, the tracking script, and synchronized documentation.
+- Verifier: run deterministic case validation, syntax/static checks, and skill validation.
+- Critic: test for hidden scoring, forced-count relaxation, look-ahead assumptions, and intraday/close confusion.
+- Integrator: apply QA fixes and prepare the TongdaXin package and handoff.

@@ -1,0 +1,4457 @@
+{
+  "allCandidates": [
+    {
+      "code": "600827",
+      "name": "百联股份",
+      "industry": "一般零售",
+      "date": "2026-07-28",
+      "close": 7.59,
+      "source": "新浪日K回退+东方财富收盘快照",
+      "profit": 791779641.87,
+      "profitPeriod": "2026Q1",
+      "conditionVerdict": "边界观察（1项不满足）",
+      "failedConditions": [
+        "日RSI 45.66 不在28-45"
+      ],
+      "conditionChecks": {
+        "lowPosition": "满足",
+        "notStarted": "满足",
+        "platform": "满足",
+        "volume": "满足",
+        "rsi": "不满足",
+        "macd": "满足",
+        "maStage": "满足",
+        "sector": "满足",
+        "financial": "通过",
+        "risk": "观察"
+      },
+      "lowAge": 19,
+      "aboveDays": 0,
+      "above5": true,
+      "above10": false,
+      "riseRecentLow": 2.8,
+      "riseYearLow": 2.8,
+      "change5": -1.0,
+      "change10": -2.6,
+      "change20": 2.4,
+      "change60": -7.9,
+      "dailyRsi": 45.7,
+      "weeklyRsi": 36.6,
+      "dailyMacd": {
+        "dif": -0.08136467426935745,
+        "dea": -0.08215490296899651,
+        "hist": 0.001580457399278118,
+        "hist4": 0.0318677168101838,
+        "crossAge": 0,
+        "underwater": true,
+        "improving": false,
+        "state": "水下刚金叉"
+      },
+      "weeklyMacd": {
+        "dif": -0.34997055367790164,
+        "dea": -0.314405830782393,
+        "hist": -0.07112944579101732,
+        "hist4": -0.11131628684628836,
+        "crossAge": null,
+        "underwater": true,
+        "improving": false,
+        "state": "水下弱势"
+      },
+      "below15": true,
+      "below30": true,
+      "maDistance15": -0.8,
+      "maDistance30": -1.4,
+      "ma30Slope10": -1.94,
+      "range10": 7.6,
+      "range20": 8.0,
+      "closeRange10": 5.5,
+      "closeSlope10": -0.47,
+      "floorDrift": 0.4,
+      "lowTouchCount15": 15,
+      "platformEvidence": {
+        "lowMatured": true,
+        "intradayRangeContracted": true,
+        "closeRangeContracted": true,
+        "repeatedFloorTouches": true,
+        "closeSlopeStable": false,
+        "floorNotDriftingDown": true
+      },
+      "platformEvidenceCount": 5,
+      "stablePlatform": true,
+      "secondaryWithContext": true,
+      "secondaryConfirmation": {
+        "confirmed": true,
+        "firstDate": "2026-07-01",
+        "secondDate": "2026-07-10",
+        "firstLow": 7.38,
+        "secondLow": 7.38,
+        "separationDays": 7,
+        "secondAge": 12,
+        "secondVsFirst": 0.0,
+        "reboundBetween": 6.0,
+        "postBreak": 0.0
+      },
+      "volumeRatio5v20": 0.88,
+      "medianVolumeRatio5v20": 0.9,
+      "volumeRatio5vPrevious5": 0.61,
+      "downUpVolumeRatio10": 1.33,
+      "probeVolume": true,
+      "volumeState": "温和收缩",
+      "washoutVolumeRatio": 1.06,
+      "manualPrecheck": {
+        "lowNoLongerBreaking": true,
+        "notSingleCandleRebound": true,
+        "platformFormed": true,
+        "secondaryLowValid": true,
+        "ma5Flattening": false,
+        "rsiLowAndLifting": false,
+        "macdUnderwaterRepair": true,
+        "volumeContracted": true,
+        "sectorHasBreadth": true
+      },
+      "manualReviewVerdict": "观察",
+      "sector": {
+        "leader": "东百集团",
+        "leaderCode": "600693",
+        "leaderGain": 9.96,
+        "boardChange": 1.25,
+        "breadth": 0.8793103448275862
+      },
+      "elasticity": {
+        "grade": "低",
+        "maxStageGain1y": 12.0,
+        "gain30Count": 0,
+        "limitUpDays": 0,
+        "maxLimitStreak": 0
+      },
+      "sparkline": [
+        {
+          "date": "2026-03-18",
+          "open": 8.69,
+          "high": 8.7,
+          "low": 8.58,
+          "close": 8.63,
+          "volume": 6930698.0
+        },
+        {
+          "date": "2026-03-19",
+          "open": 8.59,
+          "high": 8.64,
+          "low": 8.51,
+          "close": 8.52,
+          "volume": 8215026.0
+        },
+        {
+          "date": "2026-03-20",
+          "open": 8.53,
+          "high": 8.6,
+          "low": 8.45,
+          "close": 8.45,
+          "volume": 7019421.0
+        },
+        {
+          "date": "2026-03-23",
+          "open": 8.43,
+          "high": 8.44,
+          "low": 8.08,
+          "close": 8.13,
+          "volume": 12492201.0
+        },
+        {
+          "date": "2026-03-24",
+          "open": 8.21,
+          "high": 8.24,
+          "low": 8.09,
+          "close": 8.2,
+          "volume": 6403817.0
+        },
+        {
+          "date": "2026-03-25",
+          "open": 8.24,
+          "high": 8.29,
+          "low": 8.2,
+          "close": 8.26,
+          "volume": 6126700.0
+        },
+        {
+          "date": "2026-03-26",
+          "open": 8.25,
+          "high": 8.36,
+          "low": 8.25,
+          "close": 8.31,
+          "volume": 5970070.0
+        },
+        {
+          "date": "2026-03-27",
+          "open": 8.24,
+          "high": 8.37,
+          "low": 8.24,
+          "close": 8.34,
+          "volume": 7777039.0
+        },
+        {
+          "date": "2026-03-30",
+          "open": 8.3,
+          "high": 8.48,
+          "low": 8.28,
+          "close": 8.45,
+          "volume": 8933566.0
+        },
+        {
+          "date": "2026-03-31",
+          "open": 8.44,
+          "high": 8.61,
+          "low": 8.43,
+          "close": 8.49,
+          "volume": 8663402.0
+        },
+        {
+          "date": "2026-04-01",
+          "open": 8.55,
+          "high": 8.56,
+          "low": 8.47,
+          "close": 8.55,
+          "volume": 7244525.0
+        },
+        {
+          "date": "2026-04-02",
+          "open": 8.55,
+          "high": 8.55,
+          "low": 8.45,
+          "close": 8.52,
+          "volume": 4949929.0
+        },
+        {
+          "date": "2026-04-03",
+          "open": 8.5,
+          "high": 8.53,
+          "low": 8.36,
+          "close": 8.37,
+          "volume": 4315233.0
+        },
+        {
+          "date": "2026-04-07",
+          "open": 8.4,
+          "high": 8.41,
+          "low": 8.3,
+          "close": 8.39,
+          "volume": 5116241.0
+        },
+        {
+          "date": "2026-04-08",
+          "open": 8.48,
+          "high": 8.56,
+          "low": 8.47,
+          "close": 8.53,
+          "volume": 6588350.0
+        },
+        {
+          "date": "2026-04-09",
+          "open": 8.52,
+          "high": 8.54,
+          "low": 8.41,
+          "close": 8.45,
+          "volume": 6628951.0
+        },
+        {
+          "date": "2026-04-10",
+          "open": 8.49,
+          "high": 8.51,
+          "low": 8.44,
+          "close": 8.44,
+          "volume": 4605725.0
+        },
+        {
+          "date": "2026-04-13",
+          "open": 8.4,
+          "high": 8.54,
+          "low": 8.4,
+          "close": 8.51,
+          "volume": 6122258.0
+        },
+        {
+          "date": "2026-04-14",
+          "open": 8.54,
+          "high": 8.61,
+          "low": 8.47,
+          "close": 8.57,
+          "volume": 7065615.0
+        },
+        {
+          "date": "2026-04-15",
+          "open": 8.59,
+          "high": 8.61,
+          "low": 8.48,
+          "close": 8.51,
+          "volume": 7560271.0
+        },
+        {
+          "date": "2026-04-16",
+          "open": 8.5,
+          "high": 8.53,
+          "low": 8.36,
+          "close": 8.39,
+          "volume": 11492115.0
+        },
+        {
+          "date": "2026-04-17",
+          "open": 8.38,
+          "high": 8.39,
+          "low": 8.22,
+          "close": 8.23,
+          "volume": 12460770.0
+        },
+        {
+          "date": "2026-04-20",
+          "open": 8.47,
+          "high": 8.48,
+          "low": 8.23,
+          "close": 8.24,
+          "volume": 15057272.0
+        },
+        {
+          "date": "2026-04-21",
+          "open": 8.25,
+          "high": 8.29,
+          "low": 8.18,
+          "close": 8.27,
+          "volume": 9293686.0
+        },
+        {
+          "date": "2026-04-22",
+          "open": 8.26,
+          "high": 8.27,
+          "low": 8.07,
+          "close": 8.07,
+          "volume": 17989506.0
+        },
+        {
+          "date": "2026-04-23",
+          "open": 8.08,
+          "high": 8.13,
+          "low": 8.02,
+          "close": 8.1,
+          "volume": 7455790.0
+        },
+        {
+          "date": "2026-04-24",
+          "open": 8.08,
+          "high": 8.15,
+          "low": 8.03,
+          "close": 8.1,
+          "volume": 10168900.0
+        },
+        {
+          "date": "2026-04-27",
+          "open": 8.1,
+          "high": 8.16,
+          "low": 8.04,
+          "close": 8.12,
+          "volume": 7928981.0
+        },
+        {
+          "date": "2026-04-28",
+          "open": 8.13,
+          "high": 8.28,
+          "low": 8.12,
+          "close": 8.21,
+          "volume": 14460658.0
+        },
+        {
+          "date": "2026-04-29",
+          "open": 8.19,
+          "high": 8.27,
+          "low": 8.19,
+          "close": 8.24,
+          "volume": 13219588.0
+        },
+        {
+          "date": "2026-04-30",
+          "open": 8.37,
+          "high": 8.39,
+          "low": 8.25,
+          "close": 8.27,
+          "volume": 24406560.0
+        },
+        {
+          "date": "2026-05-06",
+          "open": 8.3,
+          "high": 8.52,
+          "low": 8.26,
+          "close": 8.48,
+          "volume": 27644101.0
+        },
+        {
+          "date": "2026-05-07",
+          "open": 8.49,
+          "high": 8.6,
+          "low": 8.39,
+          "close": 8.4,
+          "volume": 15787387.0
+        },
+        {
+          "date": "2026-05-08",
+          "open": 8.39,
+          "high": 8.52,
+          "low": 8.36,
+          "close": 8.48,
+          "volume": 12522745.0
+        },
+        {
+          "date": "2026-05-11",
+          "open": 8.51,
+          "high": 8.51,
+          "low": 8.38,
+          "close": 8.44,
+          "volume": 12034385.0
+        },
+        {
+          "date": "2026-05-12",
+          "open": 8.44,
+          "high": 8.44,
+          "low": 8.26,
+          "close": 8.29,
+          "volume": 10420486.0
+        },
+        {
+          "date": "2026-05-13",
+          "open": 8.29,
+          "high": 8.34,
+          "low": 8.23,
+          "close": 8.27,
+          "volume": 6538523.0
+        },
+        {
+          "date": "2026-05-14",
+          "open": 8.55,
+          "high": 8.76,
+          "low": 8.43,
+          "close": 8.65,
+          "volume": 40311448.0
+        },
+        {
+          "date": "2026-05-15",
+          "open": 8.58,
+          "high": 8.6,
+          "low": 8.28,
+          "close": 8.36,
+          "volume": 28164072.0
+        },
+        {
+          "date": "2026-05-18",
+          "open": 8.31,
+          "high": 8.32,
+          "low": 8.19,
+          "close": 8.26,
+          "volume": 12963881.0
+        },
+        {
+          "date": "2026-05-19",
+          "open": 8.33,
+          "high": 8.47,
+          "low": 8.28,
+          "close": 8.35,
+          "volume": 14619892.0
+        },
+        {
+          "date": "2026-05-20",
+          "open": 8.3,
+          "high": 8.34,
+          "low": 8.21,
+          "close": 8.25,
+          "volume": 10138036.0
+        },
+        {
+          "date": "2026-05-21",
+          "open": 8.25,
+          "high": 8.31,
+          "low": 8.1,
+          "close": 8.11,
+          "volume": 11085986.0
+        },
+        {
+          "date": "2026-05-22",
+          "open": 8.12,
+          "high": 8.15,
+          "low": 7.99,
+          "close": 8.03,
+          "volume": 12940801.0
+        },
+        {
+          "date": "2026-05-25",
+          "open": 8.02,
+          "high": 8.03,
+          "low": 7.89,
+          "close": 7.91,
+          "volume": 10443189.0
+        },
+        {
+          "date": "2026-05-26",
+          "open": 7.87,
+          "high": 7.98,
+          "low": 7.86,
+          "close": 7.92,
+          "volume": 7241087.0
+        },
+        {
+          "date": "2026-05-27",
+          "open": 7.94,
+          "high": 8.03,
+          "low": 7.77,
+          "close": 7.99,
+          "volume": 12756375.0
+        },
+        {
+          "date": "2026-05-28",
+          "open": 8.14,
+          "high": 8.26,
+          "low": 8.01,
+          "close": 8.04,
+          "volume": 15452600.0
+        },
+        {
+          "date": "2026-05-29",
+          "open": 8.0,
+          "high": 8.64,
+          "low": 7.98,
+          "close": 8.49,
+          "volume": 32897384.0
+        },
+        {
+          "date": "2026-06-01",
+          "open": 8.39,
+          "high": 8.55,
+          "low": 8.3,
+          "close": 8.54,
+          "volume": 17676377.0
+        },
+        {
+          "date": "2026-06-02",
+          "open": 8.53,
+          "high": 8.62,
+          "low": 8.38,
+          "close": 8.38,
+          "volume": 15189673.0
+        },
+        {
+          "date": "2026-06-03",
+          "open": 8.37,
+          "high": 8.37,
+          "low": 8.13,
+          "close": 8.21,
+          "volume": 14632508.0
+        },
+        {
+          "date": "2026-06-04",
+          "open": 8.2,
+          "high": 8.32,
+          "low": 8.01,
+          "close": 8.07,
+          "volume": 12441351.0
+        },
+        {
+          "date": "2026-06-05",
+          "open": 8.07,
+          "high": 8.33,
+          "low": 8.07,
+          "close": 8.16,
+          "volume": 11432523.0
+        },
+        {
+          "date": "2026-06-08",
+          "open": 8.1,
+          "high": 8.32,
+          "low": 8.08,
+          "close": 8.14,
+          "volume": 12811679.0
+        },
+        {
+          "date": "2026-06-09",
+          "open": 8.11,
+          "high": 8.17,
+          "low": 7.97,
+          "close": 8.02,
+          "volume": 10432844.0
+        },
+        {
+          "date": "2026-06-10",
+          "open": 8.01,
+          "high": 8.07,
+          "low": 7.94,
+          "close": 8.05,
+          "volume": 8720158.0
+        },
+        {
+          "date": "2026-06-11",
+          "open": 8.01,
+          "high": 8.05,
+          "low": 7.87,
+          "close": 7.89,
+          "volume": 9416200.0
+        },
+        {
+          "date": "2026-06-12",
+          "open": 7.91,
+          "high": 8.09,
+          "low": 7.85,
+          "close": 8.07,
+          "volume": 11724601.0
+        },
+        {
+          "date": "2026-06-15",
+          "open": 8.07,
+          "high": 8.19,
+          "low": 8.02,
+          "close": 8.15,
+          "volume": 12540959.0
+        },
+        {
+          "date": "2026-06-16",
+          "open": 8.13,
+          "high": 8.15,
+          "low": 8.03,
+          "close": 8.1,
+          "volume": 8888148.0
+        },
+        {
+          "date": "2026-06-17",
+          "open": 8.1,
+          "high": 8.11,
+          "low": 7.93,
+          "close": 7.98,
+          "volume": 8817665.0
+        },
+        {
+          "date": "2026-06-18",
+          "open": 7.98,
+          "high": 8.0,
+          "low": 7.82,
+          "close": 7.84,
+          "volume": 7790535.0
+        },
+        {
+          "date": "2026-06-22",
+          "open": 7.8,
+          "high": 7.98,
+          "low": 7.61,
+          "close": 7.93,
+          "volume": 10180780.0
+        },
+        {
+          "date": "2026-06-23",
+          "open": 7.92,
+          "high": 8.13,
+          "low": 7.9,
+          "close": 8.01,
+          "volume": 9049455.0
+        },
+        {
+          "date": "2026-06-24",
+          "open": 8.08,
+          "high": 8.08,
+          "low": 7.84,
+          "close": 7.86,
+          "volume": 7776350.0
+        },
+        {
+          "date": "2026-06-25",
+          "open": 7.85,
+          "high": 7.9,
+          "low": 7.72,
+          "close": 7.76,
+          "volume": 7962692.0
+        },
+        {
+          "date": "2026-06-26",
+          "open": 7.76,
+          "high": 7.76,
+          "low": 7.58,
+          "close": 7.59,
+          "volume": 8217417.0
+        },
+        {
+          "date": "2026-06-29",
+          "open": 7.58,
+          "high": 7.76,
+          "low": 7.43,
+          "close": 7.69,
+          "volume": 11070117.0
+        },
+        {
+          "date": "2026-06-30",
+          "open": 7.65,
+          "high": 7.73,
+          "low": 7.4,
+          "close": 7.41,
+          "volume": 12667894.0
+        },
+        {
+          "date": "2026-07-01",
+          "open": 7.41,
+          "high": 7.56,
+          "low": 7.38,
+          "close": 7.51,
+          "volume": 11105385.0
+        },
+        {
+          "date": "2026-07-02",
+          "open": 7.51,
+          "high": 7.61,
+          "low": 7.44,
+          "close": 7.58,
+          "volume": 10617489.0
+        },
+        {
+          "date": "2026-07-03",
+          "open": 7.59,
+          "high": 7.68,
+          "low": 7.56,
+          "close": 7.61,
+          "volume": 10689406.0
+        },
+        {
+          "date": "2026-07-06",
+          "open": 7.61,
+          "high": 7.82,
+          "low": 7.57,
+          "close": 7.81,
+          "volume": 11539622.0
+        },
+        {
+          "date": "2026-07-07",
+          "open": 7.81,
+          "high": 7.81,
+          "low": 7.58,
+          "close": 7.61,
+          "volume": 7759331.0
+        },
+        {
+          "date": "2026-07-08",
+          "open": 7.61,
+          "high": 7.81,
+          "low": 7.56,
+          "close": 7.69,
+          "volume": 11180889.0
+        },
+        {
+          "date": "2026-07-09",
+          "open": 7.58,
+          "high": 7.6,
+          "low": 7.39,
+          "close": 7.47,
+          "volume": 10446555.0
+        },
+        {
+          "date": "2026-07-10",
+          "open": 7.48,
+          "high": 7.62,
+          "low": 7.38,
+          "close": 7.57,
+          "volume": 9412568.0
+        },
+        {
+          "date": "2026-07-13",
+          "open": 7.54,
+          "high": 7.68,
+          "low": 7.51,
+          "close": 7.64,
+          "volume": 11430839.0
+        },
+        {
+          "date": "2026-07-14",
+          "open": 7.67,
+          "high": 7.85,
+          "low": 7.66,
+          "close": 7.79,
+          "volume": 14243416.0
+        },
+        {
+          "date": "2026-07-15",
+          "open": 7.6,
+          "high": 7.9,
+          "low": 7.5,
+          "close": 7.85,
+          "volume": 18686600.0
+        },
+        {
+          "date": "2026-07-16",
+          "open": 7.85,
+          "high": 7.89,
+          "low": 7.67,
+          "close": 7.83,
+          "volume": 19572700.0
+        },
+        {
+          "date": "2026-07-17",
+          "open": 7.78,
+          "high": 7.97,
+          "low": 7.65,
+          "close": 7.65,
+          "volume": 20354933.0
+        },
+        {
+          "date": "2026-07-20",
+          "open": 7.7,
+          "high": 7.87,
+          "low": 7.67,
+          "close": 7.78,
+          "volume": 16670345.0
+        },
+        {
+          "date": "2026-07-21",
+          "open": 7.75,
+          "high": 7.85,
+          "low": 7.65,
+          "close": 7.67,
+          "volume": 17343025.0
+        },
+        {
+          "date": "2026-07-22",
+          "open": 7.68,
+          "high": 7.69,
+          "low": 7.47,
+          "close": 7.61,
+          "volume": 17777540.0
+        },
+        {
+          "date": "2026-07-23",
+          "open": 7.6,
+          "high": 7.65,
+          "low": 7.53,
+          "close": 7.63,
+          "volume": 9143163.0
+        },
+        {
+          "date": "2026-07-24",
+          "open": 7.61,
+          "high": 7.66,
+          "low": 7.43,
+          "close": 7.44,
+          "volume": 10020642.0
+        },
+        {
+          "date": "2026-07-27",
+          "open": 7.43,
+          "high": 7.56,
+          "low": 7.41,
+          "close": 7.53,
+          "volume": 9142152.0
+        },
+        {
+          "date": "2026-07-28",
+          "open": 7.52,
+          "high": 7.6,
+          "low": 7.45,
+          "close": 7.59,
+          "volume": 10492400.0
+        }
+      ],
+      "financialState": "通过",
+      "riskState": "观察",
+      "financialRisk": {
+        "reportPeriod": "2026一季报",
+        "parentProfit": 791779641.87,
+        "deductProfit": 120519082.73,
+        "operatingCashFlow": 1053673544.36,
+        "debtRatio": 59.3,
+        "interestDebtRatio": 16.2,
+        "profitYoy": 310.8,
+        "deductProfitYoy": -4.7,
+        "financialNotes": [
+          "扣非利润、现金流和杠杆未触发当前预警"
+        ],
+        "riskAnnouncements": [
+          {
+            "date": "2026-07-14",
+            "title": "百联股份:百联股份关于筹划重大资产终止受托管理暨关联交易的进展公告"
+          },
+          {
+            "date": "2026-06-13",
+            "title": "百联股份:百联股份关于筹划重大资产终止受托管理暨关联交易的进展公告"
+          },
+          {
+            "date": "2026-05-14",
+            "title": "百联股份:百联股份关于筹划重大资产终止受托管理暨关联交易的提示性公告"
+          },
+          {
+            "date": "2026-04-15",
+            "title": "百联股份:百联股份涉及财务公司关联交易的存贷款等金融业务的专项说明"
+          },
+          {
+            "date": "2026-04-15",
+            "title": "百联股份:百联股份关于为控股子公司提供担保的公告"
+          }
+        ],
+        "riskNotes": [
+          "百联股份:百联股份关于筹划重大资产终止受托管理暨关联交易的进展公告",
+          "百联股份:百联股份关于筹划重大资产终止受托管理暨关联交易的进展公告",
+          "百联股份:百联股份关于筹划重大资产终止受托管理暨关联交易的提示性公告"
+        ]
+      },
+      "manualReviewReason": "双低点、平台和缩量条件成立，板块扩散较好；但日RSI为45.66，超过严格上限45。"
+    },
+    {
+      "code": "600830",
+      "name": "香溢融通",
+      "industry": "多元金融",
+      "date": "2026-07-28",
+      "close": 7.88,
+      "source": "新浪日K回退+东方财富收盘快照",
+      "profit": 25267294.34,
+      "profitPeriod": "2026Q1",
+      "conditionVerdict": "边界观察（1项不满足）",
+      "failedConditions": [
+        "日RSI 45.73 不在28-45"
+      ],
+      "conditionChecks": {
+        "lowPosition": "满足",
+        "notStarted": "满足",
+        "platform": "满足",
+        "volume": "满足",
+        "rsi": "不满足",
+        "macd": "满足",
+        "maStage": "满足",
+        "sector": "满足",
+        "financial": "观察",
+        "risk": "观察"
+      },
+      "lowAge": 21,
+      "aboveDays": 0,
+      "above5": true,
+      "above10": false,
+      "riseRecentLow": 3.7,
+      "riseYearLow": 3.7,
+      "change5": 0.1,
+      "change10": -0.6,
+      "change20": -1.1,
+      "change60": -22.3,
+      "dailyRsi": 45.7,
+      "weeklyRsi": 40.4,
+      "dailyMacd": {
+        "dif": -0.1405093916917588,
+        "dea": -0.15003792500015495,
+        "hist": 0.019057066616792295,
+        "hist4": 0.009950651803919353,
+        "crossAge": 1,
+        "underwater": true,
+        "improving": true,
+        "state": "水下刚金叉"
+      },
+      "weeklyMacd": {
+        "dif": -0.44793289833572913,
+        "dea": -0.3610125550405391,
+        "hist": -0.1738406865903801,
+        "hist4": -0.2128374407119562,
+        "crossAge": null,
+        "underwater": true,
+        "improving": false,
+        "state": "水下弱势"
+      },
+      "below15": true,
+      "below30": true,
+      "maDistance15": -0.4,
+      "maDistance30": -2.2,
+      "ma30Slope10": -0.95,
+      "range10": 10.4,
+      "range20": 10.4,
+      "closeRange10": 6.0,
+      "closeSlope10": -0.48,
+      "floorDrift": -0.7,
+      "lowTouchCount15": 12,
+      "platformEvidence": {
+        "lowMatured": true,
+        "intradayRangeContracted": true,
+        "closeRangeContracted": true,
+        "repeatedFloorTouches": true,
+        "closeSlopeStable": false,
+        "floorNotDriftingDown": true
+      },
+      "platformEvidenceCount": 5,
+      "stablePlatform": true,
+      "secondaryWithContext": true,
+      "secondaryConfirmation": {
+        "confirmed": true,
+        "firstDate": "2026-06-09",
+        "secondDate": "2026-07-14",
+        "firstLow": 7.7,
+        "secondLow": 7.65,
+        "separationDays": 24,
+        "secondAge": 10,
+        "secondVsFirst": -0.6,
+        "reboundBetween": 17.1,
+        "postBreak": -0.7
+      },
+      "volumeRatio5v20": 0.85,
+      "medianVolumeRatio5v20": 0.88,
+      "volumeRatio5vPrevious5": 0.75,
+      "downUpVolumeRatio10": 1.4,
+      "probeVolume": true,
+      "volumeState": "温和收缩",
+      "washoutVolumeRatio": 0.78,
+      "manualPrecheck": {
+        "lowNoLongerBreaking": true,
+        "notSingleCandleRebound": true,
+        "platformFormed": true,
+        "secondaryLowValid": true,
+        "ma5Flattening": true,
+        "rsiLowAndLifting": false,
+        "macdUnderwaterRepair": true,
+        "volumeContracted": true,
+        "sectorHasBreadth": true
+      },
+      "manualReviewVerdict": "观察",
+      "sector": {
+        "leader": "仁东控股",
+        "leaderCode": "002647",
+        "leaderGain": 7.29,
+        "boardChange": 0.42,
+        "breadth": 0.5416666666666666
+      },
+      "elasticity": {
+        "grade": "中",
+        "maxStageGain1y": 28.3,
+        "gain30Count": 0,
+        "limitUpDays": 1,
+        "maxLimitStreak": 1
+      },
+      "sparkline": [
+        {
+          "date": "2026-03-18",
+          "open": 9.42,
+          "high": 9.55,
+          "low": 9.28,
+          "close": 9.54,
+          "volume": 6677452.0
+        },
+        {
+          "date": "2026-03-19",
+          "open": 9.41,
+          "high": 9.61,
+          "low": 9.38,
+          "close": 9.41,
+          "volume": 6943101.0
+        },
+        {
+          "date": "2026-03-20",
+          "open": 9.42,
+          "high": 9.49,
+          "low": 9.0,
+          "close": 9.0,
+          "volume": 9236310.0
+        },
+        {
+          "date": "2026-03-23",
+          "open": 8.84,
+          "high": 8.87,
+          "low": 8.4,
+          "close": 8.46,
+          "volume": 10022454.0
+        },
+        {
+          "date": "2026-03-24",
+          "open": 8.65,
+          "high": 8.88,
+          "low": 8.47,
+          "close": 8.88,
+          "volume": 8320924.0
+        },
+        {
+          "date": "2026-03-25",
+          "open": 8.89,
+          "high": 8.96,
+          "low": 8.83,
+          "close": 8.93,
+          "volume": 4665102.0
+        },
+        {
+          "date": "2026-03-26",
+          "open": 8.92,
+          "high": 8.97,
+          "low": 8.72,
+          "close": 8.73,
+          "volume": 4605500.0
+        },
+        {
+          "date": "2026-03-27",
+          "open": 8.69,
+          "high": 8.96,
+          "low": 8.69,
+          "close": 8.94,
+          "volume": 4346200.0
+        },
+        {
+          "date": "2026-03-30",
+          "open": 8.85,
+          "high": 8.97,
+          "low": 8.71,
+          "close": 8.87,
+          "volume": 4988084.0
+        },
+        {
+          "date": "2026-03-31",
+          "open": 8.9,
+          "high": 8.98,
+          "low": 8.73,
+          "close": 8.77,
+          "volume": 3790356.0
+        },
+        {
+          "date": "2026-04-01",
+          "open": 8.85,
+          "high": 8.92,
+          "low": 8.77,
+          "close": 8.82,
+          "volume": 3365300.0
+        },
+        {
+          "date": "2026-04-02",
+          "open": 8.78,
+          "high": 8.84,
+          "low": 8.59,
+          "close": 8.65,
+          "volume": 3826016.0
+        },
+        {
+          "date": "2026-04-03",
+          "open": 8.73,
+          "high": 8.79,
+          "low": 8.47,
+          "close": 8.49,
+          "volume": 4092300.0
+        },
+        {
+          "date": "2026-04-07",
+          "open": 8.47,
+          "high": 8.68,
+          "low": 8.46,
+          "close": 8.66,
+          "volume": 3559401.0
+        },
+        {
+          "date": "2026-04-08",
+          "open": 8.73,
+          "high": 8.88,
+          "low": 8.73,
+          "close": 8.87,
+          "volume": 4322201.0
+        },
+        {
+          "date": "2026-04-09",
+          "open": 8.81,
+          "high": 8.84,
+          "low": 8.6,
+          "close": 8.62,
+          "volume": 4915199.0
+        },
+        {
+          "date": "2026-04-10",
+          "open": 8.63,
+          "high": 8.82,
+          "low": 8.62,
+          "close": 8.75,
+          "volume": 5227598.0
+        },
+        {
+          "date": "2026-04-13",
+          "open": 8.7,
+          "high": 8.82,
+          "low": 8.69,
+          "close": 8.8,
+          "volume": 3284350.0
+        },
+        {
+          "date": "2026-04-14",
+          "open": 8.84,
+          "high": 8.86,
+          "low": 8.74,
+          "close": 8.84,
+          "volume": 3576310.0
+        },
+        {
+          "date": "2026-04-15",
+          "open": 8.88,
+          "high": 8.89,
+          "low": 8.72,
+          "close": 8.74,
+          "volume": 2864300.0
+        },
+        {
+          "date": "2026-04-16",
+          "open": 8.79,
+          "high": 8.9,
+          "low": 8.75,
+          "close": 8.88,
+          "volume": 4500585.0
+        },
+        {
+          "date": "2026-04-17",
+          "open": 8.9,
+          "high": 8.95,
+          "low": 8.8,
+          "close": 8.82,
+          "volume": 3711200.0
+        },
+        {
+          "date": "2026-04-20",
+          "open": 8.83,
+          "high": 8.87,
+          "low": 8.75,
+          "close": 8.84,
+          "volume": 3543000.0
+        },
+        {
+          "date": "2026-04-21",
+          "open": 8.87,
+          "high": 8.88,
+          "low": 8.72,
+          "close": 8.73,
+          "volume": 3300506.0
+        },
+        {
+          "date": "2026-04-22",
+          "open": 8.72,
+          "high": 8.78,
+          "low": 8.69,
+          "close": 8.78,
+          "volume": 3430924.0
+        },
+        {
+          "date": "2026-04-23",
+          "open": 8.75,
+          "high": 8.77,
+          "low": 8.65,
+          "close": 8.7,
+          "volume": 3818502.0
+        },
+        {
+          "date": "2026-04-24",
+          "open": 8.67,
+          "high": 8.72,
+          "low": 8.55,
+          "close": 8.67,
+          "volume": 3317100.0
+        },
+        {
+          "date": "2026-04-27",
+          "open": 8.68,
+          "high": 9.54,
+          "low": 8.6,
+          "close": 9.54,
+          "volume": 23773008.0
+        },
+        {
+          "date": "2026-04-28",
+          "open": 9.54,
+          "high": 10.46,
+          "low": 9.46,
+          "close": 10.01,
+          "volume": 44461109.0
+        },
+        {
+          "date": "2026-04-29",
+          "open": 9.73,
+          "high": 10.29,
+          "low": 9.71,
+          "close": 10.14,
+          "volume": 32176476.0
+        },
+        {
+          "date": "2026-04-30",
+          "open": 10.1,
+          "high": 10.35,
+          "low": 9.9,
+          "close": 9.9,
+          "volume": 19228151.0
+        },
+        {
+          "date": "2026-05-06",
+          "open": 9.9,
+          "high": 10.38,
+          "low": 9.72,
+          "close": 10.18,
+          "volume": 24402793.0
+        },
+        {
+          "date": "2026-05-07",
+          "open": 10.29,
+          "high": 10.36,
+          "low": 10.08,
+          "close": 10.28,
+          "volume": 15993397.0
+        },
+        {
+          "date": "2026-05-08",
+          "open": 10.25,
+          "high": 10.55,
+          "low": 10.12,
+          "close": 10.45,
+          "volume": 17941662.0
+        },
+        {
+          "date": "2026-05-11",
+          "open": 10.44,
+          "high": 10.78,
+          "low": 10.44,
+          "close": 10.54,
+          "volume": 19250648.0
+        },
+        {
+          "date": "2026-05-12",
+          "open": 10.54,
+          "high": 10.6,
+          "low": 10.28,
+          "close": 10.34,
+          "volume": 11114046.0
+        },
+        {
+          "date": "2026-05-13",
+          "open": 10.4,
+          "high": 10.49,
+          "low": 10.22,
+          "close": 10.29,
+          "volume": 12246557.0
+        },
+        {
+          "date": "2026-05-14",
+          "open": 10.26,
+          "high": 10.35,
+          "low": 10.03,
+          "close": 10.03,
+          "volume": 11841846.0
+        },
+        {
+          "date": "2026-05-15",
+          "open": 10.04,
+          "high": 10.2,
+          "low": 9.9,
+          "close": 10.0,
+          "volume": 9705100.0
+        },
+        {
+          "date": "2026-05-18",
+          "open": 9.9,
+          "high": 10.18,
+          "low": 9.89,
+          "close": 10.01,
+          "volume": 7883000.0
+        },
+        {
+          "date": "2026-05-19",
+          "open": 10.15,
+          "high": 10.37,
+          "low": 9.83,
+          "close": 9.94,
+          "volume": 11822503.0
+        },
+        {
+          "date": "2026-05-20",
+          "open": 9.85,
+          "high": 9.9,
+          "low": 9.69,
+          "close": 9.75,
+          "volume": 8125768.0
+        },
+        {
+          "date": "2026-05-21",
+          "open": 9.78,
+          "high": 9.99,
+          "low": 9.19,
+          "close": 9.25,
+          "volume": 13946790.0
+        },
+        {
+          "date": "2026-05-22",
+          "open": 9.26,
+          "high": 9.37,
+          "low": 8.9,
+          "close": 9.21,
+          "volume": 11955300.0
+        },
+        {
+          "date": "2026-05-25",
+          "open": 9.25,
+          "high": 9.34,
+          "low": 8.98,
+          "close": 9.06,
+          "volume": 6493111.0
+        },
+        {
+          "date": "2026-05-26",
+          "open": 9.05,
+          "high": 9.07,
+          "low": 8.73,
+          "close": 8.89,
+          "volume": 8621100.0
+        },
+        {
+          "date": "2026-05-27",
+          "open": 8.82,
+          "high": 8.93,
+          "low": 8.4,
+          "close": 8.56,
+          "volume": 11248500.0
+        },
+        {
+          "date": "2026-05-28",
+          "open": 8.53,
+          "high": 8.56,
+          "low": 8.3,
+          "close": 8.41,
+          "volume": 10144797.0
+        },
+        {
+          "date": "2026-05-29",
+          "open": 8.38,
+          "high": 8.51,
+          "low": 8.28,
+          "close": 8.32,
+          "volume": 8035821.0
+        },
+        {
+          "date": "2026-06-01",
+          "open": 8.32,
+          "high": 8.41,
+          "low": 8.1,
+          "close": 8.41,
+          "volume": 8626329.0
+        },
+        {
+          "date": "2026-06-02",
+          "open": 8.41,
+          "high": 8.41,
+          "low": 8.07,
+          "close": 8.12,
+          "volume": 8847500.0
+        },
+        {
+          "date": "2026-06-03",
+          "open": 8.08,
+          "high": 8.11,
+          "low": 7.92,
+          "close": 8.0,
+          "volume": 8016900.0
+        },
+        {
+          "date": "2026-06-04",
+          "open": 7.98,
+          "high": 8.06,
+          "low": 7.73,
+          "close": 7.8,
+          "volume": 7597700.0
+        },
+        {
+          "date": "2026-06-05",
+          "open": 7.81,
+          "high": 7.96,
+          "low": 7.72,
+          "close": 7.89,
+          "volume": 7351501.0
+        },
+        {
+          "date": "2026-06-08",
+          "open": 7.77,
+          "high": 8.2,
+          "low": 7.71,
+          "close": 7.84,
+          "volume": 8652502.0
+        },
+        {
+          "date": "2026-06-09",
+          "open": 7.84,
+          "high": 8.07,
+          "low": 7.7,
+          "close": 8.02,
+          "volume": 8485011.0
+        },
+        {
+          "date": "2026-06-10",
+          "open": 7.98,
+          "high": 8.24,
+          "low": 7.92,
+          "close": 8.2,
+          "volume": 9790512.0
+        },
+        {
+          "date": "2026-06-11",
+          "open": 8.14,
+          "high": 8.3,
+          "low": 7.9,
+          "close": 8.13,
+          "volume": 8445700.0
+        },
+        {
+          "date": "2026-06-12",
+          "open": 8.2,
+          "high": 8.46,
+          "low": 8.08,
+          "close": 8.32,
+          "volume": 11203800.0
+        },
+        {
+          "date": "2026-06-15",
+          "open": 8.33,
+          "high": 8.95,
+          "low": 8.3,
+          "close": 8.87,
+          "volume": 15577000.0
+        },
+        {
+          "date": "2026-06-16",
+          "open": 8.83,
+          "high": 8.84,
+          "low": 8.56,
+          "close": 8.67,
+          "volume": 7851911.0
+        },
+        {
+          "date": "2026-06-17",
+          "open": 8.62,
+          "high": 9.02,
+          "low": 8.61,
+          "close": 8.71,
+          "volume": 7482201.0
+        },
+        {
+          "date": "2026-06-18",
+          "open": 8.7,
+          "high": 8.7,
+          "low": 8.42,
+          "close": 8.44,
+          "volume": 5558101.0
+        },
+        {
+          "date": "2026-06-22",
+          "open": 8.43,
+          "high": 8.62,
+          "low": 8.1,
+          "close": 8.51,
+          "volume": 9184750.0
+        },
+        {
+          "date": "2026-06-23",
+          "open": 8.44,
+          "high": 8.65,
+          "low": 8.4,
+          "close": 8.43,
+          "volume": 7501100.0
+        },
+        {
+          "date": "2026-06-24",
+          "open": 8.38,
+          "high": 8.45,
+          "low": 8.1,
+          "close": 8.19,
+          "volume": 7642193.0
+        },
+        {
+          "date": "2026-06-25",
+          "open": 8.16,
+          "high": 8.24,
+          "low": 7.91,
+          "close": 8.06,
+          "volume": 6852700.0
+        },
+        {
+          "date": "2026-06-26",
+          "open": 7.98,
+          "high": 8.05,
+          "low": 7.81,
+          "close": 7.89,
+          "volume": 4457123.0
+        },
+        {
+          "date": "2026-06-29",
+          "open": 7.89,
+          "high": 7.94,
+          "low": 7.6,
+          "close": 7.81,
+          "volume": 6946427.0
+        },
+        {
+          "date": "2026-06-30",
+          "open": 7.79,
+          "high": 7.97,
+          "low": 7.72,
+          "close": 7.97,
+          "volume": 5444901.0
+        },
+        {
+          "date": "2026-07-01",
+          "open": 7.92,
+          "high": 8.2,
+          "low": 7.92,
+          "close": 8.12,
+          "volume": 6170001.0
+        },
+        {
+          "date": "2026-07-02",
+          "open": 8.09,
+          "high": 8.3,
+          "low": 8.02,
+          "close": 8.05,
+          "volume": 5185304.0
+        },
+        {
+          "date": "2026-07-03",
+          "open": 8.03,
+          "high": 8.24,
+          "low": 8.03,
+          "close": 8.18,
+          "volume": 4687800.0
+        },
+        {
+          "date": "2026-07-06",
+          "open": 8.26,
+          "high": 8.32,
+          "low": 8.11,
+          "close": 8.14,
+          "volume": 3608904.0
+        },
+        {
+          "date": "2026-07-07",
+          "open": 8.18,
+          "high": 8.18,
+          "low": 7.92,
+          "close": 7.98,
+          "volume": 3966100.0
+        },
+        {
+          "date": "2026-07-08",
+          "open": 7.95,
+          "high": 8.11,
+          "low": 7.91,
+          "close": 8.06,
+          "volume": 3667699.0
+        },
+        {
+          "date": "2026-07-09",
+          "open": 8.04,
+          "high": 8.09,
+          "low": 7.83,
+          "close": 7.97,
+          "volume": 3706599.0
+        },
+        {
+          "date": "2026-07-10",
+          "open": 7.98,
+          "high": 8.19,
+          "low": 7.88,
+          "close": 8.06,
+          "volume": 3657700.0
+        },
+        {
+          "date": "2026-07-13",
+          "open": 8.06,
+          "high": 8.06,
+          "low": 7.74,
+          "close": 7.75,
+          "volume": 4646401.0
+        },
+        {
+          "date": "2026-07-14",
+          "open": 7.77,
+          "high": 7.94,
+          "low": 7.65,
+          "close": 7.93,
+          "volume": 4099400.0
+        },
+        {
+          "date": "2026-07-15",
+          "open": 7.93,
+          "high": 8.15,
+          "low": 7.9,
+          "close": 8.12,
+          "volume": 4019700.0
+        },
+        {
+          "date": "2026-07-16",
+          "open": 8.13,
+          "high": 8.18,
+          "low": 8.03,
+          "close": 8.1,
+          "volume": 3465100.0
+        },
+        {
+          "date": "2026-07-17",
+          "open": 8.16,
+          "high": 8.39,
+          "low": 7.93,
+          "close": 8.0,
+          "volume": 6407723.0
+        },
+        {
+          "date": "2026-07-20",
+          "open": 8.03,
+          "high": 8.14,
+          "low": 7.79,
+          "close": 7.89,
+          "volume": 5523668.0
+        },
+        {
+          "date": "2026-07-21",
+          "open": 7.89,
+          "high": 7.97,
+          "low": 7.77,
+          "close": 7.87,
+          "volume": 4969300.0
+        },
+        {
+          "date": "2026-07-22",
+          "open": 7.82,
+          "high": 7.88,
+          "low": 7.66,
+          "close": 7.69,
+          "volume": 4891000.0
+        },
+        {
+          "date": "2026-07-23",
+          "open": 7.7,
+          "high": 7.89,
+          "low": 7.65,
+          "close": 7.85,
+          "volume": 3408108.0
+        },
+        {
+          "date": "2026-07-24",
+          "open": 7.8,
+          "high": 7.89,
+          "low": 7.63,
+          "close": 7.66,
+          "volume": 3634869.0
+        },
+        {
+          "date": "2026-07-27",
+          "open": 7.68,
+          "high": 7.84,
+          "low": 7.6,
+          "close": 7.81,
+          "volume": 2873300.0
+        },
+        {
+          "date": "2026-07-28",
+          "open": 7.78,
+          "high": 7.92,
+          "low": 7.76,
+          "close": 7.88,
+          "volume": 3499000.0
+        }
+      ],
+      "financialState": "观察",
+      "riskState": "观察",
+      "financialRisk": {
+        "reportPeriod": "2026一季报",
+        "parentProfit": 25267294.34,
+        "deductProfit": 23459451.17,
+        "operatingCashFlow": -467617816.02,
+        "debtRatio": 57.4,
+        "interestDebtRatio": 54.6,
+        "profitYoy": 8.4,
+        "deductProfitYoy": 15.7,
+        "financialNotes": [
+          "经营现金流为负",
+          "利润规模低于0.50亿元"
+        ],
+        "riskAnnouncements": [
+          {
+            "date": "2026-05-29",
+            "title": "香溢融通:香溢融通控股集团股份有限公司关于为控股子公司香溢租赁提供担保的公告"
+          },
+          {
+            "date": "2026-05-27",
+            "title": "香溢融通:香溢融通控股集团股份有限公司关于为控股子公司香溢担保提供担保的公告"
+          },
+          {
+            "date": "2026-03-26",
+            "title": "香溢融通:香溢融通控股集团股份有限公司关于为控股子公司香溢担保提供担保的公告"
+          },
+          {
+            "date": "2026-03-07",
+            "title": "香溢融通:香溢融通控股集团股份有限公司关于为全资子公司香溢金服2026年度对外融资提供担保的公告"
+          },
+          {
+            "date": "2026-03-07",
+            "title": "香溢融通:香溢融通控股集团股份有限公司关于为控股子公司香溢担保2026年度担保业务开展提供专项担保的公告"
+          }
+        ],
+        "riskNotes": [
+          "香溢融通:香溢融通控股集团股份有限公司关于为控股子公司香溢租赁提供担保的公告",
+          "香溢融通:香溢融通控股集团股份有限公司关于为控股子公司香溢担保提供担保的公告",
+          "香溢融通:香溢融通控股集团股份有限公司关于为控股子公司香溢担保提供担保的公告"
+        ]
+      },
+      "manualReviewReason": "低位双确认和量能收缩成立，仍在MA30下方；但日RSI为45.73，超过严格上限45，财务和公告风险也处于观察。"
+    },
+    {
+      "code": "002489",
+      "name": "浙江永强",
+      "industry": "家居用品",
+      "date": "2026-07-28",
+      "close": 2.6,
+      "source": "新浪日K回退+东方财富收盘快照",
+      "profit": 154998652.07,
+      "profitPeriod": "2026Q1",
+      "conditionVerdict": "边界观察（1项不满足）",
+      "failedConditions": [
+        "周MACD未改善且日MACD不是刚金叉"
+      ],
+      "conditionChecks": {
+        "lowPosition": "满足",
+        "notStarted": "满足",
+        "platform": "满足",
+        "volume": "满足",
+        "rsi": "满足",
+        "macd": "不满足",
+        "maStage": "满足",
+        "sector": "满足",
+        "financial": "观察",
+        "risk": "观察"
+      },
+      "lowAge": 10,
+      "aboveDays": 0,
+      "above5": false,
+      "above10": false,
+      "riseRecentLow": 4.0,
+      "riseYearLow": 4.0,
+      "change5": -0.8,
+      "change10": -3.3,
+      "change20": -4.1,
+      "change60": -22.2,
+      "dailyRsi": 36.5,
+      "weeklyRsi": 31.9,
+      "dailyMacd": {
+        "dif": -0.13207603937583157,
+        "dea": -0.15148521332505194,
+        "hist": 0.03881834789844074,
+        "hist4": 0.03878437608823104,
+        "crossAge": null,
+        "underwater": true,
+        "improving": true,
+        "state": "水下低位拐头"
+      },
+      "weeklyMacd": {
+        "dif": -0.2740662169656676,
+        "dea": -0.18095230424212624,
+        "hist": -0.18622782544708266,
+        "hist4": -0.18254461562025887,
+        "crossAge": null,
+        "underwater": true,
+        "improving": false,
+        "state": "水下弱势"
+      },
+      "below15": true,
+      "below30": true,
+      "maDistance15": -2.7,
+      "maDistance30": -6.3,
+      "ma30Slope10": -9.68,
+      "range10": 11.0,
+      "range20": 14.4,
+      "closeRange10": 7.8,
+      "closeSlope10": -0.57,
+      "floorDrift": 1.6,
+      "lowTouchCount15": 7,
+      "platformEvidence": {
+        "lowMatured": true,
+        "intradayRangeContracted": true,
+        "closeRangeContracted": true,
+        "repeatedFloorTouches": true,
+        "closeSlopeStable": false,
+        "floorNotDriftingDown": true
+      },
+      "platformEvidenceCount": 5,
+      "stablePlatform": true,
+      "secondaryWithContext": true,
+      "secondaryConfirmation": {
+        "confirmed": true,
+        "firstDate": "2026-07-14",
+        "secondDate": "2026-07-22",
+        "firstLow": 2.5,
+        "secondLow": 2.54,
+        "separationDays": 6,
+        "secondAge": 4,
+        "secondVsFirst": 1.6,
+        "reboundBetween": 11.0,
+        "postBreak": 0.0
+      },
+      "volumeRatio5v20": 0.93,
+      "medianVolumeRatio5v20": 0.78,
+      "volumeRatio5vPrevious5": 0.84,
+      "downUpVolumeRatio10": 1.02,
+      "probeVolume": false,
+      "volumeState": "温和收缩",
+      "washoutVolumeRatio": 1.08,
+      "manualPrecheck": {
+        "lowNoLongerBreaking": true,
+        "notSingleCandleRebound": true,
+        "platformFormed": true,
+        "secondaryLowValid": true,
+        "ma5Flattening": true,
+        "rsiLowAndLifting": false,
+        "macdUnderwaterRepair": true,
+        "volumeContracted": true,
+        "sectorHasBreadth": true
+      },
+      "manualReviewVerdict": "观察",
+      "sector": {
+        "leader": "爱丽家居",
+        "leaderCode": "603221",
+        "leaderGain": 10.0,
+        "boardChange": 0.24,
+        "breadth": 0.5866666666666667
+      },
+      "elasticity": {
+        "grade": "中",
+        "maxStageGain1y": 33.2,
+        "gain30Count": 1,
+        "limitUpDays": 0,
+        "maxLimitStreak": 0
+      },
+      "sparkline": [
+        {
+          "date": "2026-03-18",
+          "open": 3.58,
+          "high": 3.6,
+          "low": 3.55,
+          "close": 3.58,
+          "volume": 20085820.0
+        },
+        {
+          "date": "2026-03-19",
+          "open": 3.55,
+          "high": 3.57,
+          "low": 3.47,
+          "close": 3.49,
+          "volume": 21456100.0
+        },
+        {
+          "date": "2026-03-20",
+          "open": 3.49,
+          "high": 3.51,
+          "low": 3.4,
+          "close": 3.4,
+          "volume": 23654132.0
+        },
+        {
+          "date": "2026-03-23",
+          "open": 3.36,
+          "high": 3.36,
+          "low": 3.16,
+          "close": 3.19,
+          "volume": 37846282.0
+        },
+        {
+          "date": "2026-03-24",
+          "open": 3.25,
+          "high": 3.33,
+          "low": 3.21,
+          "close": 3.33,
+          "volume": 31703000.0
+        },
+        {
+          "date": "2026-03-25",
+          "open": 3.34,
+          "high": 3.39,
+          "low": 3.3,
+          "close": 3.38,
+          "volume": 23305500.0
+        },
+        {
+          "date": "2026-03-26",
+          "open": 3.38,
+          "high": 3.46,
+          "low": 3.37,
+          "close": 3.39,
+          "volume": 23959632.0
+        },
+        {
+          "date": "2026-03-27",
+          "open": 3.35,
+          "high": 3.4,
+          "low": 3.34,
+          "close": 3.39,
+          "volume": 20054950.0
+        },
+        {
+          "date": "2026-03-30",
+          "open": 3.33,
+          "high": 3.44,
+          "low": 3.32,
+          "close": 3.43,
+          "volume": 21194933.0
+        },
+        {
+          "date": "2026-03-31",
+          "open": 3.43,
+          "high": 3.47,
+          "low": 3.42,
+          "close": 3.43,
+          "volume": 17886733.0
+        },
+        {
+          "date": "2026-04-01",
+          "open": 3.46,
+          "high": 3.49,
+          "low": 3.43,
+          "close": 3.46,
+          "volume": 16092302.0
+        },
+        {
+          "date": "2026-04-02",
+          "open": 3.44,
+          "high": 3.46,
+          "low": 3.4,
+          "close": 3.43,
+          "volume": 17441004.0
+        },
+        {
+          "date": "2026-04-03",
+          "open": 3.43,
+          "high": 3.44,
+          "low": 3.3,
+          "close": 3.31,
+          "volume": 19206501.0
+        },
+        {
+          "date": "2026-04-07",
+          "open": 3.32,
+          "high": 3.38,
+          "low": 3.31,
+          "close": 3.35,
+          "volume": 14118650.0
+        },
+        {
+          "date": "2026-04-08",
+          "open": 3.41,
+          "high": 3.46,
+          "low": 3.41,
+          "close": 3.46,
+          "volume": 21823532.0
+        },
+        {
+          "date": "2026-04-09",
+          "open": 3.44,
+          "high": 3.46,
+          "low": 3.38,
+          "close": 3.38,
+          "volume": 17053300.0
+        },
+        {
+          "date": "2026-04-10",
+          "open": 3.4,
+          "high": 3.46,
+          "low": 3.39,
+          "close": 3.42,
+          "volume": 16565579.0
+        },
+        {
+          "date": "2026-04-13",
+          "open": 3.43,
+          "high": 3.44,
+          "low": 3.39,
+          "close": 3.41,
+          "volume": 15474299.0
+        },
+        {
+          "date": "2026-04-14",
+          "open": 3.43,
+          "high": 3.45,
+          "low": 3.39,
+          "close": 3.44,
+          "volume": 15005499.0
+        },
+        {
+          "date": "2026-04-15",
+          "open": 3.45,
+          "high": 3.46,
+          "low": 3.42,
+          "close": 3.44,
+          "volume": 14553200.0
+        },
+        {
+          "date": "2026-04-16",
+          "open": 3.44,
+          "high": 3.48,
+          "low": 3.43,
+          "close": 3.46,
+          "volume": 17783992.0
+        },
+        {
+          "date": "2026-04-17",
+          "open": 3.45,
+          "high": 3.46,
+          "low": 3.42,
+          "close": 3.44,
+          "volume": 15528632.0
+        },
+        {
+          "date": "2026-04-20",
+          "open": 3.44,
+          "high": 3.45,
+          "low": 3.41,
+          "close": 3.42,
+          "volume": 19070950.0
+        },
+        {
+          "date": "2026-04-21",
+          "open": 3.46,
+          "high": 3.5,
+          "low": 3.35,
+          "close": 3.37,
+          "volume": 45219464.0
+        },
+        {
+          "date": "2026-04-22",
+          "open": 3.36,
+          "high": 3.37,
+          "low": 3.29,
+          "close": 3.32,
+          "volume": 26886078.0
+        },
+        {
+          "date": "2026-04-23",
+          "open": 3.31,
+          "high": 3.35,
+          "low": 3.27,
+          "close": 3.34,
+          "volume": 21446564.0
+        },
+        {
+          "date": "2026-04-24",
+          "open": 3.34,
+          "high": 3.34,
+          "low": 3.28,
+          "close": 3.31,
+          "volume": 15715725.0
+        },
+        {
+          "date": "2026-04-27",
+          "open": 3.3,
+          "high": 3.33,
+          "low": 3.28,
+          "close": 3.32,
+          "volume": 18171620.0
+        },
+        {
+          "date": "2026-04-28",
+          "open": 3.32,
+          "high": 3.34,
+          "low": 3.26,
+          "close": 3.29,
+          "volume": 20624496.0
+        },
+        {
+          "date": "2026-04-29",
+          "open": 3.28,
+          "high": 3.35,
+          "low": 3.28,
+          "close": 3.34,
+          "volume": 20474240.0
+        },
+        {
+          "date": "2026-04-30",
+          "open": 3.32,
+          "high": 3.34,
+          "low": 3.24,
+          "close": 3.25,
+          "volume": 35431160.0
+        },
+        {
+          "date": "2026-05-06",
+          "open": 3.27,
+          "high": 3.47,
+          "low": 3.26,
+          "close": 3.41,
+          "volume": 51585292.0
+        },
+        {
+          "date": "2026-05-07",
+          "open": 3.37,
+          "high": 3.65,
+          "low": 3.36,
+          "close": 3.54,
+          "volume": 85088928.0
+        },
+        {
+          "date": "2026-05-08",
+          "open": 3.51,
+          "high": 3.8,
+          "low": 3.47,
+          "close": 3.75,
+          "volume": 107669101.0
+        },
+        {
+          "date": "2026-05-11",
+          "open": 3.68,
+          "high": 4.04,
+          "low": 3.59,
+          "close": 3.88,
+          "volume": 160303921.0
+        },
+        {
+          "date": "2026-05-12",
+          "open": 3.85,
+          "high": 3.94,
+          "low": 3.72,
+          "close": 3.73,
+          "volume": 74624862.0
+        },
+        {
+          "date": "2026-05-13",
+          "open": 3.77,
+          "high": 3.77,
+          "low": 3.65,
+          "close": 3.7,
+          "volume": 60286892.0
+        },
+        {
+          "date": "2026-05-14",
+          "open": 3.69,
+          "high": 4.02,
+          "low": 3.59,
+          "close": 3.78,
+          "volume": 115799677.0
+        },
+        {
+          "date": "2026-05-15",
+          "open": 3.76,
+          "high": 4.12,
+          "low": 3.72,
+          "close": 4.01,
+          "volume": 151865765.0
+        },
+        {
+          "date": "2026-05-18",
+          "open": 3.95,
+          "high": 4.16,
+          "low": 3.93,
+          "close": 4.1,
+          "volume": 123111414.0
+        },
+        {
+          "date": "2026-05-19",
+          "open": 4.08,
+          "high": 4.21,
+          "low": 3.98,
+          "close": 4.2,
+          "volume": 114017544.0
+        },
+        {
+          "date": "2026-05-20",
+          "open": 4.15,
+          "high": 4.18,
+          "low": 4.05,
+          "close": 4.12,
+          "volume": 66690817.0
+        },
+        {
+          "date": "2026-05-21",
+          "open": 4.12,
+          "high": 4.14,
+          "low": 3.95,
+          "close": 3.97,
+          "volume": 63919568.0
+        },
+        {
+          "date": "2026-05-22",
+          "open": 4.01,
+          "high": 4.06,
+          "low": 3.86,
+          "close": 3.9,
+          "volume": 59126391.0
+        },
+        {
+          "date": "2026-05-25",
+          "open": 3.94,
+          "high": 4.0,
+          "low": 3.81,
+          "close": 3.84,
+          "volume": 44442285.0
+        },
+        {
+          "date": "2026-05-26",
+          "open": 3.82,
+          "high": 4.09,
+          "low": 3.73,
+          "close": 3.9,
+          "volume": 89479538.0
+        },
+        {
+          "date": "2026-05-27",
+          "open": 3.88,
+          "high": 3.89,
+          "low": 3.7,
+          "close": 3.72,
+          "volume": 52056453.0
+        },
+        {
+          "date": "2026-05-28",
+          "open": 3.73,
+          "high": 4.01,
+          "low": 3.71,
+          "close": 3.84,
+          "volume": 77152333.0
+        },
+        {
+          "date": "2026-05-29",
+          "open": 3.86,
+          "high": 3.93,
+          "low": 3.75,
+          "close": 3.77,
+          "volume": 57362766.0
+        },
+        {
+          "date": "2026-06-01",
+          "open": 3.85,
+          "high": 4.06,
+          "low": 3.85,
+          "close": 3.95,
+          "volume": 72987815.0
+        },
+        {
+          "date": "2026-06-02",
+          "open": 3.99,
+          "high": 4.04,
+          "low": 3.76,
+          "close": 3.96,
+          "volume": 82083526.0
+        },
+        {
+          "date": "2026-06-03",
+          "open": 3.9,
+          "high": 3.97,
+          "low": 3.79,
+          "close": 3.81,
+          "volume": 48849953.0
+        },
+        {
+          "date": "2026-06-04",
+          "open": 3.8,
+          "high": 3.86,
+          "low": 3.67,
+          "close": 3.7,
+          "volume": 39543578.0
+        },
+        {
+          "date": "2026-06-05",
+          "open": 3.7,
+          "high": 3.76,
+          "low": 3.54,
+          "close": 3.65,
+          "volume": 42646900.0
+        },
+        {
+          "date": "2026-06-08",
+          "open": 3.55,
+          "high": 3.64,
+          "low": 3.48,
+          "close": 3.53,
+          "volume": 41953128.0
+        },
+        {
+          "date": "2026-06-09",
+          "open": 3.58,
+          "high": 3.58,
+          "low": 3.45,
+          "close": 3.48,
+          "volume": 28381246.0
+        },
+        {
+          "date": "2026-06-10",
+          "open": 3.47,
+          "high": 3.58,
+          "low": 3.36,
+          "close": 3.43,
+          "volume": 51938267.0
+        },
+        {
+          "date": "2026-06-11",
+          "open": 3.4,
+          "high": 3.59,
+          "low": 3.32,
+          "close": 3.34,
+          "volume": 60709364.0
+        },
+        {
+          "date": "2026-06-12",
+          "open": 3.35,
+          "high": 3.38,
+          "low": 3.26,
+          "close": 3.28,
+          "volume": 44648018.0
+        },
+        {
+          "date": "2026-06-15",
+          "open": 3.3,
+          "high": 3.36,
+          "low": 3.2,
+          "close": 3.23,
+          "volume": 53329069.0
+        },
+        {
+          "date": "2026-06-16",
+          "open": 3.23,
+          "high": 3.23,
+          "low": 3.14,
+          "close": 3.18,
+          "volume": 34337916.0
+        },
+        {
+          "date": "2026-06-17",
+          "open": 3.16,
+          "high": 3.3,
+          "low": 3.15,
+          "close": 3.2,
+          "volume": 45468724.0
+        },
+        {
+          "date": "2026-06-18",
+          "open": 3.18,
+          "high": 3.18,
+          "low": 3.03,
+          "close": 3.04,
+          "volume": 39750803.0
+        },
+        {
+          "date": "2026-06-22",
+          "open": 3.0,
+          "high": 3.02,
+          "low": 2.88,
+          "close": 2.94,
+          "volume": 43174804.0
+        },
+        {
+          "date": "2026-06-23",
+          "open": 2.91,
+          "high": 3.01,
+          "low": 2.9,
+          "close": 2.95,
+          "volume": 32515326.0
+        },
+        {
+          "date": "2026-06-24",
+          "open": 2.92,
+          "high": 2.94,
+          "low": 2.82,
+          "close": 2.83,
+          "volume": 30718450.0
+        },
+        {
+          "date": "2026-06-25",
+          "open": 2.81,
+          "high": 2.84,
+          "low": 2.75,
+          "close": 2.8,
+          "volume": 28816048.0
+        },
+        {
+          "date": "2026-06-26",
+          "open": 2.79,
+          "high": 2.81,
+          "low": 2.7,
+          "close": 2.74,
+          "volume": 30496200.0
+        },
+        {
+          "date": "2026-06-29",
+          "open": 2.75,
+          "high": 2.8,
+          "low": 2.64,
+          "close": 2.78,
+          "volume": 31909389.0
+        },
+        {
+          "date": "2026-06-30",
+          "open": 2.77,
+          "high": 2.81,
+          "low": 2.68,
+          "close": 2.71,
+          "volume": 27993200.0
+        },
+        {
+          "date": "2026-07-01",
+          "open": 2.71,
+          "high": 2.8,
+          "low": 2.67,
+          "close": 2.77,
+          "volume": 26715812.0
+        },
+        {
+          "date": "2026-07-02",
+          "open": 2.76,
+          "high": 2.83,
+          "low": 2.75,
+          "close": 2.79,
+          "volume": 26719920.0
+        },
+        {
+          "date": "2026-07-03",
+          "open": 2.79,
+          "high": 2.86,
+          "low": 2.79,
+          "close": 2.84,
+          "volume": 24404264.0
+        },
+        {
+          "date": "2026-07-06",
+          "open": 2.86,
+          "high": 2.86,
+          "low": 2.8,
+          "close": 2.83,
+          "volume": 18643875.0
+        },
+        {
+          "date": "2026-07-07",
+          "open": 2.8,
+          "high": 2.82,
+          "low": 2.74,
+          "close": 2.76,
+          "volume": 16235500.0
+        },
+        {
+          "date": "2026-07-08",
+          "open": 2.76,
+          "high": 2.77,
+          "low": 2.7,
+          "close": 2.73,
+          "volume": 15048101.0
+        },
+        {
+          "date": "2026-07-09",
+          "open": 2.71,
+          "high": 2.75,
+          "low": 2.67,
+          "close": 2.74,
+          "volume": 18151532.0
+        },
+        {
+          "date": "2026-07-10",
+          "open": 2.72,
+          "high": 2.8,
+          "low": 2.69,
+          "close": 2.75,
+          "volume": 24492984.0
+        },
+        {
+          "date": "2026-07-13",
+          "open": 2.74,
+          "high": 2.75,
+          "low": 2.64,
+          "close": 2.67,
+          "volume": 28313018.0
+        },
+        {
+          "date": "2026-07-14",
+          "open": 2.62,
+          "high": 2.7,
+          "low": 2.5,
+          "close": 2.69,
+          "volume": 34969836.0
+        },
+        {
+          "date": "2026-07-15",
+          "open": 2.68,
+          "high": 2.8,
+          "low": 2.66,
+          "close": 2.74,
+          "volume": 32716036.0
+        },
+        {
+          "date": "2026-07-16",
+          "open": 2.73,
+          "high": 2.82,
+          "low": 2.72,
+          "close": 2.76,
+          "volume": 22536983.0
+        },
+        {
+          "date": "2026-07-17",
+          "open": 2.76,
+          "high": 2.79,
+          "low": 2.64,
+          "close": 2.66,
+          "volume": 25122203.0
+        },
+        {
+          "date": "2026-07-20",
+          "open": 2.68,
+          "high": 2.72,
+          "low": 2.62,
+          "close": 2.65,
+          "volume": 27243564.0
+        },
+        {
+          "date": "2026-07-21",
+          "open": 2.65,
+          "high": 2.67,
+          "low": 2.59,
+          "close": 2.62,
+          "volume": 23537935.0
+        },
+        {
+          "date": "2026-07-22",
+          "open": 2.59,
+          "high": 2.63,
+          "low": 2.54,
+          "close": 2.56,
+          "volume": 19097233.0
+        },
+        {
+          "date": "2026-07-23",
+          "open": 2.59,
+          "high": 2.68,
+          "low": 2.57,
+          "close": 2.68,
+          "volume": 24439006.0
+        },
+        {
+          "date": "2026-07-24",
+          "open": 2.66,
+          "high": 2.67,
+          "low": 2.57,
+          "close": 2.58,
+          "volume": 17965502.0
+        },
+        {
+          "date": "2026-07-27",
+          "open": 2.57,
+          "high": 2.65,
+          "low": 2.55,
+          "close": 2.64,
+          "volume": 15881200.0
+        },
+        {
+          "date": "2026-07-28",
+          "open": 2.64,
+          "high": 2.67,
+          "low": 2.58,
+          "close": 2.6,
+          "volume": 32779500.0
+        }
+      ],
+      "financialState": "观察",
+      "riskState": "观察",
+      "financialRisk": {
+        "reportPeriod": "2026一季报",
+        "parentProfit": 154998652.07,
+        "deductProfit": 209147082.18,
+        "operatingCashFlow": 284609406.57,
+        "debtRatio": 43.8,
+        "interestDebtRatio": 15.8,
+        "profitYoy": -58.3,
+        "deductProfitYoy": -16.6,
+        "financialNotes": [
+          "归母净利润同比下降超过30%"
+        ],
+        "riskAnnouncements": [
+          {
+            "date": "2026-06-12",
+            "title": "浙江永强:关于实际控制人减持股份触及1%整倍数的公告"
+          },
+          {
+            "date": "2026-05-09",
+            "title": "浙江永强:关于实际控制人减持股份的预披露公告"
+          },
+          {
+            "date": "2026-04-21",
+            "title": "浙江永强:关于实际控制人提前终止股份减持计划暨减持股份结果的公告"
+          },
+          {
+            "date": "2026-04-21",
+            "title": "浙江永强:关于为子公司提供担保的公告"
+          },
+          {
+            "date": "2026-04-21",
+            "title": "浙江永强:关于2026年度日常关联交易的公告"
+          }
+        ],
+        "riskNotes": [
+          "浙江永强:关于实际控制人减持股份触及1%整倍数的公告",
+          "浙江永强:关于实际控制人减持股份的预披露公告",
+          "浙江永强:关于实际控制人提前终止股份减持计划暨减持股份结果的公告"
+        ]
+      },
+      "manualReviewReason": "低点形成10日，平台和二次确认成立，量能温和收缩；但周MACD尚未改善，日MACD也不是刚金叉。"
+    },
+    {
+      "code": "000514",
+      "name": "渝开发",
+      "industry": "房地产开发",
+      "date": "2026-07-28",
+      "close": 3.7,
+      "source": "新浪日K回退+东方财富收盘快照",
+      "profit": 32284987.21,
+      "profitPeriod": "2026Q1",
+      "conditionVerdict": "边界观察（1项不满足）",
+      "failedConditions": [
+        "周MACD未改善且日MACD不是刚金叉"
+      ],
+      "conditionChecks": {
+        "lowPosition": "满足",
+        "notStarted": "满足",
+        "platform": "满足",
+        "volume": "满足",
+        "rsi": "满足",
+        "macd": "不满足",
+        "maStage": "满足",
+        "sector": "满足",
+        "financial": "观察",
+        "risk": "观察"
+      },
+      "lowAge": 21,
+      "aboveDays": 1,
+      "above5": true,
+      "above10": true,
+      "riseRecentLow": 4.5,
+      "riseYearLow": 4.5,
+      "change5": 2.5,
+      "change10": -0.8,
+      "change20": 3.4,
+      "change60": -24.0,
+      "dailyRsi": 44.5,
+      "weeklyRsi": 33.1,
+      "dailyMacd": {
+        "dif": -0.0970141168518146,
+        "dea": -0.11842866521475731,
+        "hist": 0.04282909672588542,
+        "hist4": 0.03851342995225249,
+        "crossAge": null,
+        "underwater": true,
+        "improving": true,
+        "state": "水下低位拐头"
+      },
+      "weeklyMacd": {
+        "dif": -0.36790994905563856,
+        "dea": -0.2956555855339986,
+        "hist": -0.14450872704327988,
+        "hist4": -0.1922869099073648,
+        "crossAge": null,
+        "underwater": true,
+        "improving": false,
+        "state": "水下弱势"
+      },
+      "below15": false,
+      "below30": true,
+      "maDistance15": 0.0,
+      "maDistance30": -1.4,
+      "ma30Slope10": -5.26,
+      "range10": 10.5,
+      "range20": 11.3,
+      "closeRange10": 7.0,
+      "closeSlope10": -0.43,
+      "floorDrift": 0.3,
+      "lowTouchCount15": 13,
+      "platformEvidence": {
+        "lowMatured": true,
+        "intradayRangeContracted": true,
+        "closeRangeContracted": true,
+        "repeatedFloorTouches": true,
+        "closeSlopeStable": false,
+        "floorNotDriftingDown": true
+      },
+      "platformEvidenceCount": 5,
+      "stablePlatform": true,
+      "secondaryWithContext": true,
+      "secondaryConfirmation": {
+        "confirmed": true,
+        "firstDate": "2026-06-29",
+        "secondDate": "2026-07-21",
+        "firstLow": 3.54,
+        "secondLow": 3.54,
+        "separationDays": 16,
+        "secondAge": 5,
+        "secondVsFirst": 0.0,
+        "reboundBetween": 11.3,
+        "postBreak": 0.0
+      },
+      "volumeRatio5v20": 0.69,
+      "medianVolumeRatio5v20": 0.81,
+      "volumeRatio5vPrevious5": 0.64,
+      "downUpVolumeRatio10": 1.46,
+      "probeVolume": false,
+      "volumeState": "明显收缩",
+      "washoutVolumeRatio": 1.46,
+      "manualPrecheck": {
+        "lowNoLongerBreaking": true,
+        "notSingleCandleRebound": true,
+        "platformFormed": true,
+        "secondaryLowValid": true,
+        "ma5Flattening": true,
+        "rsiLowAndLifting": true,
+        "macdUnderwaterRepair": true,
+        "volumeContracted": true,
+        "sectorHasBreadth": true
+      },
+      "manualReviewVerdict": "观察",
+      "sector": {
+        "leader": "张江高科",
+        "leaderCode": "600895",
+        "leaderGain": 9.99,
+        "boardChange": 0.41,
+        "breadth": 0.6785714285714286
+      },
+      "elasticity": {
+        "grade": "高",
+        "maxStageGain1y": 35.7,
+        "gain30Count": 1,
+        "limitUpDays": 3,
+        "maxLimitStreak": 2
+      },
+      "sparkline": [
+        {
+          "date": "2026-03-18",
+          "open": 5.02,
+          "high": 5.03,
+          "low": 4.88,
+          "close": 5.01,
+          "volume": 16710314.0
+        },
+        {
+          "date": "2026-03-19",
+          "open": 5.0,
+          "high": 5.12,
+          "low": 4.87,
+          "close": 4.9,
+          "volume": 19834134.0
+        },
+        {
+          "date": "2026-03-20",
+          "open": 4.92,
+          "high": 4.94,
+          "low": 4.78,
+          "close": 4.78,
+          "volume": 13572805.0
+        },
+        {
+          "date": "2026-03-23",
+          "open": 4.71,
+          "high": 4.72,
+          "low": 4.39,
+          "close": 4.45,
+          "volume": 18350465.0
+        },
+        {
+          "date": "2026-03-24",
+          "open": 4.53,
+          "high": 4.65,
+          "low": 4.5,
+          "close": 4.65,
+          "volume": 12193400.0
+        },
+        {
+          "date": "2026-03-25",
+          "open": 4.69,
+          "high": 4.79,
+          "low": 4.61,
+          "close": 4.79,
+          "volume": 9988300.0
+        },
+        {
+          "date": "2026-03-26",
+          "open": 4.82,
+          "high": 4.92,
+          "low": 4.76,
+          "close": 4.79,
+          "volume": 11895438.0
+        },
+        {
+          "date": "2026-03-27",
+          "open": 4.75,
+          "high": 4.83,
+          "low": 4.73,
+          "close": 4.81,
+          "volume": 8101001.0
+        },
+        {
+          "date": "2026-03-30",
+          "open": 4.77,
+          "high": 4.83,
+          "low": 4.68,
+          "close": 4.81,
+          "volume": 8326200.0
+        },
+        {
+          "date": "2026-03-31",
+          "open": 4.81,
+          "high": 4.91,
+          "low": 4.76,
+          "close": 4.77,
+          "volume": 8018673.0
+        },
+        {
+          "date": "2026-04-01",
+          "open": 4.83,
+          "high": 4.85,
+          "low": 4.73,
+          "close": 4.77,
+          "volume": 8131566.0
+        },
+        {
+          "date": "2026-04-02",
+          "open": 4.77,
+          "high": 4.77,
+          "low": 4.62,
+          "close": 4.66,
+          "volume": 8056566.0
+        },
+        {
+          "date": "2026-04-03",
+          "open": 4.66,
+          "high": 4.69,
+          "low": 4.5,
+          "close": 4.52,
+          "volume": 6537300.0
+        },
+        {
+          "date": "2026-04-07",
+          "open": 4.54,
+          "high": 4.64,
+          "low": 4.49,
+          "close": 4.61,
+          "volume": 8943436.0
+        },
+        {
+          "date": "2026-04-08",
+          "open": 4.67,
+          "high": 4.75,
+          "low": 4.64,
+          "close": 4.74,
+          "volume": 9881900.0
+        },
+        {
+          "date": "2026-04-09",
+          "open": 4.71,
+          "high": 4.74,
+          "low": 4.66,
+          "close": 4.67,
+          "volume": 7217500.0
+        },
+        {
+          "date": "2026-04-10",
+          "open": 4.7,
+          "high": 4.79,
+          "low": 4.7,
+          "close": 4.74,
+          "volume": 7229666.0
+        },
+        {
+          "date": "2026-04-13",
+          "open": 4.75,
+          "high": 4.81,
+          "low": 4.7,
+          "close": 4.8,
+          "volume": 8312437.0
+        },
+        {
+          "date": "2026-04-14",
+          "open": 4.8,
+          "high": 4.97,
+          "low": 4.79,
+          "close": 4.96,
+          "volume": 17552400.0
+        },
+        {
+          "date": "2026-04-15",
+          "open": 4.96,
+          "high": 4.97,
+          "low": 4.82,
+          "close": 4.82,
+          "volume": 11755467.0
+        },
+        {
+          "date": "2026-04-16",
+          "open": 4.82,
+          "high": 4.83,
+          "low": 4.74,
+          "close": 4.8,
+          "volume": 8891046.0
+        },
+        {
+          "date": "2026-04-17",
+          "open": 4.8,
+          "high": 4.87,
+          "low": 4.73,
+          "close": 4.8,
+          "volume": 11329001.0
+        },
+        {
+          "date": "2026-04-20",
+          "open": 4.81,
+          "high": 4.88,
+          "low": 4.76,
+          "close": 4.87,
+          "volume": 12920062.0
+        },
+        {
+          "date": "2026-04-21",
+          "open": 4.85,
+          "high": 4.9,
+          "low": 4.79,
+          "close": 4.83,
+          "volume": 6864700.0
+        },
+        {
+          "date": "2026-04-22",
+          "open": 4.83,
+          "high": 4.83,
+          "low": 4.73,
+          "close": 4.76,
+          "volume": 7630668.0
+        },
+        {
+          "date": "2026-04-23",
+          "open": 4.75,
+          "high": 4.76,
+          "low": 4.69,
+          "close": 4.72,
+          "volume": 6804009.0
+        },
+        {
+          "date": "2026-04-24",
+          "open": 4.71,
+          "high": 4.77,
+          "low": 4.66,
+          "close": 4.72,
+          "volume": 7872700.0
+        },
+        {
+          "date": "2026-04-27",
+          "open": 4.7,
+          "high": 4.85,
+          "low": 4.63,
+          "close": 4.82,
+          "volume": 12175589.0
+        },
+        {
+          "date": "2026-04-28",
+          "open": 4.79,
+          "high": 4.86,
+          "low": 4.71,
+          "close": 4.77,
+          "volume": 8630566.0
+        },
+        {
+          "date": "2026-04-29",
+          "open": 4.77,
+          "high": 4.88,
+          "low": 4.76,
+          "close": 4.87,
+          "volume": 11299609.0
+        },
+        {
+          "date": "2026-04-30",
+          "open": 4.86,
+          "high": 5.01,
+          "low": 4.84,
+          "close": 4.93,
+          "volume": 13341396.0
+        },
+        {
+          "date": "2026-05-06",
+          "open": 4.95,
+          "high": 5.25,
+          "low": 4.91,
+          "close": 5.16,
+          "volume": 36282257.0
+        },
+        {
+          "date": "2026-05-07",
+          "open": 5.21,
+          "high": 5.34,
+          "low": 5.04,
+          "close": 5.06,
+          "volume": 19966474.0
+        },
+        {
+          "date": "2026-05-08",
+          "open": 5.04,
+          "high": 5.14,
+          "low": 5.03,
+          "close": 5.1,
+          "volume": 12069232.0
+        },
+        {
+          "date": "2026-05-11",
+          "open": 5.12,
+          "high": 5.21,
+          "low": 5.05,
+          "close": 5.14,
+          "volume": 13169532.0
+        },
+        {
+          "date": "2026-05-12",
+          "open": 5.13,
+          "high": 5.17,
+          "low": 5.05,
+          "close": 5.09,
+          "volume": 10697093.0
+        },
+        {
+          "date": "2026-05-13",
+          "open": 5.08,
+          "high": 5.12,
+          "low": 4.97,
+          "close": 5.0,
+          "volume": 11141004.0
+        },
+        {
+          "date": "2026-05-14",
+          "open": 4.99,
+          "high": 5.03,
+          "low": 4.88,
+          "close": 4.89,
+          "volume": 10058600.0
+        },
+        {
+          "date": "2026-05-15",
+          "open": 4.88,
+          "high": 4.89,
+          "low": 4.75,
+          "close": 4.79,
+          "volume": 10169500.0
+        },
+        {
+          "date": "2026-05-18",
+          "open": 4.8,
+          "high": 4.81,
+          "low": 4.7,
+          "close": 4.76,
+          "volume": 8626400.0
+        },
+        {
+          "date": "2026-05-19",
+          "open": 4.74,
+          "high": 4.86,
+          "low": 4.74,
+          "close": 4.84,
+          "volume": 9776001.0
+        },
+        {
+          "date": "2026-05-20",
+          "open": 4.84,
+          "high": 4.84,
+          "low": 4.7,
+          "close": 4.74,
+          "volume": 8982800.0
+        },
+        {
+          "date": "2026-05-21",
+          "open": 4.74,
+          "high": 4.76,
+          "low": 4.43,
+          "close": 4.45,
+          "volume": 14510946.0
+        },
+        {
+          "date": "2026-05-22",
+          "open": 4.5,
+          "high": 4.56,
+          "low": 4.44,
+          "close": 4.5,
+          "volume": 8841848.0
+        },
+        {
+          "date": "2026-05-25",
+          "open": 4.55,
+          "high": 4.57,
+          "low": 4.49,
+          "close": 4.53,
+          "volume": 7396668.0
+        },
+        {
+          "date": "2026-05-26",
+          "open": 4.52,
+          "high": 4.54,
+          "low": 4.39,
+          "close": 4.44,
+          "volume": 8022669.0
+        },
+        {
+          "date": "2026-05-27",
+          "open": 4.44,
+          "high": 4.45,
+          "low": 4.28,
+          "close": 4.31,
+          "volume": 10281505.0
+        },
+        {
+          "date": "2026-05-28",
+          "open": 4.29,
+          "high": 4.42,
+          "low": 4.29,
+          "close": 4.39,
+          "volume": 8423605.0
+        },
+        {
+          "date": "2026-05-29",
+          "open": 4.42,
+          "high": 4.64,
+          "low": 4.4,
+          "close": 4.45,
+          "volume": 16431200.0
+        },
+        {
+          "date": "2026-06-01",
+          "open": 4.4,
+          "high": 4.61,
+          "low": 4.28,
+          "close": 4.57,
+          "volume": 16378717.0
+        },
+        {
+          "date": "2026-06-02",
+          "open": 4.58,
+          "high": 4.61,
+          "low": 4.47,
+          "close": 4.5,
+          "volume": 10506217.0
+        },
+        {
+          "date": "2026-06-03",
+          "open": 4.5,
+          "high": 4.51,
+          "low": 4.39,
+          "close": 4.47,
+          "volume": 10247543.0
+        },
+        {
+          "date": "2026-06-04",
+          "open": 4.45,
+          "high": 4.55,
+          "low": 4.32,
+          "close": 4.36,
+          "volume": 11951249.0
+        },
+        {
+          "date": "2026-06-05",
+          "open": 4.35,
+          "high": 4.55,
+          "low": 4.35,
+          "close": 4.39,
+          "volume": 11257019.0
+        },
+        {
+          "date": "2026-06-08",
+          "open": 4.37,
+          "high": 4.47,
+          "low": 4.26,
+          "close": 4.35,
+          "volume": 12563332.0
+        },
+        {
+          "date": "2026-06-09",
+          "open": 4.39,
+          "high": 4.52,
+          "low": 4.2,
+          "close": 4.26,
+          "volume": 13375232.0
+        },
+        {
+          "date": "2026-06-10",
+          "open": 4.23,
+          "high": 4.28,
+          "low": 4.15,
+          "close": 4.26,
+          "volume": 10504127.0
+        },
+        {
+          "date": "2026-06-11",
+          "open": 4.24,
+          "high": 4.25,
+          "low": 4.11,
+          "close": 4.18,
+          "volume": 7863934.0
+        },
+        {
+          "date": "2026-06-12",
+          "open": 4.19,
+          "high": 4.29,
+          "low": 4.13,
+          "close": 4.22,
+          "volume": 10444659.0
+        },
+        {
+          "date": "2026-06-15",
+          "open": 4.23,
+          "high": 4.33,
+          "low": 4.14,
+          "close": 4.16,
+          "volume": 10683400.0
+        },
+        {
+          "date": "2026-06-16",
+          "open": 4.16,
+          "high": 4.18,
+          "low": 4.02,
+          "close": 4.06,
+          "volume": 9905500.0
+        },
+        {
+          "date": "2026-06-17",
+          "open": 4.05,
+          "high": 4.08,
+          "low": 3.97,
+          "close": 3.99,
+          "volume": 9557125.0
+        },
+        {
+          "date": "2026-06-18",
+          "open": 3.97,
+          "high": 4.0,
+          "low": 3.88,
+          "close": 3.93,
+          "volume": 7119820.0
+        },
+        {
+          "date": "2026-06-22",
+          "open": 3.92,
+          "high": 3.94,
+          "low": 3.78,
+          "close": 3.93,
+          "volume": 10820420.0
+        },
+        {
+          "date": "2026-06-23",
+          "open": 3.92,
+          "high": 4.08,
+          "low": 3.91,
+          "close": 4.01,
+          "volume": 11313269.0
+        },
+        {
+          "date": "2026-06-24",
+          "open": 4.02,
+          "high": 4.02,
+          "low": 3.8,
+          "close": 3.82,
+          "volume": 10196366.0
+        },
+        {
+          "date": "2026-06-25",
+          "open": 3.81,
+          "high": 3.84,
+          "low": 3.72,
+          "close": 3.77,
+          "volume": 7700104.0
+        },
+        {
+          "date": "2026-06-26",
+          "open": 3.76,
+          "high": 3.79,
+          "low": 3.66,
+          "close": 3.68,
+          "volume": 7968033.0
+        },
+        {
+          "date": "2026-06-29",
+          "open": 3.67,
+          "high": 3.71,
+          "low": 3.54,
+          "close": 3.67,
+          "volume": 8557278.0
+        },
+        {
+          "date": "2026-06-30",
+          "open": 3.65,
+          "high": 3.69,
+          "low": 3.56,
+          "close": 3.58,
+          "volume": 10971906.0
+        },
+        {
+          "date": "2026-07-01",
+          "open": 3.58,
+          "high": 3.77,
+          "low": 3.58,
+          "close": 3.69,
+          "volume": 16030156.0
+        },
+        {
+          "date": "2026-07-02",
+          "open": 3.71,
+          "high": 3.78,
+          "low": 3.62,
+          "close": 3.63,
+          "volume": 17176164.0
+        },
+        {
+          "date": "2026-07-03",
+          "open": 3.67,
+          "high": 3.94,
+          "low": 3.66,
+          "close": 3.83,
+          "volume": 25823037.0
+        },
+        {
+          "date": "2026-07-06",
+          "open": 3.82,
+          "high": 3.92,
+          "low": 3.81,
+          "close": 3.83,
+          "volume": 12144600.0
+        },
+        {
+          "date": "2026-07-07",
+          "open": 3.81,
+          "high": 3.83,
+          "low": 3.68,
+          "close": 3.7,
+          "volume": 9437046.0
+        },
+        {
+          "date": "2026-07-08",
+          "open": 3.7,
+          "high": 3.74,
+          "low": 3.62,
+          "close": 3.7,
+          "volume": 7674701.0
+        },
+        {
+          "date": "2026-07-09",
+          "open": 3.68,
+          "high": 3.74,
+          "low": 3.61,
+          "close": 3.7,
+          "volume": 9703797.0
+        },
+        {
+          "date": "2026-07-10",
+          "open": 3.7,
+          "high": 3.88,
+          "low": 3.63,
+          "close": 3.78,
+          "volume": 13397615.0
+        },
+        {
+          "date": "2026-07-13",
+          "open": 3.78,
+          "high": 3.81,
+          "low": 3.64,
+          "close": 3.68,
+          "volume": 10349300.0
+        },
+        {
+          "date": "2026-07-14",
+          "open": 3.66,
+          "high": 3.75,
+          "low": 3.61,
+          "close": 3.73,
+          "volume": 9858300.0
+        },
+        {
+          "date": "2026-07-15",
+          "open": 3.75,
+          "high": 3.85,
+          "low": 3.72,
+          "close": 3.82,
+          "volume": 10039532.0
+        },
+        {
+          "date": "2026-07-16",
+          "open": 3.82,
+          "high": 3.9,
+          "low": 3.76,
+          "close": 3.84,
+          "volume": 10122800.0
+        },
+        {
+          "date": "2026-07-17",
+          "open": 3.82,
+          "high": 3.91,
+          "low": 3.65,
+          "close": 3.68,
+          "volume": 12595752.0
+        },
+        {
+          "date": "2026-07-20",
+          "open": 3.75,
+          "high": 3.88,
+          "low": 3.66,
+          "close": 3.68,
+          "volume": 18793342.0
+        },
+        {
+          "date": "2026-07-21",
+          "open": 3.68,
+          "high": 3.69,
+          "low": 3.54,
+          "close": 3.61,
+          "volume": 13154609.0
+        },
+        {
+          "date": "2026-07-22",
+          "open": 3.59,
+          "high": 3.63,
+          "low": 3.55,
+          "close": 3.61,
+          "volume": 8587300.0
+        },
+        {
+          "date": "2026-07-23",
+          "open": 3.6,
+          "high": 3.71,
+          "low": 3.57,
+          "close": 3.69,
+          "volume": 8546930.0
+        },
+        {
+          "date": "2026-07-24",
+          "open": 3.67,
+          "high": 3.73,
+          "low": 3.59,
+          "close": 3.59,
+          "volume": 7761104.0
+        },
+        {
+          "date": "2026-07-27",
+          "open": 3.58,
+          "high": 3.7,
+          "low": 3.55,
+          "close": 3.68,
+          "volume": 8212500.0
+        },
+        {
+          "date": "2026-07-28",
+          "open": 3.67,
+          "high": 3.76,
+          "low": 3.65,
+          "close": 3.7,
+          "volume": 8141500.0
+        }
+      ],
+      "financialState": "观察",
+      "riskState": "观察",
+      "financialRisk": {
+        "reportPeriod": "2026一季报",
+        "parentProfit": 32284987.21,
+        "deductProfit": 18737683.73,
+        "operatingCashFlow": -8969473.38,
+        "debtRatio": 41.3,
+        "interestDebtRatio": 16.0,
+        "profitYoy": -82.0,
+        "deductProfitYoy": 190.8,
+        "financialNotes": [
+          "经营现金流为负",
+          "归母净利润同比下降超过30%",
+          "利润规模低于0.50亿元"
+        ],
+        "riskAnnouncements": [
+          {
+            "date": "2026-07-18",
+            "title": "渝开发:收购重庆黄葛晚渡置业发展有限公司股权暨关联交易公告"
+          },
+          {
+            "date": "2026-06-09",
+            "title": "2重庆康华会计师事务所(特殊普通合伙)关于重庆渝开发股份有限公司申请向特定对象发行股票的审核问询函的回复的专项说明"
+          },
+          {
+            "date": "2026-06-09",
+            "title": "1发行人及保荐机构关于审核问询函的回复(重庆渝开发股份有限公司)"
+          },
+          {
+            "date": "2026-05-21",
+            "title": "渝开发:重庆康华会计师事务所(特殊普通合伙)关于重庆渝开发股份有限公司申请向特定对象发行股票的审核问询函的回复的专项说明"
+          },
+          {
+            "date": "2026-05-21",
+            "title": "渝开发:关于重庆渝开发股份有限公司主板向特定对象发行股票的审核问询函的回复报告(修订稿)"
+          }
+        ],
+        "riskNotes": [
+          "渝开发:收购重庆黄葛晚渡置业发展有限公司股权暨关联交易公告",
+          "2重庆康华会计师事务所(特殊普通合伙)关于重庆渝开发股份有限公司申请向特定对象发行股票的审核问询函的回复的专项说明",
+          "1发行人及保荐机构关于审核问询函的回复(重庆渝开发股份有限公司)"
+        ]
+      },
+      "manualReviewReason": "低位平台、二次确认和缩量成立，板块存在拉升标的；但周MACD尚未改善，日MACD也不是刚金叉。"
+    },
+    {
+      "code": "301215",
+      "name": "中汽股份",
+      "industry": "汽车服务",
+      "date": "2026-07-28",
+      "close": 5.08,
+      "source": "新浪日K回退+东方财富收盘快照",
+      "profit": 46679174.76,
+      "profitPeriod": "2026Q1",
+      "conditionVerdict": "边界观察（1项不满足）",
+      "failedConditions": [
+        "周MACD未改善且日MACD不是刚金叉"
+      ],
+      "conditionChecks": {
+        "lowPosition": "满足",
+        "notStarted": "满足",
+        "platform": "满足",
+        "volume": "满足",
+        "rsi": "满足",
+        "macd": "不满足",
+        "maStage": "满足",
+        "sector": "满足",
+        "financial": "观察",
+        "risk": "观察"
+      },
+      "lowAge": 6,
+      "aboveDays": 1,
+      "above5": true,
+      "above10": true,
+      "riseRecentLow": 2.6,
+      "riseYearLow": 2.6,
+      "change5": 0.6,
+      "change10": -0.4,
+      "change20": -2.1,
+      "change60": -18.6,
+      "dailyRsi": 43.7,
+      "weeklyRsi": 33.1,
+      "dailyMacd": {
+        "dif": -0.10301458953414144,
+        "dea": -0.11909210909899966,
+        "hist": 0.03215503912971643,
+        "hist4": 0.026869446228528993,
+        "crossAge": null,
+        "underwater": true,
+        "improving": true,
+        "state": "水下低位拐头"
+      },
+      "weeklyMacd": {
+        "dif": -0.3903554918734251,
+        "dea": -0.3112577443880694,
+        "hist": -0.1581954949707114,
+        "hist4": -0.20916357052299994,
+        "crossAge": null,
+        "underwater": true,
+        "improving": false,
+        "state": "水下弱势"
+      },
+      "below15": true,
+      "below30": true,
+      "maDistance15": -0.2,
+      "maDistance30": -2.1,
+      "ma30Slope10": -2.64,
+      "range10": 6.3,
+      "range20": 10.9,
+      "closeRange10": 3.8,
+      "closeSlope10": -0.21,
+      "floorDrift": 0.4,
+      "lowTouchCount15": 15,
+      "platformEvidence": {
+        "lowMatured": false,
+        "intradayRangeContracted": true,
+        "closeRangeContracted": true,
+        "repeatedFloorTouches": true,
+        "closeSlopeStable": true,
+        "floorNotDriftingDown": true
+      },
+      "platformEvidenceCount": 5,
+      "stablePlatform": true,
+      "secondaryWithContext": true,
+      "secondaryConfirmation": {
+        "confirmed": true,
+        "firstDate": "2026-06-11",
+        "secondDate": "2026-07-20",
+        "firstLow": 4.98,
+        "secondLow": 4.95,
+        "separationDays": 26,
+        "secondAge": 6,
+        "secondVsFirst": -0.6,
+        "reboundBetween": 11.4,
+        "postBreak": 0.0
+      },
+      "volumeRatio5v20": 0.88,
+      "medianVolumeRatio5v20": 0.96,
+      "volumeRatio5vPrevious5": 0.85,
+      "downUpVolumeRatio10": 1.01,
+      "probeVolume": true,
+      "volumeState": "温和收缩",
+      "washoutVolumeRatio": 1.15,
+      "manualPrecheck": {
+        "lowNoLongerBreaking": true,
+        "notSingleCandleRebound": true,
+        "platformFormed": true,
+        "secondaryLowValid": true,
+        "ma5Flattening": true,
+        "rsiLowAndLifting": false,
+        "macdUnderwaterRepair": true,
+        "volumeContracted": true,
+        "sectorHasBreadth": true
+      },
+      "manualReviewVerdict": "观察",
+      "sector": {
+        "leader": "阿尔特",
+        "leaderCode": "300825",
+        "leaderGain": 7.15,
+        "boardChange": 1.81,
+        "breadth": 0.8888888888888888
+      },
+      "elasticity": {
+        "grade": "中",
+        "maxStageGain1y": 28.2,
+        "gain30Count": 0,
+        "limitUpDays": 1,
+        "maxLimitStreak": 1
+      },
+      "sparkline": [
+        {
+          "date": "2026-03-18",
+          "open": 6.48,
+          "high": 6.53,
+          "low": 6.41,
+          "close": 6.5,
+          "volume": 8068261.0
+        },
+        {
+          "date": "2026-03-19",
+          "open": 6.45,
+          "high": 6.48,
+          "low": 6.36,
+          "close": 6.39,
+          "volume": 9977200.0
+        },
+        {
+          "date": "2026-03-20",
+          "open": 6.39,
+          "high": 6.44,
+          "low": 6.24,
+          "close": 6.25,
+          "volume": 10041336.0
+        },
+        {
+          "date": "2026-03-23",
+          "open": 6.16,
+          "high": 6.16,
+          "low": 5.71,
+          "close": 5.79,
+          "volume": 19877000.0
+        },
+        {
+          "date": "2026-03-24",
+          "open": 5.9,
+          "high": 5.98,
+          "low": 5.79,
+          "close": 5.97,
+          "volume": 12549000.0
+        },
+        {
+          "date": "2026-03-25",
+          "open": 6.0,
+          "high": 6.07,
+          "low": 5.98,
+          "close": 6.05,
+          "volume": 8618600.0
+        },
+        {
+          "date": "2026-03-26",
+          "open": 6.04,
+          "high": 6.09,
+          "low": 5.91,
+          "close": 5.94,
+          "volume": 9146692.0
+        },
+        {
+          "date": "2026-03-27",
+          "open": 5.9,
+          "high": 6.04,
+          "low": 5.87,
+          "close": 6.0,
+          "volume": 7331900.0
+        },
+        {
+          "date": "2026-03-30",
+          "open": 5.93,
+          "high": 6.03,
+          "low": 5.88,
+          "close": 6.01,
+          "volume": 10796264.0
+        },
+        {
+          "date": "2026-03-31",
+          "open": 5.99,
+          "high": 6.13,
+          "low": 5.99,
+          "close": 6.06,
+          "volume": 12158505.0
+        },
+        {
+          "date": "2026-04-01",
+          "open": 6.14,
+          "high": 6.21,
+          "low": 6.08,
+          "close": 6.13,
+          "volume": 13389757.0
+        },
+        {
+          "date": "2026-04-02",
+          "open": 6.12,
+          "high": 6.2,
+          "low": 5.99,
+          "close": 6.05,
+          "volume": 9653200.0
+        },
+        {
+          "date": "2026-04-03",
+          "open": 6.09,
+          "high": 6.09,
+          "low": 5.84,
+          "close": 5.86,
+          "volume": 9122809.0
+        },
+        {
+          "date": "2026-04-07",
+          "open": 5.87,
+          "high": 5.95,
+          "low": 5.85,
+          "close": 5.92,
+          "volume": 8649272.0
+        },
+        {
+          "date": "2026-04-08",
+          "open": 6.05,
+          "high": 6.16,
+          "low": 6.03,
+          "close": 6.15,
+          "volume": 11120600.0
+        },
+        {
+          "date": "2026-04-09",
+          "open": 6.12,
+          "high": 6.18,
+          "low": 6.02,
+          "close": 6.03,
+          "volume": 11155663.0
+        },
+        {
+          "date": "2026-04-10",
+          "open": 6.09,
+          "high": 6.18,
+          "low": 6.05,
+          "close": 6.1,
+          "volume": 8837438.0
+        },
+        {
+          "date": "2026-04-13",
+          "open": 6.07,
+          "high": 6.12,
+          "low": 6.04,
+          "close": 6.08,
+          "volume": 7783900.0
+        },
+        {
+          "date": "2026-04-14",
+          "open": 6.1,
+          "high": 6.14,
+          "low": 6.03,
+          "close": 6.09,
+          "volume": 6987034.0
+        },
+        {
+          "date": "2026-04-15",
+          "open": 6.11,
+          "high": 6.18,
+          "low": 6.09,
+          "close": 6.11,
+          "volume": 9349598.0
+        },
+        {
+          "date": "2026-04-16",
+          "open": 6.16,
+          "high": 6.21,
+          "low": 6.11,
+          "close": 6.2,
+          "volume": 8689445.0
+        },
+        {
+          "date": "2026-04-17",
+          "open": 6.17,
+          "high": 6.23,
+          "low": 6.12,
+          "close": 6.22,
+          "volume": 8575600.0
+        },
+        {
+          "date": "2026-04-20",
+          "open": 6.23,
+          "high": 6.32,
+          "low": 6.18,
+          "close": 6.28,
+          "volume": 10239536.0
+        },
+        {
+          "date": "2026-04-21",
+          "open": 6.28,
+          "high": 6.33,
+          "low": 6.26,
+          "close": 6.32,
+          "volume": 9847000.0
+        },
+        {
+          "date": "2026-04-22",
+          "open": 6.3,
+          "high": 6.33,
+          "low": 6.26,
+          "close": 6.32,
+          "volume": 9037923.0
+        },
+        {
+          "date": "2026-04-23",
+          "open": 6.33,
+          "high": 6.38,
+          "low": 6.23,
+          "close": 6.26,
+          "volume": 12711480.0
+        },
+        {
+          "date": "2026-04-24",
+          "open": 6.3,
+          "high": 6.3,
+          "low": 6.16,
+          "close": 6.23,
+          "volume": 9918769.0
+        },
+        {
+          "date": "2026-04-27",
+          "open": 6.25,
+          "high": 6.37,
+          "low": 6.21,
+          "close": 6.29,
+          "volume": 9988512.0
+        },
+        {
+          "date": "2026-04-28",
+          "open": 6.28,
+          "high": 6.31,
+          "low": 6.15,
+          "close": 6.21,
+          "volume": 16229886.0
+        },
+        {
+          "date": "2026-04-29",
+          "open": 6.22,
+          "high": 6.29,
+          "low": 6.18,
+          "close": 6.24,
+          "volume": 15541550.0
+        },
+        {
+          "date": "2026-04-30",
+          "open": 6.21,
+          "high": 6.28,
+          "low": 6.19,
+          "close": 6.25,
+          "volume": 12343716.0
+        },
+        {
+          "date": "2026-05-06",
+          "open": 6.27,
+          "high": 6.41,
+          "low": 6.25,
+          "close": 6.36,
+          "volume": 17667142.0
+        },
+        {
+          "date": "2026-05-07",
+          "open": 6.4,
+          "high": 6.6,
+          "low": 6.38,
+          "close": 6.48,
+          "volume": 16537080.0
+        },
+        {
+          "date": "2026-05-08",
+          "open": 6.49,
+          "high": 6.51,
+          "low": 6.43,
+          "close": 6.46,
+          "volume": 11662834.0
+        },
+        {
+          "date": "2026-05-11",
+          "open": 6.47,
+          "high": 6.49,
+          "low": 6.37,
+          "close": 6.44,
+          "volume": 13033300.0
+        },
+        {
+          "date": "2026-05-12",
+          "open": 6.43,
+          "high": 6.45,
+          "low": 6.3,
+          "close": 6.3,
+          "volume": 13478633.0
+        },
+        {
+          "date": "2026-05-13",
+          "open": 6.34,
+          "high": 6.4,
+          "low": 6.3,
+          "close": 6.39,
+          "volume": 10816228.0
+        },
+        {
+          "date": "2026-05-14",
+          "open": 6.38,
+          "high": 6.39,
+          "low": 6.24,
+          "close": 6.24,
+          "volume": 10195100.0
+        },
+        {
+          "date": "2026-05-15",
+          "open": 6.23,
+          "high": 6.37,
+          "low": 6.21,
+          "close": 6.24,
+          "volume": 10643367.0
+        },
+        {
+          "date": "2026-05-18",
+          "open": 6.26,
+          "high": 6.27,
+          "low": 6.05,
+          "close": 6.14,
+          "volume": 12811354.0
+        },
+        {
+          "date": "2026-05-19",
+          "open": 6.14,
+          "high": 6.23,
+          "low": 6.1,
+          "close": 6.18,
+          "volume": 8018400.0
+        },
+        {
+          "date": "2026-05-20",
+          "open": 6.2,
+          "high": 6.23,
+          "low": 6.06,
+          "close": 6.12,
+          "volume": 9019253.0
+        },
+        {
+          "date": "2026-05-21",
+          "open": 6.12,
+          "high": 6.38,
+          "low": 6.08,
+          "close": 6.08,
+          "volume": 15711570.0
+        },
+        {
+          "date": "2026-05-22",
+          "open": 6.14,
+          "high": 6.2,
+          "low": 6.07,
+          "close": 6.17,
+          "volume": 11437100.0
+        },
+        {
+          "date": "2026-05-25",
+          "open": 6.19,
+          "high": 6.23,
+          "low": 6.1,
+          "close": 6.19,
+          "volume": 9424705.0
+        },
+        {
+          "date": "2026-05-26",
+          "open": 6.18,
+          "high": 6.24,
+          "low": 6.01,
+          "close": 6.07,
+          "volume": 9917000.0
+        },
+        {
+          "date": "2026-05-27",
+          "open": 6.07,
+          "high": 6.12,
+          "low": 5.92,
+          "close": 5.95,
+          "volume": 9207614.0
+        },
+        {
+          "date": "2026-05-28",
+          "open": 5.92,
+          "high": 6.08,
+          "low": 5.89,
+          "close": 6.0,
+          "volume": 9427000.0
+        },
+        {
+          "date": "2026-05-29",
+          "open": 6.0,
+          "high": 6.09,
+          "low": 5.81,
+          "close": 5.84,
+          "volume": 11243610.0
+        },
+        {
+          "date": "2026-06-01",
+          "open": 5.77,
+          "high": 5.96,
+          "low": 5.75,
+          "close": 5.88,
+          "volume": 13281400.0
+        },
+        {
+          "date": "2026-06-02",
+          "open": 5.9,
+          "high": 5.9,
+          "low": 5.82,
+          "close": 5.85,
+          "volume": 8675000.0
+        },
+        {
+          "date": "2026-06-03",
+          "open": 5.84,
+          "high": 5.87,
+          "low": 5.76,
+          "close": 5.79,
+          "volume": 8341005.0
+        },
+        {
+          "date": "2026-06-04",
+          "open": 5.78,
+          "high": 5.83,
+          "low": 5.57,
+          "close": 5.6,
+          "volume": 15836000.0
+        },
+        {
+          "date": "2026-06-05",
+          "open": 5.6,
+          "high": 5.69,
+          "low": 5.54,
+          "close": 5.61,
+          "volume": 9156633.0
+        },
+        {
+          "date": "2026-06-08",
+          "open": 5.57,
+          "high": 5.6,
+          "low": 5.32,
+          "close": 5.41,
+          "volume": 12903100.0
+        },
+        {
+          "date": "2026-06-09",
+          "open": 5.79,
+          "high": 5.95,
+          "low": 5.52,
+          "close": 5.69,
+          "volume": 27140906.0
+        },
+        {
+          "date": "2026-06-10",
+          "open": 5.65,
+          "high": 5.75,
+          "low": 5.54,
+          "close": 5.58,
+          "volume": 26951430.0
+        },
+        {
+          "date": "2026-06-11",
+          "open": 5.21,
+          "high": 5.25,
+          "low": 4.98,
+          "close": 5.03,
+          "volume": 32148763.0
+        },
+        {
+          "date": "2026-06-12",
+          "open": 5.05,
+          "high": 5.25,
+          "low": 4.98,
+          "close": 5.2,
+          "volume": 26938819.0
+        },
+        {
+          "date": "2026-06-15",
+          "open": 5.24,
+          "high": 5.32,
+          "low": 5.15,
+          "close": 5.26,
+          "volume": 15743821.0
+        },
+        {
+          "date": "2026-06-16",
+          "open": 5.22,
+          "high": 5.28,
+          "low": 5.17,
+          "close": 5.25,
+          "volume": 10459576.0
+        },
+        {
+          "date": "2026-06-17",
+          "open": 5.25,
+          "high": 5.38,
+          "low": 5.2,
+          "close": 5.36,
+          "volume": 12506326.0
+        },
+        {
+          "date": "2026-06-18",
+          "open": 5.31,
+          "high": 5.51,
+          "low": 5.31,
+          "close": 5.35,
+          "volume": 11623169.0
+        },
+        {
+          "date": "2026-06-22",
+          "open": 5.31,
+          "high": 5.36,
+          "low": 5.12,
+          "close": 5.27,
+          "volume": 11625812.0
+        },
+        {
+          "date": "2026-06-23",
+          "open": 5.21,
+          "high": 5.55,
+          "low": 5.21,
+          "close": 5.33,
+          "volume": 14374338.0
+        },
+        {
+          "date": "2026-06-24",
+          "open": 5.38,
+          "high": 5.53,
+          "low": 5.35,
+          "close": 5.38,
+          "volume": 13361190.0
+        },
+        {
+          "date": "2026-06-25",
+          "open": 5.41,
+          "high": 5.41,
+          "low": 5.18,
+          "close": 5.23,
+          "volume": 11031023.0
+        },
+        {
+          "date": "2026-06-26",
+          "open": 5.21,
+          "high": 5.32,
+          "low": 5.15,
+          "close": 5.26,
+          "volume": 8842495.0
+        },
+        {
+          "date": "2026-06-29",
+          "open": 5.23,
+          "high": 5.28,
+          "low": 5.04,
+          "close": 5.1,
+          "volume": 13231887.0
+        },
+        {
+          "date": "2026-06-30",
+          "open": 5.09,
+          "high": 5.2,
+          "low": 5.07,
+          "close": 5.19,
+          "volume": 10576529.0
+        },
+        {
+          "date": "2026-07-01",
+          "open": 5.17,
+          "high": 5.48,
+          "low": 5.16,
+          "close": 5.4,
+          "volume": 16966249.0
+        },
+        {
+          "date": "2026-07-02",
+          "open": 5.36,
+          "high": 5.45,
+          "low": 5.33,
+          "close": 5.36,
+          "volume": 14389550.0
+        },
+        {
+          "date": "2026-07-03",
+          "open": 5.4,
+          "high": 5.49,
+          "low": 5.35,
+          "close": 5.38,
+          "volume": 12376198.0
+        },
+        {
+          "date": "2026-07-06",
+          "open": 5.38,
+          "high": 5.43,
+          "low": 5.32,
+          "close": 5.35,
+          "volume": 9377176.0
+        },
+        {
+          "date": "2026-07-07",
+          "open": 5.35,
+          "high": 5.37,
+          "low": 5.15,
+          "close": 5.19,
+          "volume": 9852090.0
+        },
+        {
+          "date": "2026-07-08",
+          "open": 5.15,
+          "high": 5.23,
+          "low": 5.11,
+          "close": 5.16,
+          "volume": 7720993.0
+        },
+        {
+          "date": "2026-07-09",
+          "open": 5.12,
+          "high": 5.16,
+          "low": 5.03,
+          "close": 5.09,
+          "volume": 9362864.0
+        },
+        {
+          "date": "2026-07-10",
+          "open": 5.06,
+          "high": 5.25,
+          "low": 5.0,
+          "close": 5.16,
+          "volume": 9846600.0
+        },
+        {
+          "date": "2026-07-13",
+          "open": 5.14,
+          "high": 5.16,
+          "low": 4.99,
+          "close": 5.03,
+          "volume": 10463367.0
+        },
+        {
+          "date": "2026-07-14",
+          "open": 4.98,
+          "high": 5.12,
+          "low": 4.96,
+          "close": 5.1,
+          "volume": 10285700.0
+        },
+        {
+          "date": "2026-07-15",
+          "open": 5.09,
+          "high": 5.22,
+          "low": 5.07,
+          "close": 5.19,
+          "volume": 8523512.0
+        },
+        {
+          "date": "2026-07-16",
+          "open": 5.17,
+          "high": 5.24,
+          "low": 5.12,
+          "close": 5.18,
+          "volume": 8632936.0
+        },
+        {
+          "date": "2026-07-17",
+          "open": 5.19,
+          "high": 5.26,
+          "low": 4.98,
+          "close": 5.03,
+          "volume": 12600432.0
+        },
+        {
+          "date": "2026-07-20",
+          "open": 5.04,
+          "high": 5.14,
+          "low": 4.95,
+          "close": 5.06,
+          "volume": 13028694.0
+        },
+        {
+          "date": "2026-07-21",
+          "open": 5.03,
+          "high": 5.1,
+          "low": 4.98,
+          "close": 5.05,
+          "volume": 12839402.0
+        },
+        {
+          "date": "2026-07-22",
+          "open": 5.05,
+          "high": 5.07,
+          "low": 4.97,
+          "close": 5.02,
+          "volume": 10077162.0
+        },
+        {
+          "date": "2026-07-23",
+          "open": 5.01,
+          "high": 5.14,
+          "low": 5.0,
+          "close": 5.12,
+          "volume": 10900232.0
+        },
+        {
+          "date": "2026-07-24",
+          "open": 5.07,
+          "high": 5.11,
+          "low": 4.99,
+          "close": 5.0,
+          "volume": 8269700.0
+        },
+        {
+          "date": "2026-07-27",
+          "open": 5.02,
+          "high": 5.08,
+          "low": 4.98,
+          "close": 5.07,
+          "volume": 9528696.0
+        },
+        {
+          "date": "2026-07-28",
+          "open": 5.05,
+          "high": 5.12,
+          "low": 5.03,
+          "close": 5.08,
+          "volume": 8368800.0
+        }
+      ],
+      "financialState": "观察",
+      "riskState": "观察",
+      "financialRisk": {
+        "reportPeriod": "2026一季报",
+        "parentProfit": 46679174.76,
+        "deductProfit": 43392215.94,
+        "operatingCashFlow": 19292672.58,
+        "debtRatio": 16.2,
+        "interestDebtRatio": 0.5,
+        "profitYoy": 14.4,
+        "deductProfitYoy": 75.5,
+        "financialNotes": [
+          "利润规模低于0.50亿元"
+        ],
+        "riskAnnouncements": [
+          {
+            "date": "2026-04-29",
+            "title": "中汽股份:关于控股股东新增避免同业竞争的承诺函及公司与长春汽车检测中心有限责任公司及相关方签署协议暨关联交易的公告"
+          },
+          {
+            "date": "2026-04-29",
+            "title": "中汽股份:关于调整2026年度与中国汽车技术研究中心有限公司及其关联方日常关联交易预计额度的公告"
+          },
+          {
+            "date": "2026-03-25",
+            "title": "中汽股份:关于持股5%以上股东部分股权解除质押的公告"
+          },
+          {
+            "date": "2026-02-25",
+            "title": "中汽股份:会计师事务所关于中汽研汽车试验场股份有限公司申请向不特定对象发行可转换公司债券的第二轮审核问询函的回复"
+          },
+          {
+            "date": "2026-02-25",
+            "title": "中汽股份:关于向不特定对象发行可转换公司债券的第二轮审核问询函回复的提示性公告"
+          }
+        ],
+        "riskNotes": [
+          "中汽股份:关于控股股东新增避免同业竞争的承诺函及公司与长春汽车检测中心有限责任公司及相关方签署协议暨关联交易的公告",
+          "中汽股份:关于调整2026年度与中国汽车技术研究中心有限公司及其关联方日常关联交易预计额度的公告",
+          "中汽股份:关于持股5%以上股东部分股权解除质押的公告"
+        ]
+      },
+      "manualReviewReason": "10日区间较窄、双低点和缩量成立，板块扩散较好；但周MACD尚未改善，日MACD也不是刚金叉。"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+Auto Loop Input Checklist: research-dashboard
+
+Completeness:
+- [x] goal
+- [x] artifact type
+- [x] audience/user
+- [x] inputs/source paths
+- [x] output format/path
+- [x] constraints
+- [x] quality bar
+- [x] autonomy level
+- [x] risks/sensitive boundaries
+- [x] current stage and entry gate
+- [x] inherited artifacts/evidence
+- [x] user-only prerequisites
+- [x] authorized external side effects
+- [x] stage exit evidence and handoff
+
+Missing items:
+No blocking items. Exact visual choices and framework were delegated and inferred.
+
+Autofill assumptions:
+- Local React/Vite application in the current workspace.
+- Current report files define selection cohorts; same-stock appearances are merged.
+- Forward-adjusted closes are used for consistent relative tracking.
+- Sector activation remains a visible independent switch with historical/needs-validation semantics.

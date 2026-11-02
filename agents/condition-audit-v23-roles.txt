@@ -1,0 +1,8 @@
+Roles / lanes:
+- Planner: Preserved the red-zone objective, no-score rule, financial/risk switches, and no-forced-count rule; separated current execution from future experiments.
+- Researcher: Audited 21 v2.2 boundary candidates, market-cap distribution, liquidity sensitivity, and single-condition failure frequency.
+- Architect: Defined mutually exclusive core/elastic pools, leader-quality logic, RSI trajectory diagnostics, and three-level announcement risk classification.
+- Builder: Updated the screener, requirements document, reusable stock-screen skill, JSON filter metadata, configurable network concurrency, and v2.4 experiment proposal.
+- Verifier: Compiled all Python scripts; validated pool thresholds, pool exclusivity, absent score fields, deduplicated announcements, and pure announcement classification.
+- Critic: Rejected 80/50/1.0亿元 as the default threshold; rejected relaxing low-age lower bound and platform evidence merely to increase count; flagged one-day sector persistence and volatility normalization as unvalidated.
+- Integrator: Kept v2.3.1 as the strict executable baseline and moved mature-platform, RSI trajectory boundary, ATR thresholds, and multi-day sector activation into a controlled v2.4 experiment sequence.

@@ -1,0 +1,43 @@
+Auto Loop Contract: condition-audit-v23
+Created: 2026-07-28T20:46:00
+
+Objective:
+Audit and optimize the v2.2 A-share red-zone conditions so the output no longer concentrates in illiquid small-cap stocks while preserving the original low-position, not-yet-launched target.
+Current stage:
+v2.3 rule design and implementation.
+Stage responsibility:
+Condition sensitivity analysis, code changes, documentation, and current-market smoke validation.
+Entry gate:
+v2.2 pure-condition framework, 21 boundary candidates, current screening scripts, and manual chart review are available.
+Audience/user:
+Personal A-share research workflow; needs transparent pass/watch/fail conditions without scores or trade instructions.
+Inputs:
+需求文档.md, current candidate JSON files, screening scripts, Eastmoney/Tencent/Sina market snapshots.
+Inherited artifacts/evidence:
+v2.2 strict and boundary reports, five-stock validation, rendered chart sheets.
+User-only prerequisites:
+None.
+Discoverable prerequisites:
+Current total/float market cap, liquidity, sector leader quality, condition failure distribution.
+Deliverables:
+Constraint audit report, v2.3 configurable market/liquidity conditions, updated requirements, validation output.
+Authorized side effects:
+Edit project scripts/docs and create local reports/JSON/images.
+Non-goals:
+No buy/sell points, position sizing, live trading, or predictive return claims.
+Constraints:
+No scoring; conditions only. Financial, risk, sector, market cap, and liquidity remain separate switches.
+Assumptions:
+Current close date is 2026-07-28; single-day sector snapshots are provisional; 20-day amount is estimated from close and normalized volume.
+Acceptance checks:
+No score fields; market-cap bias quantified; core and elastic pools separated; scripts compile; current data run succeeds; output shows explicit failed conditions.
+Fallbacks:
+Use cached candidate sparkline and current quote snapshot if historical amount API is unavailable.
+Failure/rollback boundary:
+Do not weaken red-zone position, platform, or financial hard failures merely to force five candidates.
+Exit evidence:
+Audit report, compiled scripts, v2.3 output, and QA ledger.
+Next-stage handoff:
+Use v2.3 core pool as default and elastic/boundary modes only when explicitly requested.
+Stop condition:
+Conditions are documented, configurable, data-validated, and no longer silently favor sub-50亿 illiquid names.

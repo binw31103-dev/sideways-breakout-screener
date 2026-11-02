@@ -1,0 +1,43 @@
+Auto Loop Contract: research-dashboard
+Created: 2026-07-28T00:45:20
+
+Objective:
+Build a working A-share sideways-breakout research dashboard that consolidates reports and tracks each stock from first selection to current data.
+Current stage:
+MVP implementation and browser-verified design.
+Stage responsibility:
+Convert existing research artifacts into a reproducible local web application and structured dataset.
+Entry gate:
+Existing reports and v1.8 methodology are present; network data endpoints are available.
+Audience/user:
+The user conducting iterative A-share observation-pool research.
+Inputs:
+Workspace Markdown reports, Tencent qfq K-line, Eastmoney financial indicators.
+Inherited artifacts/evidence:
+需求文档.md and ten rounds of observation-pool reports.
+User-only prerequisites:
+None for local execution.
+Discoverable prerequisites:
+Node/npm and Python 3 are installed.
+Deliverables:
+React/Vite dashboard, refreshable JSON build script, optimized prompt, browser QA artifacts.
+Authorized side effects:
+Local file creation, dependency installation, local development server, read-only public market-data requests.
+Non-goals:
+No buy/sell points, position sizing, real trading, brokerage integration, or investment recommendations.
+Constraints:
+Chinese UI, calm financial-research visual direction, desktop/mobile responsive, explicit data dates and risk boundaries.
+Assumptions:
+Use forward-adjusted closes for relative tracking; sector state remains historical-report based unless separately refreshed.
+Acceptance checks:
+npm build passes; four views and stock detail work; desktop/mobile browser screenshots inspected; no console errors or horizontal overflow.
+Fallbacks:
+Keep partial stock output and report failed quote symbols if a data endpoint fails.
+Failure/rollback boundary:
+Do not overwrite research reports or modify external systems.
+Exit evidence:
+Built dist output, running local URL, screenshots, QA ledger and concise handoff.
+Next-stage handoff:
+Future rounds can refresh data with npm run data:refresh and add reports to REPORTS in scripts/build_data.py.
+Stop condition:
+Dashboard is usable, buildable, browser-verified, and its data/risk limitations are visible.

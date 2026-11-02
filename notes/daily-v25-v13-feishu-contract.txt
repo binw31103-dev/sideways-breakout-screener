@@ -1,0 +1,24 @@
+Auto Loop Contract: daily-v25-v13-feishu
+Created: 2026-07-30T19:50:19
+
+Objective:
+Automatically screen up to five v2.5 red-zone stocks and five v1.3 right-side startup stocks after each A-share trading day, archive factors and tracking performance, and send a concise report to the authorized Feishu group.
+Current stage: local automation MVP.
+Stage responsibility: define factors, implement both scanners and notification workflow, validate output, and schedule recurring execution.
+Entry gate: v2.5 current/recent-trigger scanner and Tencent five-day sector breadth are validated on 2026-07-29.
+Audience/user: project owner and Feishu research group.
+Inputs: v2.5 rules, existing market/financial/risk APIs, Tencent adjusted K-lines, Eastmoney board membership and financial data, Feishu webhook supplied by the user.
+Inherited artifacts/evidence: v2.5选股规则.md, screen_v25_recent_edge.py, current factor JSON and manual chart review.
+User-only prerequisites: local machine and Codex app must be running for local scheduled execution; macOS Keychain access must remain available.
+Discoverable prerequisites: Python 3, network access, security command, existing project scripts.
+Deliverables: factor specification, v1.3 scanner, daily orchestrator, Feishu card sender, dated archives, tracking ledger, tests, and Codex recurring automation.
+Authorized side effects: store supplied webhook in local Keychain, send Feishu test/daily messages, create local recurring automation.
+Non-goals: orders, buy/sell points, positions, automatic trading, scoring, or guaranteed candidate counts.
+Constraints: v2.5 and v1.3 pools remain separate; financial and severe-risk switches remain independent; v2.5 sector activation is observation-only; no stale-date message.
+Assumptions: weekday 17:00 default; industry path is automated, concept path remains a displayed limitation.
+Acceptance checks: both scanners run; factors validate; dry-run card renders; live Feishu webhook returns success; automation exists and is active.
+Fallbacks: if one model fails, do not send partial stale results; log failure and let the automation report the failed run locally.
+Failure/rollback boundary: webhook remains removable from Keychain; automation can be disabled/deleted without changing screening rules.
+Exit evidence: test outputs, Feishu success response, automation id/status, and documented paths.
+Next-stage handoff: forward-run and review false positives for at least 20 trading days before changing v1.3 thresholds.
+Stop condition: daily local workflow and automation are active and verified.

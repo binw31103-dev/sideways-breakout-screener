@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>A股双模型本周票池涨幅周报</title>
+  <style>
+    :root { --bg:#f6f7f9; --panel:#fff; --text:#1f2937; --muted:#667085; --line:#d9dee7; --accent:#2563eb; --up:#b42318; --down:#0f766e; --warn:#b45309; }
+    * { box-sizing:border-box; }
+    body { margin:0; background:var(--bg); color:var(--text); font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Microsoft YaHei",sans-serif; line-height:1.58; }
+    main { width:min(1180px,calc(100% - 32px)); margin:28px auto 48px; }
+    header { padding:28px 0 18px; border-bottom:1px solid var(--line); margin-bottom:18px; }
+    h1,h2 { margin:0; line-height:1.25; } h1 { font-size:30px; } h2 { font-size:20px; margin-bottom:12px; }
+    .subtitle { color:var(--muted); margin:8px 0 0; }
+    .tag { display:inline-block; border:1px solid var(--line); border-radius:999px; padding:3px 10px; color:var(--muted); background:#fff; font-size:12px; margin-bottom:10px; }
+    .grid { display:grid; grid-template-columns:repeat(12,1fr); gap:16px; }
+    .card { background:var(--panel); border:1px solid var(--line); border-radius:8px; padding:18px; box-shadow:0 1px 2px rgba(16,24,40,.04); }
+    .span-12 { grid-column:span 12; } .span-3 { grid-column:span 3; }
+    .kpi span,.kpi strong,.kpi small { display:block; } .kpi span { color:var(--muted); font-size:13px; } .kpi strong { font-size:28px; margin:4px 0; } .kpi small { color:var(--muted); }
+    .callout { border-left:4px solid var(--accent); background:#eff6ff; padding:12px 14px; border-radius:6px; }
+    table { width:100%; border-collapse:collapse; font-size:13px; } th,td { border:1px solid var(--line); padding:10px; text-align:left; vertical-align:top; } th { background:#f2f4f7; color:var(--muted); }
+    td small { display:block; color:var(--muted); font-size:12px; margin-top:2px; } .rank { color:var(--muted); text-align:center; width:42px; }
+    .up { color:var(--up); font-weight:700; } .down { color:var(--down); font-weight:700; } .flat { color:var(--muted); }
+    .log-row td { background:#fbfcfd; color:#475467; font-size:12px; }
+    .table-wrap { overflow:auto; }
+    footer { margin-top:18px; color:var(--muted); font-size:12px; }
+    @media (max-width:760px) { main { width:min(100% - 20px,1180px); margin-top:18px; } h1 { font-size:24px; } .span-3 { grid-column:span 6; } .card { padding:14px; } table { min-width:920px; } }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <span class="tag">观察池周报</span>
+      <h1>A股双模型本周票池涨幅周报</h1>
+      <p class="subtitle">统计区间：2026-08-17 至 2026-08-21。仅汇总本周实际入池股票，不补票、不放宽条件。</p>
+    </header>
+    <section class="grid">
+      <article class="card span-3 kpi"><span>本周入池样本</span><strong>3</strong><small>v2.6 + v1.3 去重后</small></article>
+      <article class="card span-3 kpi"><span>上涨样本</span><strong>0</strong><small>按入池日至当前收盘</small></article>
+      <article class="card span-3 kpi"><span>平均涨跌</span><strong class="down">-3.99%</strong><small>等权观察</small></article>
+      <article class="card span-3 kpi"><span>本周最佳</span><strong>太平洋</strong><small>-5.65%</small></article>
+      <article class="card span-12">
+        <div class="callout">本报告只用于观察池研究，不构成投资建议。涨跌统计以项目现有日筛选结果和腾讯前复权日K为主；仍需复核扣非净利、现金流、质押、减持、监管处罚、行业启动强度和图形。</div>
+      </article>
+      <article class="card span-12">
+        <h2>每日入池概览</h2>
+        <div class="table-wrap"><table><thead><tr><th>日期</th><th>状态</th><th>v2.6</th><th>v1.3</th><th>合计</th></tr></thead><tbody>
+        <tr>
+          <td>2026-08-17</td>
+          <td>已统计</td>
+          <td>0</td>
+          <td>2</td>
+          <td>2</td>
+        </tr>
+        
+
+        <tr>
+          <td>2026-08-18</td>
+          <td>已统计</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+        </tr>
+        
+
+        <tr>
+          <td>2026-08-19</td>
+          <td>已统计</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+        </tr>
+        
+
+        <tr>
+          <td>2026-08-20</td>
+          <td>已统计</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+        </tr>
+        
+
+        <tr>
+          <td>2026-08-21</td>
+          <td>已统计</td>
+          <td>1</td>
+          <td>0</td>
+          <td>1</td>
+        </tr>
+        </tbody></table></div>
+      </article>
+      <article class="card span-12">
+        <h2>本周入池股票涨幅明细</h2>
+        <div class="table-wrap"><table><thead><tr><th>#</th><th>股票</th><th>模型</th><th>入池日/价</th><th>当前日/价</th><th>较入池</th><th>最新日</th><th>最高</th><th>最大回撤</th><th>跟踪日</th></tr></thead><tbody>
+            <tr>
+              <td class="rank">1</td>
+              <td><strong>太平洋</strong><small>601099 · 证券Ⅱ</small></td>
+              <td>v1.3右侧启动<small>首次启动确认</small></td>
+              <td>2026-08-17<small>3.54</small></td>
+              <td>2026-08-21<small>3.34</small></td>
+              <td class="down">-5.65%</td>
+              <td class="flat">+0.00%</td>
+              <td class="flat">+0.00%<small>2026-08-17</small></td>
+              <td class="down">-6.21%<small>2026-08-19</small></td>
+              <td>5</td>
+            </tr>
+            <tr class="log-row">
+              <td></td>
+              <td colspan="9"><b>每日记录</b> 2026-08-17:3.54; 2026-08-18:3.42; 2026-08-19:3.32; 2026-08-20:3.34; 2026-08-21:3.34<br><b>较入池涨跌</b> 2026-08-17:+0.00%; 2026-08-18:-3.39%; 2026-08-19:-6.21%; 2026-08-20:-5.65%; 2026-08-21:-5.65%</td>
+            </tr>
+            
+
+            <tr>
+              <td class="rank">2</td>
+              <td><strong>华测导航</strong><small>300627 · 通信设备</small></td>
+              <td>v1.3右侧启动<small>首次启动确认</small></td>
+              <td>2026-08-17<small>29.09</small></td>
+              <td>2026-08-20<small>27.25</small></td>
+              <td class="down">-6.33%</td>
+              <td class="down">-1.30%</td>
+              <td class="flat">+0.00%<small>2026-08-17</small></td>
+              <td class="down">-6.33%<small>2026-08-20</small></td>
+              <td>4</td>
+            </tr>
+            <tr class="log-row">
+              <td></td>
+              <td colspan="9"><b>每日记录</b> 2026-08-17:29.09; 2026-08-18:28.76; 2026-08-19:27.61; 2026-08-20:27.25<br><b>较入池涨跌</b> 2026-08-17:+0.00%; 2026-08-18:-1.13%; 2026-08-19:-5.09%; 2026-08-20:-6.33%</td>
+            </tr>
+            
+
+            <tr>
+              <td class="rank">3</td>
+              <td><strong>天奈科技</strong><small>688116 · 电池</small></td>
+              <td>v2.6统一观察<small>当前统一观察</small></td>
+              <td>2026-08-21<small>32.20</small></td>
+              <td>2026-08-21<small>32.20</small></td>
+              <td class="flat">+0.00%</td>
+              <td class="flat">+0.00%</td>
+              <td class="flat">+0.00%<small>2026-08-21</small></td>
+              <td class="flat">+0.00%<small>2026-08-21</small></td>
+              <td>1</td>
+            </tr>
+            <tr class="log-row">
+              <td></td>
+              <td colspan="9"><b>每日记录</b> 2026-08-21:32.20<br><b>较入池涨跌</b> 2026-08-21:+0.00%</td>
+            </tr>
+            </tbody></table></div>
+      </article>
+    </section>
+    <footer>生成时间：2026-08-21T17:14:24+08:00 · 文件：/Users/mac/Projects/横盘启动选股/output/weekly/weekly-performance-2026-08-17_2026-08-21.html</footer>
+  </main>
+</body>
+</html>

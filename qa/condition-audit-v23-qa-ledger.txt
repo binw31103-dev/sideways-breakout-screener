@@ -1,0 +1,38 @@
+Auto Loop QA Ledger: condition-audit-v23
+
+Universal checks:
+- [x] deliverable exists
+- [x] explicit requirements covered
+- [x] relevant specialist skills/tools used
+- [x] artifact-specific QA run
+- [x] role review or multi-agent review completed
+- [x] improvement pass completed
+- [x] stage entry gate was verified
+- [x] external side effects stayed within authorization
+- [x] stage exit evidence was collected
+- [x] next-stage handoff was produced when applicable
+- [x] final handoff includes paths and validation
+
+Findings:
+- v2.2 boundary set: 16/21 candidates below 50亿元 total market cap; 8 below 30亿元.
+- A proposed 80亿元 plus 1亿元 daily amount threshold is too restrictive.
+- 50亿元 total cap, 30亿元 float cap, and 0.5亿元 estimated 20-day average amount retains 5/21 for a core pool.
+- Weekly MACD is the most common single boundary failure; platform failures are second.
+- RSI upper-bound misses are usually small and should remain explicit boundary observations.
+- Historical K-line volume units differ by source/board; normalized unit handling is required before liquidity checks.
+
+Validation evidence:
+- Python compilation passed for screen_red_zone_5.py, render_red_zone_charts.py, audit_condition_constraints.py, and validate_current_five.py.
+- Core strict JSON: 4/4 candidates meet total cap >=50亿元, float cap >=30亿元, and 20-day average amount >=0.50亿元.
+- Core boundary JSON: 8/8 candidates meet the same core pool limits and have at most one explicit failed condition.
+- Elastic strict JSON: 1/1 candidate is classified only as 弹性市值池 and is not duplicated in the core pool.
+- No score or reviewScore fields exist in the validated JSON outputs.
+- Announcement classifier offline test passed for severe investigation, active reduction risk, refinancing inquiry event, completed reduction event, administrative event, and title deduplication.
+- The first fresh rerun stalled because 30 worker threads were blocked in macOS DNS resolution. The screener now exposes `--workers` with a lower default; retrying with 12 workers completed successfully.
+- Fresh v2.3.1 full-market runs completed for core strict (4 candidates), core boundary (8 candidates), and elastic strict (1 candidate), all from 3,128 profitable A shares with 50 recorded data-fetch failures.
+- The refreshed 8-chart boundary review sheet rendered successfully with the bundled Codex Python/Pillow runtime and was visually inspected.
+
+Next-stage handoff:
+- Keep v2.3.1 defaults for strict screening.
+- Develop multi-day sector activation first.
+- Test mature-platform and RSI-trajectory boundary modes on historical positive and negative cases before changing admission conditions.

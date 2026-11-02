@@ -1,0 +1,24 @@
+Auto Loop Contract: condition-window-v25
+Created: 2026-07-29T16:43:25
+
+Objective:
+Increase usable observation coverage by adding time-aware states around the strict red-box trigger without weakening the v2.3.1 trigger itself.
+Current stage: v2.5 rule design and local prototype.
+Stage responsibility: define state transitions, implement TongdaXin right-edge screening, and validate the rule against the July 28-29 nine-stock case.
+Entry gate: v2.3.1 formula works on completed 2026-07-28 data and only one sample remained strict intraday on 2026-07-29.
+Audience/user: the project owner researching A-share low-position sideways candidates.
+Inputs: 需求文档.md, v2.4候选条件调整建议.md, HPRED231, the two TongdaXin validation JSON files, and 通达信初筛9只复核-2026-07-29.md.
+Inherited artifacts/evidence: HPRED231 strict formula, HPRED24 experiment, current screening scripts, and user verification that only 中国电研 remained strict.
+User-only prerequisites: compile the new formula in the local TongdaXin Formula Manager and use downloaded close data.
+Discoverable prerequisites: local Python 3 and existing JSON snapshots.
+Deliverables: v2.5 design document, HPEDGE25 formula, tracking script, updated requirements, updated reusable skill, QA ledger, and formula ZIP.
+Authorized side effects: local file edits and local command execution only.
+Non-goals: buy/sell points, positions, scoring, forced candidate counts, or live trading automation.
+Constraints: conditions use pass/watch/fail; financial, risk, and sector remain independent switches; manual chart review retains veto power.
+Assumptions: three-day recent-trigger window and ten-observation retention are initial parameters for forward validation.
+Acceptance checks: strict formula remains unchanged; right-edge logic requires a recent strict hit; the nine-stock case yields 中国电研 strict and 吉林化纤/万丰奥威/川发龙蟒 right-edge; tests and static formula checks pass.
+Fallbacks: if TongdaXin cannot reference historical custom formula output reliably, HPEDGE25 contains an embedded copy of the strict trigger.
+Failure/rollback boundary: HPEDGE25 is separate and can be removed without changing HPRED231.
+Exit evidence: generated case report, JSON tracking ledger, passing Python tests, skill validation, and formula package listing.
+Next-stage handoff: compile in TongdaXin after close and forward-track at least 20 trading days before changing strict thresholds.
+Stop condition: local artifacts and validation pass; only real TongdaXin compilation and forward-market evidence remain.

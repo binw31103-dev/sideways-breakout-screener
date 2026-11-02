@@ -1,0 +1,21 @@
+Auto Loop Input Checklist: condition-audit-v23
+
+Completeness:
+- [ ] goal
+- [ ] artifact type
+- [ ] audience/user
+- [ ] inputs/source paths
+- [ ] output format/path
+- [ ] constraints
+- [ ] quality bar
+- [ ] autonomy level
+- [ ] risks/sensitive boundaries
+- [ ] current stage and entry gate
+- [ ] inherited artifacts/evidence
+- [ ] user-only prerequisites
+- [ ] authorized external side effects
+- [ ] stage exit evidence and handoff
+
+Missing items:
+
+Autofill assumptions:

@@ -1,0 +1,36 @@
+Auto Loop QA Ledger: daily-v25-v13-feishu
+
+Universal checks:
+- [x] deliverable exists
+- [x] explicit requirements covered
+- [x] relevant specialist skills/tools used
+- [x] artifact-specific QA run
+- [x] role review or multi-agent review completed
+- [x] improvement pass completed
+- [x] stage entry gate was verified
+- [x] external side effects stayed within authorization
+- [x] stage exit evidence was collected
+- [x] next-stage handoff was produced when applicable
+- [x] final handoff includes paths and validation
+
+Validation evidence:
+- Final regression: 12 unit tests passed after the sector-observation revision.
+- Core daily scanner and notifier scripts passed `py_compile`.
+- Daily dry run generated combined JSON, Markdown, Feishu card, and tracking data.
+- Re-running the same trade date preserved first-selection tracking state.
+- Live Feishu send returned StatusCode 0 and success.
+- Webhook is stored in macOS Keychain, not in project files or automation prompt.
+- Automation `a` is ACTIVE and runs weekdays at 17:00 local time.
+- v2.5 and v1.3 remain independent; neither model relaxes rules to fill five slots.
+- v2.5 sector activation is now observation-only; the 2026-07-30 rerun retained four technical candidates instead of rejecting all four at the sector gate.
+
+Role review:
+- Quant reviewer: model thresholds and independent switches remain unchanged.
+- Data reviewer: same-date checks reject stale or mixed-date market data.
+- Operations reviewer: send response is validated and failures surface to Codex.
+- Risk reviewer: output contains observation data, not buy/sell or position advice.
+
+Residual risks:
+- Local machine and Codex automation runtime must be available at execution time.
+- Industry persistence uses automated industry constituents; concept-board persistence is not yet automated.
+- Announcement-title screening cannot replace review of full announcement text.

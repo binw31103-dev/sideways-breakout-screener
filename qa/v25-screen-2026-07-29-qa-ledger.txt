@@ -1,0 +1,39 @@
+v2.5 Current Screen QA Ledger: 2026-07-29
+
+Checks:
+- [x] Used completed 2026-07-29 close snapshot.
+- [x] Scanned positive-profit A-share universe.
+- [x] Kept core market-cap and liquidity pool separate.
+- [x] Replayed strict technical conditions on the previous three trading bars.
+- [x] Applied current right-edge limits without generic one-failure relaxation.
+- [x] Applied current non-candidate sector leader and breadth gate.
+- [x] Rebuilt five-day sector breadth from Tencent adjusted K-lines for every board member.
+- [x] Required at least two of five days with breadth >=55% and another stock gaining >=3%.
+- [x] Applied financial and announcement-risk switches.
+- [x] Rendered and visually inspected all retained charts.
+- [x] Recorded manual verdict as pass/watch, with no scoring or ranking.
+- [x] Did not add candidates to force the requested count.
+
+Counts:
+- Positive-profit universe: 3127.
+- Technical current/recent-trigger candidates: 8.
+- Sector, financial, and risk retained: 7.
+- Current strict: 1.
+- Right-edge watch: 6.
+- Excluded technical sample: 海航控股, because the current sector leader gain was below 3%.
+- K-line/API failures: 50; data failures were not treated as condition failures.
+
+Manual chart review:
+- Pass: 中国电研.
+- Watch: 川发龙蟒, 正丹股份, 吉林化纤, 南华期货, 万丰奥威, 北摩高科.
+
+Residual limits:
+- Concept-board persistence is not yet automated.
+- Announcement scanning uses titles and still requires source-document review.
+- This output is a research watchlist, not investment advice.
+
+Tencent verification:
+- Individual-stock trigger replay source: Tencent adjusted daily K-line.
+- Sector breadth source: Tencent adjusted daily K-lines for current Eastmoney industry constituents.
+- 中国电研/川发龙蟒/正丹股份/吉林化纤/万丰奥威: 4 active sector days in the latest 5.
+- 南华期货/北摩高科: 3 active sector days in the latest 5.

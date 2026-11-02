@@ -1,0 +1,195 @@
+{
+  "version": "2.5",
+  "records": {
+    "000420": {
+      "code": "000420",
+      "name": "吉林化纤",
+      "firstSelectedDate": "2026-07-28",
+      "lastStrictDate": "2026-07-28",
+      "trackingDates": [
+        "2026-07-28",
+        "2026-07-29"
+      ],
+      "state": "红框右沿",
+      "stateDate": "2026-07-29",
+      "stateReasons": [],
+      "history": [
+        {
+          "date": "2026-07-29",
+          "state": "红框右沿",
+          "reasons": []
+        }
+      ]
+    },
+    "002085": {
+      "code": "002085",
+      "name": "万丰奥威",
+      "firstSelectedDate": "2026-07-28",
+      "lastStrictDate": "2026-07-28",
+      "trackingDates": [
+        "2026-07-28",
+        "2026-07-29"
+      ],
+      "state": "红框右沿",
+      "stateDate": "2026-07-29",
+      "stateReasons": [],
+      "history": [
+        {
+          "date": "2026-07-29",
+          "state": "红框右沿",
+          "reasons": []
+        }
+      ]
+    },
+    "002312": {
+      "code": "002312",
+      "name": "川发龙蟒",
+      "firstSelectedDate": "2026-07-28",
+      "lastStrictDate": "2026-07-28",
+      "trackingDates": [
+        "2026-07-28",
+        "2026-07-29"
+      ],
+      "state": "红框右沿",
+      "stateDate": "2026-07-29",
+      "stateReasons": [],
+      "history": [
+        {
+          "date": "2026-07-29",
+          "state": "红框右沿",
+          "reasons": []
+        }
+      ]
+    },
+    "002683": {
+      "code": "002683",
+      "name": "广东宏大",
+      "firstSelectedDate": "2026-07-28",
+      "lastStrictDate": "2026-07-28",
+      "trackingDates": [
+        "2026-07-28",
+        "2026-07-29"
+      ],
+      "state": "启动确认",
+      "stateDate": "2026-07-29",
+      "stateReasons": [
+        "low_position",
+        "ma_stage",
+        "platform"
+      ],
+      "history": [
+        {
+          "date": "2026-07-29",
+          "state": "启动确认",
+          "reasons": [
+            "low_position",
+            "ma_stage",
+            "platform"
+          ]
+        }
+      ]
+    },
+    "002801": {
+      "code": "002801",
+      "name": "微光股份",
+      "firstSelectedDate": "2026-07-28",
+      "lastStrictDate": "2026-07-28",
+      "trackingDates": [
+        "2026-07-28",
+        "2026-07-29"
+      ],
+      "state": "启动确认",
+      "stateDate": "2026-07-29",
+      "stateReasons": [
+        "已经站上MA30或明显站上MA15",
+        "近期低点年龄或距低点涨幅不满足",
+        "日RSI 46.62 不在28-45",
+        "20日估算均额0.49亿低于0.50亿"
+      ],
+      "history": [
+        {
+          "date": "2026-07-29",
+          "state": "启动确认",
+          "reasons": [
+            "已经站上MA30或明显站上MA15",
+            "近期低点年龄或距低点涨幅不满足",
+            "日RSI 46.62 不在28-45",
+            "20日估算均额0.49亿低于0.50亿"
+          ]
+        }
+      ]
+    },
+    "002985": {
+      "code": "002985",
+      "name": "北摩高科",
+      "firstSelectedDate": "2026-07-28",
+      "lastStrictDate": "2026-07-28",
+      "trackingDates": [
+        "2026-07-28",
+        "2026-07-29"
+      ],
+      "state": "数据待复核",
+      "stateDate": "2026-07-29",
+      "stateReasons": [
+        "总市值0.0亿低于50.0亿"
+      ],
+      "history": [
+        {
+          "date": "2026-07-29",
+          "state": "数据待复核",
+          "reasons": [
+            "总市值0.0亿低于50.0亿"
+          ]
+        }
+      ]
+    },
+    "300775": {
+      "code": "300775",
+      "name": "三角防务",
+      "firstSelectedDate": "2026-07-28",
+      "lastStrictDate": "2026-07-28",
+      "trackingDates": [
+        "2026-07-28",
+        "2026-07-29"
+      ],
+      "state": "启动确认",
+      "stateDate": "2026-07-29",
+      "stateReasons": [
+        "low_position",
+        "ma_stage"
+      ],
+      "history": [
+        {
+          "date": "2026-07-29",
+          "state": "启动确认",
+          "reasons": [
+            "low_position",
+            "ma_stage"
+          ]
+        }
+      ]
+    },
+    "688128": {
+      "code": "688128",
+      "name": "中国电研",
+      "firstSelectedDate": "2026-07-28",
+      "lastStrictDate": "2026-07-29",
+      "trackingDates": [
+        "2026-07-28",
+        "2026-07-29"
+      ],
+      "state": "当前严格",
+      "stateDate": "2026-07-29",
+      "stateReasons": [],
+      "history": [
+        {
+          "date": "2026-07-29",
+          "state": "当前严格",
+          "reasons": []
+        }
+      ]
+    }
+  },
+  "updatedAt": "2026-07-29T16:55:20+08:00",
+  "dataThrough": "2026-07-29"
+}
