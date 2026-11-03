@@ -597,8 +597,13 @@ def analyze_code(
     market_date: str,
 ) -> dict[str, Any] | None:
     rows, source, volume_scale = prepare_rows(code, quotes)
-    if not rows or rows[-1]["date"] != market_date:
+    # Tell a stale K-line apart from a missing quote: they used to share the "kline_date_
+    # mismatch" label, which hid a broken snapshot behind 4800 "data" rejections.
+    if not rows or (not quotes.get(code) and rows[-1]["date"] != market_date):
         row_date = rows[-1]["date"] if rows else "missing"
+        return diagnostic_item(code, financial, "data", [f"quote_or_kline_missing:{row_date}"])
+    if rows[-1]["date"] != market_date:
+        row_date = rows[-1]["date"]
         return diagnostic_item(code, financial, "data", [f"kline_date_mismatch:{row_date}"])
     quote = quotes.get(code) or {}
     if AS_OF:

@@ -590,6 +590,15 @@ def main() -> None:
     unified = load_json(unified_json)
     v13 = load_json(v13_json)
     ucross = load_json(ucross_json) if ucross_json.exists() else {"selected": []}
+    # A quote snapshot that only covers part of the market shows up as thousands of "data"
+    # rejections and an empty pick list (2026-11-02). Refuse to publish that as "0 stocks".
+    stages = (unified.get("diagnostics") or {}).get("stageCounts") or {}
+    data_rejects = stages.get("data", 0) + stages.get("quote", 0)
+    if not unified.get("selected") and data_rejects > 0.5 * len(unified.get("allCandidates") or []) + 0.5 * 5000:
+        raise RuntimeError(
+            f"v2.6 rejected {data_rejects} stocks for missing data with no picks: "
+            f"quote snapshot likely incomplete ({unified.get('diagnostics')})"
+        )
     data_date = str(unified.get("dataThrough") or "")
     if not data_date:
         raise RuntimeError("unified model data date is missing")

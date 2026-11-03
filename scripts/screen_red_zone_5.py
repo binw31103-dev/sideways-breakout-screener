@@ -282,6 +282,11 @@ def fetch_eastmoney_daily_quotes() -> dict[str, dict]:
                 break
             except Exception:
                 continue
+        if payload is None:
+            # A failed page must not be mistaken for the last page: otherwise the market
+            # snapshot silently stops after page 1 (on 2026-11-02 this returned 100 stocks
+            # and v2.6 picked nothing). Signal it so the caller falls back to Tencent.
+            raise ValueError(f"Eastmoney quote snapshot page {page} unavailable")
         rows = (((payload or {}).get("data") or {}).get("diff") or [])
         for row in rows:
             code = str(row.get("f12") or "")
@@ -412,7 +417,15 @@ def fetch_daily_quotes(codes: Iterable[str] | None = None) -> dict[str, dict]:
     if intraday:
         # Cross-checked multi-platform bars written by scripts/intraday_screen.py.
         return json.loads((Path(intraday) / "quotes.json").read_text(encoding="utf-8"))
-    quotes = fetch_eastmoney_daily_quotes()
+    quotes = {}
+    try:
+        quotes = fetch_eastmoney_daily_quotes()
+    except Exception as exc:
+        print(f"[quotes] Eastmoney snapshot failed: {exc}", file=sys.stderr, flush=True)
+    # Eastmoney's list endpoint occasionally serves one partial page; treat a snapshot that
+    # covers less than half the universe as a failure so the Tencent fallback runs.
+    if codes is not None and len(quotes) < 0.5 * len(set(codes)):
+        quotes = {}
     if not quotes and codes is not None:
         print("[quotes] Eastmoney snapshot empty, falling back to Tencent", file=sys.stderr, flush=True)
         quotes = fetch_tencent_daily_quotes(sorted(set(codes)))
