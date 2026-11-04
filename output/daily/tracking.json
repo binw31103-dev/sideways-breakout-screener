@@ -1662,7 +1662,7 @@
       "name": "杉杉股份",
       "firstSelectedDate": "2026-08-31",
       "firstClose": 11.92,
-      "selectedCount": 2,
+      "selectedCount": 3,
       "history": [
         {
           "date": "2026-08-31",
@@ -1673,10 +1673,15 @@
           "date": "2026-09-01",
           "close": 11.9,
           "state": "当前统一观察"
+        },
+        {
+          "date": "2026-11-03",
+          "close": 10.66,
+          "state": "当前统一观察"
         }
       ],
-      "lastSelectedDate": "2026-09-01",
-      "lastClose": 11.9,
+      "lastSelectedDate": "2026-11-03",
+      "lastClose": 10.66,
       "followUp": {
         "status": "破位失效",
         "statusDate": "2026-10-19",
@@ -1708,17 +1713,17 @@
       "lastSelectedDate": "2026-08-31",
       "lastClose": 6.16,
       "followUp": {
-        "status": "跟踪中",
-        "statusDate": "2026-11-02",
-        "days": 39,
+        "status": "到期",
+        "statusDate": "2026-11-03",
+        "days": 40,
         "trackDays": 40,
         "useStop": true,
-        "change": -0.0032467532467532756,
+        "change": 0.0535714285714286,
         "maxUp": 0.05681818181818166,
         "launched": false,
         "stopPrice": 5.624,
-        "stopDistance": 0.09174964438122335,
-        "final": false
+        "stopDistance": 0.1539829302987199,
+        "final": true
       }
     },
     "v26:688122": {
@@ -1989,15 +1994,15 @@
       "lastClose": 28.12,
       "followUp": {
         "status": "跟踪中",
-        "statusDate": "2026-11-02",
-        "days": 38,
+        "statusDate": "2026-11-03",
+        "days": 39,
         "trackDays": 40,
         "useStop": true,
-        "change": 0.012309920347574277,
-        "maxUp": 0.012309920347574277,
+        "change": 0.031860970311368586,
+        "maxUp": 0.031860970311368586,
         "launched": false,
         "stopPrice": 25.0705,
-        "stopDistance": 0.11525498095371067,
+        "stopDistance": 0.13679424024251619,
         "final": false
       }
     },
@@ -2217,7 +2222,7 @@
       "name": "上海电气",
       "firstSelectedDate": "2026-09-02",
       "firstClose": 6.55,
-      "selectedCount": 2,
+      "selectedCount": 3,
       "history": [
         {
           "date": "2026-09-02",
@@ -2228,10 +2233,15 @@
           "date": "2026-09-03",
           "close": 6.53,
           "state": "当前统一观察"
+        },
+        {
+          "date": "2026-11-04",
+          "close": 6.13,
+          "state": "当前统一观察"
         }
       ],
-      "lastSelectedDate": "2026-09-03",
-      "lastClose": 6.53,
+      "lastSelectedDate": "2026-11-04",
+      "lastClose": 6.13,
       "followUp": {
         "status": "破位失效",
         "statusDate": "2026-10-30",
@@ -2474,15 +2484,15 @@
       "lastClose": 13.24,
       "followUp": {
         "status": "跟踪中",
-        "statusDate": "2026-11-02",
-        "days": 36,
+        "statusDate": "2026-11-03",
+        "days": 37,
         "trackDays": 40,
         "useStop": true,
-        "change": -0.07854984894259831,
+        "change": -0.09063444108761343,
         "maxUp": 0.07930513595166144,
         "launched": false,
         "stopPrice": 11.979499999999998,
-        "stopDistance": 0.018406444342418338,
+        "stopDistance": 0.005050294252681775,
         "final": false
       }
     },
@@ -2674,15 +2684,15 @@
       "lastClose": 40.47,
       "followUp": {
         "status": "启动中",
-        "statusDate": "2026-11-02",
-        "days": 35,
+        "statusDate": "2026-11-03",
+        "days": 36,
         "trackDays": 40,
         "useStop": true,
-        "change": -0.07635285396590052,
+        "change": -0.07585866073634795,
         "maxUp": 0.23918952310353347,
         "launched": true,
         "stopPrice": 35.7485,
-        "stopDistance": 0.04563827852916913,
+        "stopDistance": 0.04619774256262499,
         "final": false
       }
     },
@@ -2754,15 +2764,15 @@
       "lastClose": 29.62,
       "followUp": {
         "status": "跟踪中",
-        "statusDate": "2026-11-02",
-        "days": 33,
+        "statusDate": "2026-11-03",
+        "days": 34,
         "trackDays": 40,
         "useStop": true,
-        "change": 0.02831741850510361,
+        "change": 0.010536713862364211,
         "maxUp": 0.03128086927889373,
         "launched": false,
         "stopPrice": 26.866,
-        "stopDistance": 0.1624357924514257,
+        "stopDistance": 0.14233603811508977,
         "final": false
       }
     },
@@ -2799,15 +2809,15 @@
       "lastClose": 26.58,
       "followUp": {
         "status": "启动中",
-        "statusDate": "2026-11-02",
-        "days": 33,
+        "statusDate": "2026-11-03",
+        "days": 34,
         "trackDays": 40,
         "useStop": true,
-        "change": 0.12290076335877864,
+        "change": 0.14351145038167945,
         "maxUp": 0.21679389312977104,
         "launched": true,
         "stopPrice": 23.483999999999998,
-        "stopDistance": 0.2527678419349346,
+        "stopDistance": 0.27576222108669746,
         "final": false
       }
     },
@@ -2989,15 +2999,15 @@
       "lastClose": 15.83,
       "followUp": {
         "status": "跟踪中",
-        "statusDate": "2026-11-02",
-        "days": 30,
+        "statusDate": "2026-11-03",
+        "days": 31,
         "trackDays": 40,
         "useStop": true,
-        "change": 0.024793388429752206,
+        "change": 0.024157660521296753,
         "maxUp": 0.06547997457088384,
         "launched": false,
         "stopPrice": 14.6965,
-        "stopDistance": 0.09685979655019916,
+        "stopDistance": 0.09617936243323233,
         "final": false
       }
     },
@@ -3114,15 +3124,15 @@
       "lastClose": 7.38,
       "followUp": {
         "status": "启动中",
-        "statusDate": "2026-11-02",
-        "days": 28,
+        "statusDate": "2026-11-03",
+        "days": 29,
         "trackDays": 40,
         "useStop": true,
-        "change": 0.20460704607046076,
-        "maxUp": 0.20460704607046076,
+        "change": 0.20731707317073167,
+        "maxUp": 0.20731707317073167,
         "launched": true,
         "stopPrice": 6.802,
-        "stopDistance": 0.30696853866509866,
+        "stopDistance": 0.309908850338136,
         "final": false
       }
     },
@@ -3209,15 +3219,15 @@
       "lastClose": 20.14,
       "followUp": {
         "status": "启动中",
-        "statusDate": "2026-11-02",
-        "days": 25,
+        "statusDate": "2026-11-03",
+        "days": 26,
         "trackDays": 40,
         "useStop": true,
-        "change": 0.058911632551173154,
+        "change": -0.003994008986520359,
         "maxUp": 0.22865701447828246,
         "launched": true,
         "stopPrice": 17.9455,
-        "stopDistance": 0.18191189991919998,
+        "stopDistance": 0.11169931180518788,
         "final": false
       }
     },
@@ -3269,15 +3279,15 @@
       "lastClose": 14.77,
       "followUp": {
         "status": "跟踪中",
-        "statusDate": "2026-11-02",
-        "days": 24,
+        "statusDate": "2026-11-03",
+        "days": 25,
         "trackDays": 40,
         "useStop": true,
-        "change": 0.03452945159106302,
-        "maxUp": 0.03452945159106302,
+        "change": 0.046716316858496976,
+        "maxUp": 0.046716316858496976,
         "launched": false,
         "stopPrice": 13.527999999999999,
-        "stopDistance": 0.12950916617386166,
+        "stopDistance": 0.14281490242460104,
         "final": false
       }
     },
@@ -3329,15 +3339,15 @@
       "lastClose": 11.22,
       "followUp": {
         "status": "跟踪中",
-        "statusDate": "2026-11-02",
-        "days": 24,
+        "statusDate": "2026-11-03",
+        "days": 25,
         "trackDays": 40,
         "useStop": true,
-        "change": -0.09001782531194291,
+        "change": -0.07219251336898402,
         "maxUp": 0.0,
         "launched": false,
         "stopPrice": 10.012999999999998,
-        "stopDistance": 0.01967442324977564,
+        "stopDistance": 0.03964845700589259,
         "final": false
       }
     },
@@ -3394,15 +3404,15 @@
       "lastClose": 86.08,
       "followUp": {
         "status": "跟踪中",
-        "statusDate": "2026-11-02",
-        "days": 24,
+        "statusDate": "2026-11-03",
+        "days": 25,
         "trackDays": 40,
         "useStop": true,
-        "change": 0.018040325433321458,
-        "maxUp": 0.025704515976889386,
+        "change": 0.02853437094682243,
+        "maxUp": 0.02853437094682243,
         "launched": false,
         "stopPrice": 77.0355,
-        "stopDistance": 0.12078197714040928,
+        "stopDistance": 0.13233509226265827,
         "final": false
       }
     },
@@ -3454,15 +3464,15 @@
       "lastClose": 39.25,
       "followUp": {
         "status": "跟踪中",
-        "statusDate": "2026-11-02",
-        "days": 24,
+        "statusDate": "2026-11-03",
+        "days": 25,
         "trackDays": 40,
         "useStop": true,
-        "change": 0.1077707006369426,
-        "maxUp": 0.1092993630573249,
+        "change": 0.1258598726114648,
+        "maxUp": 0.1258598726114648,
         "launched": false,
         "stopPrice": 36.1285,
-        "stopDistance": 0.20348201558326506,
+        "stopDistance": 0.22313409081473057,
         "final": false
       }
     },
@@ -3619,15 +3629,15 @@
       "lastClose": 4.25,
       "followUp": {
         "status": "跟踪中",
-        "statusDate": "2026-11-02",
-        "days": 16,
+        "statusDate": "2026-11-03",
+        "days": 17,
         "trackDays": 40,
         "useStop": true,
-        "change": -0.05647058823529416,
+        "change": -0.028235294117647136,
         "maxUp": 0.03294117647058825,
         "launched": false,
         "stopPrice": 3.876,
-        "stopDistance": 0.03457172342621262,
+        "stopDistance": 0.06553147574819396,
         "final": false
       }
     },
@@ -3659,15 +3669,15 @@
       "lastClose": 10.17,
       "followUp": {
         "status": "跟踪中",
-        "statusDate": "2026-11-02",
-        "days": 16,
+        "statusDate": "2026-11-03",
+        "days": 17,
         "trackDays": 40,
         "useStop": true,
-        "change": 0.023591343341782034,
-        "maxUp": 0.023591343341782034,
+        "change": 0.03626437902125179,
+        "maxUp": 0.03626437902125179,
         "launched": false,
         "stopPrice": 9.2416,
-        "stopDistance": 0.13616689750692523,
+        "stopDistance": 0.15023372576177296,
         "final": false
       }
     },
@@ -3694,15 +3704,15 @@
       "lastClose": 32.74,
       "followUp": {
         "status": "跟踪中",
-        "statusDate": "2026-11-02",
-        "days": 16,
+        "statusDate": "2026-11-03",
+        "days": 17,
         "trackDays": 40,
         "useStop": true,
-        "change": 0.08017751479289936,
-        "maxUp": 0.08017751479289936,
+        "change": 0.09792899408284028,
+        "maxUp": 0.09792899408284028,
         "launched": false,
         "stopPrice": 30.4665,
-        "stopDistance": 0.19836541775392647,
+        "stopDistance": 0.2180591797548126,
         "final": false
       }
     },
@@ -3724,15 +3734,15 @@
       "lastClose": 26.24,
       "followUp": {
         "status": "跟踪中",
-        "statusDate": "2026-11-02",
-        "days": 16,
+        "statusDate": "2026-11-03",
+        "days": 17,
         "trackDays": 40,
         "useStop": true,
-        "change": 0.07164634146341475,
-        "maxUp": 0.07660060975609762,
+        "change": 0.12004573170731714,
+        "maxUp": 0.12004573170731714,
         "launched": false,
         "stopPrice": 24.063499999999998,
-        "stopDistance": 0.1685748124753259,
+        "stopDistance": 0.2213518399235357,
         "final": false
       }
     },
@@ -3759,15 +3769,15 @@
       "lastClose": 30.36,
       "followUp": {
         "status": "跟踪中",
-        "statusDate": "2026-11-02",
-        "days": 16,
+        "statusDate": "2026-11-03",
+        "days": 17,
         "trackDays": 40,
         "useStop": true,
-        "change": -0.01390236016812152,
+        "change": -0.009376010345942376,
         "maxUp": 0.02748140963465895,
         "launched": false,
         "stopPrice": 27.797,
-        "stopDistance": 0.09724070942907503,
+        "stopDistance": 0.1022772241608807,
         "final": false
       }
     },
@@ -3799,15 +3809,15 @@
       "lastClose": 17.58,
       "followUp": {
         "status": "跟踪中",
-        "statusDate": "2026-11-02",
-        "days": 16,
+        "statusDate": "2026-11-03",
+        "days": 17,
         "trackDays": 40,
         "useStop": true,
-        "change": 0.03140495867768589,
-        "maxUp": 0.03140495867768589,
+        "change": 0.04022038567493125,
+        "maxUp": 0.04022038567493125,
         "launched": false,
         "stopPrice": 16.2545,
-        "stopDistance": 0.15168107293364907,
+        "stopDistance": 0.16152450090744086,
         "final": false
       }
     },
@@ -3829,15 +3839,15 @@
       "lastClose": 16.74,
       "followUp": {
         "status": "跟踪中",
-        "statusDate": "2026-11-02",
-        "days": 16,
+        "statusDate": "2026-11-03",
+        "days": 17,
         "trackDays": 20,
         "useStop": false,
-        "change": -0.03703703703703687,
+        "change": -0.037634408602150504,
         "maxUp": 0.0,
         "launched": false,
         "stopPrice": 14.629999999999999,
-        "stopDistance": 0.10184552289815452,
+        "stopDistance": 0.10116199589883812,
         "final": false
       }
     },
@@ -3859,15 +3869,15 @@
       "lastClose": 36.16,
       "followUp": {
         "status": "跟踪中",
-        "statusDate": "2026-11-02",
-        "days": 16,
+        "statusDate": "2026-11-03",
+        "days": 17,
         "trackDays": 20,
         "useStop": false,
-        "change": 0.03042035398230092,
-        "maxUp": 0.036504424778761146,
+        "change": 0.07439159292035402,
+        "maxUp": 0.07439159292035402,
         "launched": false,
         "stopPrice": 29.877499999999998,
-        "stopDistance": 0.24709229353192197,
+        "stopDistance": 0.30030959752321995,
         "final": false
       }
     },
@@ -3889,15 +3899,15 @@
       "lastClose": 13.0,
       "followUp": {
         "status": "跟踪中",
-        "statusDate": "2026-11-02",
-        "days": 16,
+        "statusDate": "2026-11-03",
+        "days": 17,
         "trackDays": 20,
         "useStop": false,
-        "change": -0.06846153846153846,
+        "change": -0.07692307692307687,
         "maxUp": 0.11538461538461542,
         "launched": false,
         "stopPrice": 11.114999999999998,
-        "stopDistance": 0.08951866846603695,
+        "stopDistance": 0.0796221322537114,
         "final": false
       }
     },
@@ -3919,15 +3929,15 @@
       "lastClose": 8.51,
       "followUp": {
         "status": "跟踪中",
-        "statusDate": "2026-11-02",
-        "days": 16,
+        "statusDate": "2026-11-03",
+        "days": 17,
         "trackDays": 20,
         "useStop": false,
-        "change": -0.031727379553466495,
+        "change": -0.021151586368977626,
         "maxUp": 0.007050528789659394,
         "launched": false,
         "stopPrice": 7.7044999999999995,
-        "stopDistance": 0.06950483483678371,
+        "stopDistance": 0.08118631968330203,
         "final": false
       }
     },
@@ -3949,15 +3959,15 @@
       "lastClose": 11.99,
       "followUp": {
         "status": "跟踪中",
-        "statusDate": "2026-11-02",
-        "days": 16,
+        "statusDate": "2026-11-03",
+        "days": 17,
         "trackDays": 20,
         "useStop": false,
-        "change": -0.11759799833194329,
+        "change": -0.11092577147623017,
         "maxUp": 0.0,
         "launched": false,
         "stopPrice": 10.373999999999999,
-        "stopDistance": 0.01985733564680947,
+        "stopDistance": 0.027568922305764465,
         "final": false
       }
     },
@@ -4039,15 +4049,15 @@
       "lastClose": 2.2,
       "followUp": {
         "status": "跟踪中",
-        "statusDate": "2026-11-02",
-        "days": 15,
+        "statusDate": "2026-11-03",
+        "days": 16,
         "trackDays": 40,
         "useStop": true,
-        "change": -0.02262443438914019,
+        "change": -0.018099547511312264,
         "maxUp": 0.0,
         "launched": false,
         "stopPrice": 2.052,
-        "stopDistance": 0.05263157894736836,
+        "stopDistance": 0.05750487329434684,
         "final": false
       }
     },
@@ -4149,15 +4159,15 @@
       "lastClose": 2.35,
       "followUp": {
         "status": "跟踪中",
-        "statusDate": "2026-11-02",
-        "days": 15,
+        "statusDate": "2026-11-03",
+        "days": 16,
         "trackDays": 40,
         "useStop": true,
-        "change": 0.008403361344537785,
-        "maxUp": 0.008403361344537785,
+        "change": 0.0126050420168069,
+        "maxUp": 0.0126050420168069,
         "launched": false,
         "stopPrice": 2.1945,
-        "stopDistance": 0.09364319890635664,
+        "stopDistance": 0.09820004556846662,
         "final": false
       }
     },
@@ -4209,15 +4219,15 @@
       "lastClose": 7.17,
       "followUp": {
         "status": "跟踪中",
-        "statusDate": "2026-11-02",
-        "days": 15,
+        "statusDate": "2026-11-03",
+        "days": 16,
         "trackDays": 20,
         "useStop": false,
-        "change": 0.0557880055788007,
+        "change": 0.0892608089260809,
         "maxUp": 0.10181311018131112,
         "launched": false,
         "stopPrice": 6.2795,
-        "stopDistance": 0.20550999283382443,
+        "stopDistance": 0.24372959630543845,
         "final": false
       }
     },
@@ -4239,15 +4249,15 @@
       "lastClose": 9.91,
       "followUp": {
         "status": "跟踪中",
-        "statusDate": "2026-11-02",
-        "days": 15,
+        "statusDate": "2026-11-03",
+        "days": 16,
         "trackDays": 20,
         "useStop": false,
-        "change": 0.02825428859737622,
+        "change": 0.011099899091826293,
         "maxUp": 0.05146316851664978,
         "launched": false,
         "stopPrice": 8.796999999999999,
-        "stopDistance": 0.1583494373081733,
+        "stopDistance": 0.1390246675002842,
         "final": false
       }
     },
@@ -4269,15 +4279,15 @@
       "lastClose": 13.31,
       "followUp": {
         "status": "跟踪中",
-        "statusDate": "2026-11-02",
-        "days": 15,
+        "statusDate": "2026-11-03",
+        "days": 16,
         "trackDays": 20,
         "useStop": false,
-        "change": -0.07813673929376419,
+        "change": -0.06611570247933884,
         "maxUp": 0.0,
         "launched": false,
         "stopPrice": 12.058349999999999,
-        "stopDistance": 0.017552152657702047,
+        "stopDistance": 0.030820966384289772,
         "final": false
       }
     },
@@ -4299,15 +4309,15 @@
       "lastClose": 15.61,
       "followUp": {
         "status": "跟踪中",
-        "statusDate": "2026-11-02",
-        "days": 15,
+        "statusDate": "2026-11-03",
+        "days": 16,
         "trackDays": 20,
         "useStop": false,
-        "change": 0.03203074951953866,
-        "maxUp": 0.04356181934657277,
+        "change": 0.054452274183216076,
+        "maxUp": 0.054452274183216076,
         "launched": false,
         "stopPrice": 13.946,
-        "stopDistance": 0.15516994120177818,
+        "stopDistance": 0.18026674315215852,
         "final": false
       }
     },
@@ -4329,15 +4339,15 @@
       "lastClose": 22.8,
       "followUp": {
         "status": "跟踪中",
-        "statusDate": "2026-11-02",
-        "days": 15,
+        "statusDate": "2026-11-03",
+        "days": 16,
         "trackDays": 20,
         "useStop": false,
-        "change": 0.03245614035087718,
+        "change": 0.0469298245614036,
         "maxUp": 0.05175438596491233,
         "launched": false,
         "stopPrice": 20.2046,
-        "stopDistance": 0.1650812191283173,
+        "stopDistance": 0.18141413341516288,
         "final": false
       }
     },
@@ -4404,15 +4414,15 @@
       "lastClose": 1.28,
       "followUp": {
         "status": "跟踪中",
-        "statusDate": "2026-11-02",
-        "days": 14,
+        "statusDate": "2026-11-03",
+        "days": 15,
         "trackDays": 40,
         "useStop": true,
-        "change": -0.03100775193798455,
+        "change": -0.023255813953488413,
         "maxUp": 0.007751937984496138,
         "launched": false,
         "stopPrice": 1.159,
-        "stopDistance": 0.07851596203623812,
+        "stopDistance": 0.08714408973252796,
         "final": false
       }
     },
@@ -4469,15 +4479,15 @@
       "lastClose": 5.02,
       "followUp": {
         "status": "跟踪中",
-        "statusDate": "2026-11-02",
-        "days": 14,
+        "statusDate": "2026-11-03",
+        "days": 15,
         "trackDays": 40,
         "useStop": true,
-        "change": 0.03252032520325199,
+        "change": 0.028455284552845406,
         "maxUp": 0.03252032520325199,
         "launched": false,
         "stopPrice": 4.598,
-        "stopDistance": 0.10482818616789924,
+        "stopDistance": 0.1004784688995215,
         "final": false
       }
     },
@@ -4499,15 +4509,15 @@
       "lastClose": 5.25,
       "followUp": {
         "status": "跟踪中",
-        "statusDate": "2026-11-02",
-        "days": 14,
+        "statusDate": "2026-11-03",
+        "days": 15,
         "trackDays": 20,
         "useStop": false,
-        "change": -0.06095238095238098,
+        "change": -0.03809523809523818,
         "maxUp": 0.01333333333333342,
         "launched": false,
         "stopPrice": 4.712,
-        "stopDistance": 0.04626485568760619,
+        "stopDistance": 0.07173174872665533,
         "final": false
       }
     },
@@ -4529,15 +4539,15 @@
       "lastClose": 4.42,
       "followUp": {
         "status": "跟踪中",
-        "statusDate": "2026-11-02",
-        "days": 14,
+        "statusDate": "2026-11-03",
+        "days": 15,
         "trackDays": 20,
         "useStop": false,
-        "change": 0.05203619909502266,
-        "maxUp": 0.05203619909502266,
+        "change": 0.07013574660633504,
+        "maxUp": 0.07013574660633504,
         "launched": false,
         "stopPrice": 3.9899999999999998,
-        "stopDistance": 0.16541353383458657,
+        "stopDistance": 0.18546365914786977,
         "final": false
       }
     },
@@ -4559,15 +4569,15 @@
       "lastClose": 11.37,
       "followUp": {
         "status": "跟踪中",
-        "statusDate": "2026-11-02",
-        "days": 14,
+        "statusDate": "2026-11-03",
+        "days": 15,
         "trackDays": 20,
         "useStop": false,
-        "change": -0.034605146406388565,
+        "change": -0.008873114463176512,
         "maxUp": 0.024844720496894457,
         "launched": false,
         "stopPrice": 9.8325,
-        "stopDistance": 0.10653445207220957,
+        "stopDistance": 0.13602847698957543,
         "final": false
       }
     },
@@ -4589,15 +4599,15 @@
       "lastClose": 36.0,
       "followUp": {
         "status": "启动中",
-        "statusDate": "2026-11-02",
-        "days": 14,
+        "statusDate": "2026-11-03",
+        "days": 15,
         "trackDays": 20,
         "useStop": false,
-        "change": 0.18166666666666664,
-        "maxUp": 0.18166666666666664,
+        "change": 0.19194444444444425,
+        "maxUp": 0.19194444444444425,
         "launched": true,
         "stopPrice": 32.13849999999999,
-        "stopDistance": 0.3236460942483317,
+        "stopDistance": 0.3351587659660533,
         "final": false
       }
     },
@@ -4684,15 +4694,15 @@
       "lastClose": 34.38,
       "followUp": {
         "status": "跟踪中",
-        "statusDate": "2026-11-02",
-        "days": 13,
+        "statusDate": "2026-11-03",
+        "days": 14,
         "trackDays": 20,
         "useStop": false,
-        "change": 0.021770682148040565,
-        "maxUp": 0.021770682148040565,
+        "change": 0.056313497822931824,
+        "maxUp": 0.056313497822931824,
         "launched": false,
         "stopPrice": 30.789499999999997,
-        "stopDistance": 0.1432468861137728,
+        "stopDistance": 0.18189642572955078,
         "final": false
       }
     },
@@ -4714,15 +4724,15 @@
       "lastClose": 4.76,
       "followUp": {
         "status": "跟踪中",
-        "statusDate": "2026-11-02",
-        "days": 12,
+        "statusDate": "2026-11-03",
+        "days": 13,
         "trackDays": 40,
         "useStop": true,
-        "change": -0.031512605042016695,
+        "change": -0.014705882352941013,
         "maxUp": 0.0,
         "launched": false,
         "stopPrice": 4.4697499999999994,
-        "stopDistance": 0.031377593825158145,
+        "stopDistance": 0.04927568655965131,
         "final": false
       }
     },
@@ -4744,8 +4754,8 @@
       "lastClose": 4.94,
       "followUp": {
         "status": "跟踪中",
-        "statusDate": "2026-11-02",
-        "days": 12,
+        "statusDate": "2026-11-03",
+        "days": 13,
         "trackDays": 40,
         "useStop": true,
         "change": -0.002024291497975894,
@@ -4804,15 +4814,15 @@
       "lastClose": 2.64,
       "followUp": {
         "status": "跟踪中",
-        "statusDate": "2026-11-02",
-        "days": 12,
+        "statusDate": "2026-11-03",
+        "days": 13,
         "trackDays": 40,
         "useStop": true,
-        "change": -0.03409090909090917,
+        "change": -0.015151515151515138,
         "maxUp": 0.01893939393939381,
         "launched": false,
         "stopPrice": 2.4699999999999998,
-        "stopDistance": 0.03238866396761142,
+        "stopDistance": 0.052631578947368585,
         "final": false
       }
     },
@@ -4839,15 +4849,15 @@
       "lastClose": 9.64,
       "followUp": {
         "status": "跟踪中",
-        "statusDate": "2026-11-02",
-        "days": 12,
+        "statusDate": "2026-11-03",
+        "days": 13,
         "trackDays": 40,
         "useStop": true,
-        "change": 0.010449320794148287,
-        "maxUp": 0.019853709508881767,
+        "change": 0.02298850574712641,
+        "maxUp": 0.02298850574712641,
         "launched": false,
         "stopPrice": 8.93,
-        "stopDistance": 0.0828667413213886,
+        "stopDistance": 0.09630459126539748,
         "final": false
       }
     },
@@ -4904,15 +4914,15 @@
       "lastClose": 46.71,
       "followUp": {
         "status": "跟踪中",
-        "statusDate": "2026-11-02",
-        "days": 12,
+        "statusDate": "2026-11-03",
+        "days": 13,
         "trackDays": 20,
         "useStop": false,
-        "change": 0.022776106574989408,
+        "change": 0.022346368715083775,
         "maxUp": 0.022776106574989408,
         "launched": false,
         "stopPrice": 40.925999999999995,
-        "stopDistance": 0.1630748179641306,
+        "stopDistance": 0.1625861310658263,
         "final": false
       }
     },
@@ -4934,15 +4944,15 @@
       "lastClose": 232.5,
       "followUp": {
         "status": "跟踪中",
-        "statusDate": "2026-11-02",
-        "days": 12,
+        "statusDate": "2026-11-03",
+        "days": 13,
         "trackDays": 20,
         "useStop": false,
-        "change": -0.05544086021505368,
+        "change": -0.034021505376344074,
         "maxUp": 0.0863225806451613,
         "launched": false,
         "stopPrice": 204.39249999999998,
-        "stopDistance": 0.07445234047237559,
+        "stopDistance": 0.09881722665949111,
         "final": false
       }
     },
@@ -4994,15 +5004,15 @@
       "lastClose": 6.16,
       "followUp": {
         "status": "跟踪中",
-        "statusDate": "2026-11-02",
-        "days": 11,
+        "statusDate": "2026-11-03",
+        "days": 12,
         "trackDays": 40,
         "useStop": true,
-        "change": 0.017857142857142794,
-        "maxUp": 0.01948051948051943,
+        "change": 0.032467532467532534,
+        "maxUp": 0.032467532467532534,
         "launched": false,
         "stopPrice": 5.776,
-        "stopDistance": 0.08552631578947367,
+        "stopDistance": 0.10110803324099726,
         "final": false
       }
     },
@@ -5024,15 +5034,15 @@
       "lastClose": 13.25,
       "followUp": {
         "status": "跟踪中",
-        "statusDate": "2026-11-02",
-        "days": 11,
+        "statusDate": "2026-11-03",
+        "days": 12,
         "trackDays": 40,
         "useStop": true,
-        "change": 0.00905660377358486,
+        "change": -0.006037735849056647,
         "maxUp": 0.05962264150943386,
         "launched": false,
         "stopPrice": 12.378499999999999,
-        "stopDistance": 0.08009855798360066,
+        "stopDistance": 0.06394151149169947,
         "final": false
       }
     },
@@ -5054,15 +5064,15 @@
       "lastClose": 13.67,
       "followUp": {
         "status": "跟踪中",
-        "statusDate": "2026-11-02",
-        "days": 11,
+        "statusDate": "2026-11-03",
+        "days": 12,
         "trackDays": 40,
         "useStop": true,
-        "change": -0.03730797366495975,
+        "change": -0.000731528895391298,
         "maxUp": 0.012435991221653175,
         "launched": false,
         "stopPrice": 12.501999999999999,
-        "stopDistance": 0.052631578947368585,
+        "stopDistance": 0.09262517997120479,
         "final": false
       }
     },
@@ -5114,15 +5124,15 @@
       "lastClose": 11.14,
       "followUp": {
         "status": "启动中",
-        "statusDate": "2026-11-02",
-        "days": 11,
+        "statusDate": "2026-11-03",
+        "days": 12,
         "trackDays": 40,
         "useStop": true,
-        "change": 0.16247755834829425,
-        "maxUp": 0.16247755834829425,
+        "change": 0.19569120287253128,
+        "maxUp": 0.19569120287253128,
         "launched": true,
         "stopPrice": 10.1365,
-        "stopDistance": 0.2775612884131604,
+        "stopDistance": 0.3140630395106794,
         "final": false
       }
     },
@@ -5144,15 +5154,15 @@
       "lastClose": 9.39,
       "followUp": {
         "status": "跟踪中",
-        "statusDate": "2026-11-02",
-        "days": 11,
+        "statusDate": "2026-11-03",
+        "days": 12,
         "trackDays": 20,
         "useStop": false,
-        "change": -0.1778487752928648,
+        "change": -0.1821086261980831,
         "maxUp": 0.0,
         "launched": false,
         "stopPrice": 8.3125,
-        "stopDistance": -0.07127819548872183,
+        "stopDistance": -0.07609022556390976,
         "final": false
       }
     },
@@ -5174,15 +5184,15 @@
       "lastClose": 116.7,
       "followUp": {
         "status": "跟踪中",
-        "statusDate": "2026-11-02",
-        "days": 11,
+        "statusDate": "2026-11-03",
+        "days": 12,
         "trackDays": 20,
         "useStop": false,
-        "change": 0.12210796915167088,
-        "maxUp": 0.12210796915167088,
+        "change": 0.14035989717223663,
+        "maxUp": 0.14035989717223663,
         "launched": false,
         "stopPrice": 103.6925,
-        "stopDistance": 0.2628685777659907,
+        "stopDistance": 0.2834100826964343,
         "final": false
       }
     },
@@ -5204,15 +5214,15 @@
       "lastClose": 3.51,
       "followUp": {
         "status": "跟踪中",
-        "statusDate": "2026-11-02",
-        "days": 7,
+        "statusDate": "2026-11-03",
+        "days": 8,
         "trackDays": 40,
         "useStop": true,
-        "change": -0.017094017094017033,
+        "change": 0.005698005698005604,
         "maxUp": 0.017094017094017033,
         "launched": false,
         "stopPrice": 3.2965,
-        "stopDistance": 0.046564538146519174,
+        "stopDistance": 0.0708327013499166,
         "final": false
       }
     },
@@ -5239,15 +5249,15 @@
       "lastClose": 2.78,
       "followUp": {
         "status": "跟踪中",
-        "statusDate": "2026-11-02",
-        "days": 7,
+        "statusDate": "2026-11-03",
+        "days": 8,
         "trackDays": 40,
         "useStop": true,
-        "change": -0.02076124567474047,
+        "change": -0.01038062283737029,
         "maxUp": 0.01730103806228378,
         "launched": false,
         "stopPrice": 2.6885,
-        "stopDistance": 0.052631578947368585,
+        "stopDistance": 0.06379021759345349,
         "final": false
       }
     },
@@ -5274,15 +5284,15 @@
       "lastClose": 9.17,
       "followUp": {
         "status": "跟踪中",
-        "statusDate": "2026-11-02",
-        "days": 7,
+        "statusDate": "2026-11-03",
+        "days": 8,
         "trackDays": 40,
         "useStop": true,
-        "change": -0.04867256637168138,
+        "change": -0.03429203539823,
         "maxUp": 0.0331858407079646,
         "launched": false,
         "stopPrice": 8.264999999999999,
-        "stopDistance": 0.04053236539624927,
+        "stopDistance": 0.05626134301270436,
         "final": false
       }
     },
@@ -5334,15 +5344,15 @@
       "lastClose": 19.88,
       "followUp": {
         "status": "跟踪中",
-        "statusDate": "2026-11-02",
-        "days": 7,
+        "statusDate": "2026-11-03",
+        "days": 8,
         "trackDays": 20,
         "useStop": false,
-        "change": 0.09507042253521125,
-        "maxUp": 0.09607645875251514,
+        "change": 0.10010060362173046,
+        "maxUp": 0.10010060362173046,
         "launched": false,
         "stopPrice": 17.1095,
-        "stopDistance": 0.2723925304655308,
+        "stopDistance": 0.2782372366229289,
         "final": false
       },
       "featured": true
@@ -5365,15 +5375,15 @@
       "lastClose": 29.01,
       "followUp": {
         "status": "跟踪中",
-        "statusDate": "2026-11-02",
-        "days": 7,
+        "statusDate": "2026-11-03",
+        "days": 8,
         "trackDays": 40,
         "useStop": true,
-        "change": -0.03343674594967261,
+        "change": -0.018614270941054945,
         "maxUp": 0.021371940710099846,
         "launched": false,
         "stopPrice": 27.512,
-        "stopDistance": 0.019191625472521068,
+        "stopDistance": 0.034821168944460634,
         "final": false
       }
     },
@@ -5455,15 +5465,15 @@
       "lastClose": 4.2,
       "followUp": {
         "status": "跟踪中",
-        "statusDate": "2026-11-02",
-        "days": 7,
+        "statusDate": "2026-11-03",
+        "days": 8,
         "trackDays": 40,
         "useStop": true,
-        "change": 0.004761904761904745,
+        "change": 0.014285714285714235,
         "maxUp": 0.030952380952380842,
         "launched": false,
         "stopPrice": 3.952,
-        "stopDistance": 0.06781376518218618,
+        "stopDistance": 0.07793522267206465,
         "final": false
       }
     },
@@ -5485,15 +5495,15 @@
       "lastClose": 10.19,
       "followUp": {
         "status": "跟踪中",
-        "statusDate": "2026-11-02",
-        "days": 7,
+        "statusDate": "2026-11-03",
+        "days": 8,
         "trackDays": 40,
         "useStop": true,
-        "change": 0.05888125613346418,
+        "change": 0.05201177625122688,
         "maxUp": 0.07556427870461246,
         "launched": false,
         "stopPrice": 9.6045,
-        "stopDistance": 0.1234317247123744,
+        "stopDistance": 0.11614347441303563,
         "final": false
       }
     },
@@ -5515,15 +5525,15 @@
       "lastClose": 8.64,
       "followUp": {
         "status": "跟踪中",
-        "statusDate": "2026-11-02",
-        "days": 7,
+        "statusDate": "2026-11-03",
+        "days": 8,
         "trackDays": 40,
         "useStop": true,
-        "change": -0.02199074074074092,
+        "change": -0.03587962962962965,
         "maxUp": 0.0127314814814814,
         "launched": false,
         "stopPrice": 7.932499999999999,
-        "stopDistance": 0.06523794516230708,
+        "stopDistance": 0.0501103057043808,
         "final": false
       }
     },
@@ -5570,15 +5580,15 @@
       "lastClose": 11.16,
       "followUp": {
         "status": "跟踪中",
-        "statusDate": "2026-11-02",
-        "days": 7,
+        "statusDate": "2026-11-03",
+        "days": 8,
         "trackDays": 40,
         "useStop": true,
-        "change": -0.03700361010830322,
+        "change": -0.028880866425992857,
         "maxUp": 0.013537906137184086,
         "launched": false,
         "stopPrice": 10.2695,
-        "stopDistance": 0.038998977554895564,
+        "stopDistance": 0.04776279273577089,
         "final": false
       }
     },
@@ -5600,15 +5610,15 @@
       "lastClose": 14.86,
       "followUp": {
         "status": "启动中",
-        "statusDate": "2026-11-02",
-        "days": 7,
+        "statusDate": "2026-11-03",
+        "days": 8,
         "trackDays": 40,
         "useStop": true,
-        "change": 0.17900403768506057,
+        "change": 0.1359353970390309,
         "maxUp": 0.17900403768506057,
         "launched": true,
         "stopPrice": 13.927,
-        "stopDistance": 0.25798808070654133,
+        "stopDistance": 0.21203417821497816,
         "final": false
       }
     },
@@ -5630,15 +5640,15 @@
       "lastClose": 17.69,
       "followUp": {
         "status": "启动中",
-        "statusDate": "2026-11-02",
-        "days": 7,
+        "statusDate": "2026-11-03",
+        "days": 8,
         "trackDays": 40,
         "useStop": true,
-        "change": 0.16280384397964953,
-        "maxUp": 0.16280384397964953,
+        "change": 0.1775014132278121,
+        "maxUp": 0.1775014132278121,
         "launched": true,
         "stopPrice": 16.587,
-        "stopDistance": 0.24012781093627544,
+        "stopDistance": 0.25580273708325785,
         "final": false
       }
     },
@@ -5690,15 +5700,15 @@
       "lastClose": 50.01,
       "followUp": {
         "status": "跟踪中",
-        "statusDate": "2026-11-02",
-        "days": 6,
+        "statusDate": "2026-11-03",
+        "days": 7,
         "trackDays": 40,
         "useStop": true,
-        "change": 0.04979004199160175,
-        "maxUp": 0.04979004199160175,
+        "change": 0.07778444311137767,
+        "maxUp": 0.07778444311137767,
         "launched": false,
         "stopPrice": 45.6855,
-        "stopDistance": 0.14916111238795682,
+        "stopDistance": 0.1798054087183023,
         "final": false
       }
     },
@@ -5730,15 +5740,15 @@
       "lastClose": 23.5,
       "followUp": {
         "status": "跟踪中",
-        "statusDate": "2026-11-02",
-        "days": 6,
+        "statusDate": "2026-11-03",
+        "days": 7,
         "trackDays": 40,
         "useStop": true,
-        "change": -0.023868312757201693,
+        "change": -0.009876543209876631,
         "maxUp": 0.0,
         "launched": false,
         "stopPrice": 22.192,
-        "stopDistance": 0.06885364095169422,
+        "stopDistance": 0.08417447728911309,
         "final": false
       }
     },
@@ -5775,15 +5785,15 @@
       "lastClose": 14.39,
       "followUp": {
         "status": "跟踪中",
-        "statusDate": "2026-11-02",
-        "days": 6,
+        "statusDate": "2026-11-03",
+        "days": 7,
         "trackDays": 40,
         "useStop": true,
-        "change": 0.02422145328719738,
-        "maxUp": 0.02422145328719738,
+        "change": 0.0387543252595155,
+        "maxUp": 0.0387543252595155,
         "launched": false,
         "stopPrice": 13.148,
-        "stopDistance": 0.12564648615759055,
+        "stopDistance": 0.14161849710982666,
         "final": false
       }
     },
@@ -5825,15 +5835,15 @@
       "lastClose": 4.88,
       "followUp": {
         "status": "跟踪中",
-        "statusDate": "2026-11-02",
-        "days": 6,
+        "statusDate": "2026-11-03",
+        "days": 7,
         "trackDays": 40,
         "useStop": true,
-        "change": -0.06407766990291264,
+        "change": -0.060194174757281615,
         "maxUp": 0.0,
         "launched": false,
         "stopPrice": 4.579,
-        "stopDistance": 0.052631578947368585,
+        "stopDistance": 0.05699934483511693,
         "final": false
       }
     },
@@ -5856,15 +5866,15 @@
       "featured": true,
       "followUp": {
         "status": "跟踪中",
-        "statusDate": "2026-11-02",
-        "days": 6,
+        "statusDate": "2026-11-03",
+        "days": 7,
         "trackDays": 20,
         "useStop": false,
-        "change": -0.016000000000000014,
+        "change": -0.03199999999999992,
         "maxUp": 0.03542857142857159,
         "launched": false,
         "stopPrice": 7.561999999999999,
-        "stopDistance": 0.13858767521819626,
+        "stopDistance": 0.12007405448294128,
         "final": false
       }
     },
@@ -5892,15 +5902,15 @@
       "featured": true,
       "followUp": {
         "status": "跟踪中",
-        "statusDate": "2026-11-02",
-        "days": 6,
+        "statusDate": "2026-11-03",
+        "days": 7,
         "trackDays": 20,
         "useStop": false,
-        "change": -0.03679653679653683,
+        "change": -0.0487012987012988,
         "maxUp": 0.02056277056277045,
         "launched": false,
         "stopPrice": 16.054999999999996,
-        "stopDistance": 0.10868888196823456,
+        "stopDistance": 0.09498598567424499,
         "final": false
       }
     },
@@ -5928,15 +5938,15 @@
       "featured": true,
       "followUp": {
         "status": "跟踪中",
-        "statusDate": "2026-11-02",
-        "days": 6,
+        "statusDate": "2026-11-03",
+        "days": 7,
         "trackDays": 20,
         "useStop": false,
-        "change": -0.04805914972273562,
+        "change": -0.04251386321626627,
         "maxUp": 0.001848428835489857,
         "launched": false,
         "stopPrice": 4.864,
-        "stopDistance": 0.058799342105263275,
+        "stopDistance": 0.06496710526315796,
         "final": false
       }
     },
@@ -5959,15 +5969,15 @@
       "featured": true,
       "followUp": {
         "status": "跟踪中",
-        "statusDate": "2026-11-02",
-        "days": 6,
+        "statusDate": "2026-11-03",
+        "days": 7,
         "trackDays": 20,
         "useStop": false,
-        "change": 0.011695906432748648,
-        "maxUp": 0.015594541910331383,
+        "change": 0.031676413255360636,
+        "maxUp": 0.031676413255360636,
         "launched": false,
         "stopPrice": 17.631999999999998,
-        "stopDistance": 0.17740471869328522,
+        "stopDistance": 0.20065789473684226,
         "final": false
       }
     },
@@ -5995,8 +6005,8 @@
       "featured": true,
       "followUp": {
         "status": "跟踪中",
-        "statusDate": "2026-11-02",
-        "days": 6,
+        "statusDate": "2026-11-03",
+        "days": 7,
         "trackDays": 20,
         "useStop": false,
         "change": -0.026615969581749055,
@@ -6025,15 +6035,15 @@
       "lastClose": 28.03,
       "followUp": {
         "status": "跟踪中",
-        "statusDate": "2026-11-02",
-        "days": 5,
+        "statusDate": "2026-11-03",
+        "days": 6,
         "trackDays": 40,
         "useStop": true,
-        "change": -0.013200142704245521,
+        "change": -0.013556903317873847,
         "maxUp": 0.01070281840884757,
         "launched": false,
         "stopPrice": 25.27,
-        "stopDistance": 0.09457855164226348,
+        "stopDistance": 0.09418282548476453,
         "final": false
       }
     },
@@ -6065,15 +6075,15 @@
       "lastClose": 7.11,
       "followUp": {
         "status": "跟踪中",
-        "statusDate": "2026-11-02",
-        "days": 5,
+        "statusDate": "2026-11-03",
+        "days": 6,
         "trackDays": 40,
         "useStop": true,
-        "change": -0.032303370786516905,
-        "maxUp": 0.0,
+        "change": 0.001404494382022392,
+        "maxUp": 0.001404494382022392,
         "launched": false,
         "stopPrice": 6.426749999999999,
-        "stopDistance": 0.07208153421247143,
+        "stopDistance": 0.10942544832146894,
         "final": false
       }
     },
@@ -6096,15 +6106,15 @@
       "featured": true,
       "followUp": {
         "status": "跟踪中",
-        "statusDate": "2026-11-02",
-        "days": 5,
+        "statusDate": "2026-11-03",
+        "days": 6,
         "trackDays": 20,
         "useStop": false,
-        "change": 0.010338345864661536,
+        "change": 0.03477443609022557,
         "maxUp": 0.03853383458646609,
         "launched": false,
         "stopPrice": 9.082,
-        "stopDistance": 0.1836599867870512,
+        "stopDistance": 0.21228804228143572,
         "final": false
       }
     },
@@ -6127,15 +6137,15 @@
       "featured": true,
       "followUp": {
         "status": "跟踪中",
-        "statusDate": "2026-11-02",
-        "days": 5,
+        "statusDate": "2026-11-03",
+        "days": 6,
         "trackDays": 20,
         "useStop": false,
-        "change": 0.07359307359307365,
+        "change": 0.06926406926406936,
         "maxUp": 0.07359307359307365,
         "launched": false,
         "stopPrice": 4.0565,
-        "stopDistance": 0.22272895353136946,
+        "stopDistance": 0.21779859484777542,
         "final": false
       }
     },
@@ -6158,15 +6168,15 @@
       "featured": true,
       "followUp": {
         "status": "跟踪中",
-        "statusDate": "2026-11-02",
-        "days": 5,
+        "statusDate": "2026-11-03",
+        "days": 6,
         "trackDays": 20,
         "useStop": false,
-        "change": -0.03155339805825241,
+        "change": -0.016990291262136026,
         "maxUp": 0.0,
         "launched": false,
         "stopPrice": 3.7335,
-        "stopDistance": 0.06870229007633588,
+        "stopDistance": 0.0847730012053034,
         "final": false
       }
     },
@@ -6176,7 +6186,7 @@
       "name": "神州数码",
       "firstSelectedDate": "2026-10-27",
       "firstClose": 20.69,
-      "selectedCount": 4,
+      "selectedCount": 7,
       "history": [
         {
           "date": "2026-10-27",
@@ -6197,21 +6207,36 @@
           "date": "2026-10-30",
           "close": 19.82,
           "state": "当前统一观察"
+        },
+        {
+          "date": "2026-11-02",
+          "close": 20.53,
+          "state": "当前统一观察"
+        },
+        {
+          "date": "2026-11-03",
+          "close": 20.23,
+          "state": "当前统一观察"
+        },
+        {
+          "date": "2026-11-04",
+          "close": 20.16,
+          "state": "当前统一观察"
         }
       ],
-      "lastSelectedDate": "2026-10-30",
-      "lastClose": 19.82,
+      "lastSelectedDate": "2026-11-04",
+      "lastClose": 20.16,
       "followUp": {
         "status": "跟踪中",
-        "statusDate": "2026-11-02",
-        "days": 4,
+        "statusDate": "2026-11-03",
+        "days": 5,
         "trackDays": 40,
         "useStop": true,
-        "change": -0.007733204446592534,
+        "change": -0.02223296278395359,
         "maxUp": 0.008699855002416657,
         "launched": false,
         "stopPrice": 18.601,
-        "stopDistance": 0.10370410193000379,
+        "stopDistance": 0.08757593677759279,
         "final": false
       }
     },
@@ -6273,15 +6298,15 @@
       "lastClose": 3.24,
       "followUp": {
         "status": "跟踪中",
-        "statusDate": "2026-11-02",
-        "days": 4,
+        "statusDate": "2026-11-03",
+        "days": 5,
         "trackDays": 40,
         "useStop": true,
-        "change": 0.03749999999999987,
-        "maxUp": 0.03749999999999987,
+        "change": 0.07187499999999991,
+        "maxUp": 0.07187499999999991,
         "launched": false,
         "stopPrice": 2.9164999999999996,
-        "stopDistance": 0.13835076290073722,
+        "stopDistance": 0.17606720384021957,
         "final": false
       }
     },
@@ -6313,15 +6338,15 @@
       "lastClose": 35.39,
       "followUp": {
         "status": "跟踪中",
-        "statusDate": "2026-11-02",
-        "days": 4,
+        "statusDate": "2026-11-03",
+        "days": 5,
         "trackDays": 40,
         "useStop": true,
-        "change": 0.012672811059907696,
+        "change": 0.002016129032258007,
         "maxUp": 0.03773041474654382,
         "launched": false,
         "stopPrice": 32.10999999999999,
-        "stopDistance": 0.09498598567424499,
+        "stopDistance": 0.0834630956088449,
         "final": false
       }
     },
@@ -6343,15 +6368,15 @@
       "lastClose": 9.38,
       "followUp": {
         "status": "跟踪中",
-        "statusDate": "2026-11-02",
-        "days": 4,
+        "statusDate": "2026-11-03",
+        "days": 5,
         "trackDays": 40,
         "useStop": true,
-        "change": 0.03944562899786774,
+        "change": 0.02985074626865658,
         "maxUp": 0.05010660980810222,
         "launched": false,
         "stopPrice": 8.5595,
-        "stopDistance": 0.13908522694082603,
+        "stopDistance": 0.12857059407675675,
         "final": false
       }
     },
@@ -6379,15 +6404,15 @@
       "featured": true,
       "followUp": {
         "status": "跟踪中",
-        "statusDate": "2026-11-02",
-        "days": 4,
+        "statusDate": "2026-11-03",
+        "days": 5,
         "trackDays": 20,
         "useStop": false,
-        "change": 0.023391812865497075,
-        "maxUp": 0.023391812865497075,
+        "change": 0.03606237816764146,
+        "maxUp": 0.03606237816764146,
         "launched": false,
         "stopPrice": 9.2416,
-        "stopDistance": 0.13616689750692523,
+        "stopDistance": 0.15023372576177296,
         "final": false
       }
     },
@@ -6410,15 +6435,15 @@
       "featured": true,
       "followUp": {
         "status": "启动中",
-        "statusDate": "2026-11-02",
-        "days": 4,
+        "statusDate": "2026-11-03",
+        "days": 5,
         "trackDays": 20,
         "useStop": false,
-        "change": 0.2359477124183007,
+        "change": 0.2267973856209149,
         "maxUp": 0.2359477124183007,
         "launched": true,
         "stopPrice": 13.87,
-        "stopDistance": 0.36337418889689976,
+        "stopDistance": 0.35328046142754155,
         "final": false
       }
     },
@@ -6446,15 +6471,15 @@
       "featured": true,
       "followUp": {
         "status": "跟踪中",
-        "statusDate": "2026-11-02",
-        "days": 4,
+        "statusDate": "2026-11-03",
+        "days": 5,
         "trackDays": 20,
         "useStop": false,
-        "change": -0.04498714652956304,
+        "change": -0.02185089974293053,
         "maxUp": 0.0012853470437017567,
         "launched": false,
         "stopPrice": 13.7845,
-        "stopDistance": 0.07802241648228092,
+        "stopDistance": 0.1041387065181909,
         "final": false
       }
     },
@@ -6476,15 +6501,15 @@
       "lastClose": 4.44,
       "followUp": {
         "status": "跟踪中",
-        "statusDate": "2026-11-02",
-        "days": 6,
+        "statusDate": "2026-11-03",
+        "days": 7,
         "trackDays": 40,
         "useStop": false,
-        "change": -0.07657657657657668,
+        "change": -0.056306306306306286,
         "maxUp": 0.0,
         "launched": false,
         "stopPrice": 4.104,
-        "stopDistance": -0.0009746588693958502,
+        "stopDistance": 0.02095516569200795,
         "final": false
       }
     },
@@ -6506,15 +6531,15 @@
       "lastClose": 5.68,
       "followUp": {
         "status": "跟踪中",
-        "statusDate": "2026-11-02",
-        "days": 6,
+        "statusDate": "2026-11-03",
+        "days": 7,
         "trackDays": 40,
         "useStop": false,
-        "change": 0.0035211267605634866,
-        "maxUp": 0.0035211267605634866,
+        "change": 0.008802816901408494,
+        "maxUp": 0.008802816901408494,
         "launched": false,
         "stopPrice": 5.158499999999999,
-        "stopDistance": 0.10497237569060802,
+        "stopDistance": 0.11078801977319008,
         "final": false
       }
     },
@@ -6536,15 +6561,15 @@
       "lastClose": 7.74,
       "followUp": {
         "status": "跟踪中",
-        "statusDate": "2026-11-02",
-        "days": 6,
+        "statusDate": "2026-11-03",
+        "days": 7,
         "trackDays": 40,
         "useStop": false,
-        "change": -0.09173126614987082,
+        "change": -0.07493540051679592,
         "maxUp": 0.0,
         "launched": false,
         "stopPrice": 7.087,
-        "stopDistance": -0.008042895442359144,
+        "stopDistance": 0.010300550303372402,
         "final": false
       }
     },
@@ -6566,15 +6591,15 @@
       "lastClose": 15.46,
       "followUp": {
         "status": "跟踪中",
-        "statusDate": "2026-11-02",
-        "days": 6,
+        "statusDate": "2026-11-03",
+        "days": 7,
         "trackDays": 40,
         "useStop": false,
-        "change": 0.022639068564036302,
-        "maxUp": 0.029107373868046515,
+        "change": 0.06662354463130638,
+        "maxUp": 0.06662354463130638,
         "launched": false,
         "stopPrice": 14.25,
-        "stopDistance": 0.10947368421052639,
+        "stopDistance": 0.15719298245614022,
         "final": false
       }
     },
@@ -6596,15 +6621,15 @@
       "lastClose": 8.6,
       "followUp": {
         "status": "跟踪中",
-        "statusDate": "2026-11-02",
-        "days": 6,
+        "statusDate": "2026-11-03",
+        "days": 7,
         "trackDays": 40,
         "useStop": false,
-        "change": -0.04302325581395339,
+        "change": -0.03139534883720929,
         "maxUp": 0.0,
         "launched": false,
         "stopPrice": 7.932499999999999,
-        "stopDistance": 0.037503939489442306,
+        "stopDistance": 0.0501103057043808,
         "final": false
       }
     },
@@ -6626,15 +6651,15 @@
       "lastClose": 7.08,
       "followUp": {
         "status": "跟踪中",
-        "statusDate": "2026-11-02",
-        "days": 6,
+        "statusDate": "2026-11-03",
+        "days": 7,
         "trackDays": 40,
         "useStop": false,
-        "change": -0.019774011299435013,
+        "change": 0.0,
         "maxUp": 0.005649717514124353,
         "launched": false,
         "stopPrice": 6.536,
-        "stopDistance": 0.061811505507956,
+        "stopDistance": 0.08323133414932693,
         "final": false
       }
     },
@@ -6656,15 +6681,15 @@
       "lastClose": 157.09,
       "followUp": {
         "status": "跟踪中",
-        "statusDate": "2026-11-02",
-        "days": 5,
+        "statusDate": "2026-11-03",
+        "days": 6,
         "trackDays": 40,
         "useStop": false,
-        "change": -0.1606085683366223,
+        "change": -0.22082882424088102,
         "maxUp": 0.04398752307594367,
         "launched": false,
         "stopPrice": 142.71849999999998,
-        "stopDistance": -0.07608333888038321,
+        "stopDistance": -0.1423676678216207,
         "final": false
       }
     },
@@ -6686,15 +6711,15 @@
       "lastClose": 52.61,
       "followUp": {
         "status": "跟踪中",
-        "statusDate": "2026-11-02",
-        "days": 4,
+        "statusDate": "2026-11-03",
+        "days": 5,
         "trackDays": 40,
         "useStop": false,
-        "change": 0.009693974529557003,
-        "maxUp": 0.01121459798517388,
+        "change": 0.037635430526515856,
+        "maxUp": 0.037635430526515856,
         "launched": false,
         "stopPrice": 47.604499999999994,
-        "stopDistance": 0.11586089550357648,
+        "stopDistance": 0.1467403291705618,
         "final": false
       }
     },
@@ -6716,15 +6741,15 @@
       "lastClose": 57.19,
       "followUp": {
         "status": "跟踪中",
-        "statusDate": "2026-11-02",
-        "days": 4,
+        "statusDate": "2026-11-03",
+        "days": 5,
         "trackDays": 40,
         "useStop": false,
-        "change": -0.010491344640671363,
+        "change": -0.004546249344290931,
         "maxUp": 0.014687882496940086,
         "launched": false,
         "stopPrice": 52.63949999999999,
-        "stopDistance": 0.07504820524511091,
+        "stopDistance": 0.08150723316140929,
         "final": false
       }
     },
@@ -6746,15 +6771,15 @@
       "lastClose": 5.68,
       "followUp": {
         "status": "跟踪中",
-        "statusDate": "2026-11-02",
-        "days": 4,
+        "statusDate": "2026-11-03",
+        "days": 5,
         "trackDays": 40,
         "useStop": false,
-        "change": 0.04753521126760574,
-        "maxUp": 0.04753521126760574,
+        "change": 0.07570422535211274,
+        "maxUp": 0.07570422535211274,
         "launched": false,
         "stopPrice": 5.2155,
-        "stopDistance": 0.14083021762055425,
+        "stopDistance": 0.17150800498514052,
         "final": false
       }
     },
@@ -6776,15 +6801,15 @@
       "lastClose": 10.42,
       "followUp": {
         "status": "跟踪中",
-        "statusDate": "2026-11-02",
-        "days": 4,
+        "statusDate": "2026-11-03",
+        "days": 5,
         "trackDays": 40,
         "useStop": false,
-        "change": -0.10556621880998074,
+        "change": -0.09213051823416496,
         "maxUp": 0.0,
         "launched": false,
         "stopPrice": 9.613999999999999,
-        "stopDistance": -0.03058040357811509,
+        "stopDistance": -0.016018306636155444,
         "final": false
       }
     },
@@ -6811,15 +6836,15 @@
       "lastClose": 3.5,
       "followUp": {
         "status": "跟踪中",
-        "statusDate": "2026-11-02",
-        "days": 3,
+        "statusDate": "2026-11-03",
+        "days": 4,
         "trackDays": 40,
         "useStop": true,
-        "change": -0.005698005698005604,
-        "maxUp": 0.0,
+        "change": 0.019943019943019946,
+        "maxUp": 0.019943019943019946,
         "launched": false,
         "stopPrice": 3.2585,
-        "stopDistance": 0.0710449593371183,
+        "stopDistance": 0.09866502992174309,
         "final": false
       }
     },
@@ -6846,15 +6871,15 @@
       "lastClose": 6.62,
       "followUp": {
         "status": "跟踪中",
-        "statusDate": "2026-11-02",
-        "days": 3,
+        "statusDate": "2026-11-03",
+        "days": 4,
         "trackDays": 40,
         "useStop": true,
-        "change": 0.01799100449775115,
-        "maxUp": 0.01799100449775115,
+        "change": 0.058470764617691184,
+        "maxUp": 0.058470764617691184,
         "launched": false,
         "stopPrice": 6.1655,
-        "stopDistance": 0.10128943313599881,
+        "stopDistance": 0.14508150190576585,
         "final": false
       }
     },
@@ -6876,15 +6901,15 @@
       "lastClose": 13.49,
       "followUp": {
         "status": "跟踪中",
-        "statusDate": "2026-11-02",
-        "days": 3,
+        "statusDate": "2026-11-03",
+        "days": 4,
         "trackDays": 40,
         "useStop": true,
-        "change": 0.010378057820607856,
-        "maxUp": 0.018532246108228234,
+        "change": 0.08005930318754628,
+        "maxUp": 0.08005930318754628,
         "launched": false,
         "stopPrice": 12.16,
-        "stopDistance": 0.12088815789473695,
+        "stopDistance": 0.1981907894736843,
         "final": false
       }
     },
@@ -6907,15 +6932,15 @@
       "featured": true,
       "followUp": {
         "status": "跟踪中",
-        "statusDate": "2026-11-02",
-        "days": 3,
+        "statusDate": "2026-11-03",
+        "days": 4,
         "trackDays": 20,
         "useStop": false,
-        "change": 0.13385826771653564,
-        "maxUp": 0.13385826771653564,
+        "change": 0.14173228346456712,
+        "maxUp": 0.14173228346456712,
         "launched": false,
         "stopPrice": 9.927499999999998,
-        "stopDistance": 0.3054646184840093,
+        "stopDistance": 0.3145303450012593,
         "final": false
       }
     },
@@ -6937,15 +6962,15 @@
       "lastClose": 32.93,
       "followUp": {
         "status": "跟踪中",
-        "statusDate": "2026-11-02",
-        "days": 3,
+        "statusDate": "2026-11-03",
+        "days": 4,
         "trackDays": 40,
         "useStop": false,
-        "change": -0.058912845429699434,
+        "change": -0.10446401457637422,
         "maxUp": 0.0,
         "launched": false,
         "stopPrice": 30.457,
-        "stopDistance": 0.01750008208293652,
+        "stopDistance": -0.03174967987654731,
         "final": false
       }
     },
@@ -6967,15 +6992,15 @@
       "lastClose": 239.2,
       "followUp": {
         "status": "跟踪中",
-        "statusDate": "2026-11-02",
-        "days": 3,
+        "statusDate": "2026-11-03",
+        "days": 4,
         "trackDays": 40,
         "useStop": false,
-        "change": -0.10271739130434776,
+        "change": -0.1546822742474916,
         "maxUp": 0.0,
         "launched": false,
         "stopPrice": 216.6855,
-        "stopDistance": -0.009486098516052088,
+        "stopDistance": -0.06685034300864623,
         "final": false
       }
     },
@@ -6997,15 +7022,15 @@
       "lastClose": 30.09,
       "followUp": {
         "status": "跟踪中",
-        "statusDate": "2026-11-02",
-        "days": 3,
+        "statusDate": "2026-11-03",
+        "days": 4,
         "trackDays": 40,
         "useStop": false,
-        "change": 0.053173811897640366,
-        "maxUp": 0.053173811897640366,
+        "change": 0.08109006314390177,
+        "maxUp": 0.08109006314390177,
         "launched": false,
         "stopPrice": 27.264999999999997,
-        "stopDistance": 0.16229598386209454,
+        "stopDistance": 0.19310471300201737,
         "final": false
       }
     },
@@ -7027,15 +7052,15 @@
       "lastClose": 32.42,
       "followUp": {
         "status": "跟踪中",
-        "statusDate": "2026-11-02",
-        "days": 3,
+        "statusDate": "2026-11-03",
+        "days": 4,
         "trackDays": 40,
         "useStop": false,
-        "change": -0.015114127082048179,
-        "maxUp": 0.0,
+        "change": 0.009561998766193458,
+        "maxUp": 0.009561998766193458,
         "launched": false,
         "stopPrice": 29.3645,
-        "stopDistance": 0.08736739941085325,
+        "stopDistance": 0.1146111801665275,
         "final": false
       }
     },
@@ -7057,15 +7082,15 @@
       "lastClose": 102.87,
       "followUp": {
         "status": "跟踪中",
-        "statusDate": "2026-11-02",
-        "days": 3,
+        "statusDate": "2026-11-03",
+        "days": 4,
         "trackDays": 40,
         "useStop": false,
-        "change": 0.005540974044911051,
-        "maxUp": 0.005540974044911051,
+        "change": 0.017400602702439816,
+        "maxUp": 0.017400602702439816,
         "launched": false,
         "stopPrice": 94.05,
-        "stopDistance": 0.09984051036682606,
+        "stopDistance": 0.11281233386496536,
         "final": false
       }
     },
@@ -7087,15 +7112,15 @@
       "lastClose": 10.0,
       "followUp": {
         "status": "跟踪中",
-        "statusDate": "2026-11-02",
-        "days": 3,
+        "statusDate": "2026-11-03",
+        "days": 4,
         "trackDays": 40,
         "useStop": false,
-        "change": -0.041000000000000036,
+        "change": -0.02200000000000002,
         "maxUp": 0.0,
         "launched": false,
         "stopPrice": 9.329,
-        "stopDistance": 0.027977275163468596,
+        "stopDistance": 0.04834387394147277,
         "final": false
       }
     },
@@ -7117,15 +7142,15 @@
       "lastClose": 192.7,
       "followUp": {
         "status": "跟踪中",
-        "statusDate": "2026-11-02",
-        "days": 3,
+        "statusDate": "2026-11-03",
+        "days": 4,
         "trackDays": 40,
         "useStop": false,
-        "change": -0.08147379346133876,
+        "change": -0.1177996886351842,
         "maxUp": 0.0,
         "launched": false,
         "stopPrice": 176.7,
-        "stopDistance": 0.0016977928692700761,
+        "stopDistance": -0.03791737408036211,
         "final": false
       }
     },
@@ -7147,15 +7172,15 @@
       "lastClose": 9.81,
       "followUp": {
         "status": "跟踪中",
-        "statusDate": "2026-11-02",
-        "days": 3,
+        "statusDate": "2026-11-03",
+        "days": 4,
         "trackDays": 40,
         "useStop": false,
-        "change": -0.02854230377166167,
+        "change": -0.02650356778797147,
         "maxUp": 0.0,
         "launched": false,
         "stopPrice": 8.949,
-        "stopDistance": 0.06492345513465181,
+        "stopDistance": 0.06715834171415813,
         "final": false
       }
     },
@@ -7177,15 +7202,15 @@
       "lastClose": 8.6,
       "followUp": {
         "status": "跟踪中",
-        "statusDate": "2026-11-02",
-        "days": 3,
+        "statusDate": "2026-11-03",
+        "days": 4,
         "trackDays": 40,
         "useStop": false,
-        "change": 0.015116279069767424,
-        "maxUp": 0.02674418604651163,
+        "change": 0.03953488372093017,
+        "maxUp": 0.03953488372093017,
         "launched": false,
         "stopPrice": 7.904,
-        "stopDistance": 0.104504048582996,
+        "stopDistance": 0.13107287449392713,
         "final": false
       }
     },
@@ -7208,15 +7233,15 @@
       "featured": true,
       "followUp": {
         "status": "跟踪中",
-        "statusDate": "2026-11-02",
-        "days": 2,
+        "statusDate": "2026-11-03",
+        "days": 3,
         "trackDays": 20,
         "useStop": false,
-        "change": 0.0472906403940887,
-        "maxUp": 0.0472906403940887,
+        "change": 0.05024630541871922,
+        "maxUp": 0.05024630541871922,
         "launched": false,
         "stopPrice": 8.645,
-        "stopDistance": 0.22961249277038775,
+        "stopDistance": 0.23308270676691745,
         "final": false
       }
     },
@@ -7238,15 +7263,15 @@
       "lastClose": 68.35,
       "followUp": {
         "status": "跟踪中",
-        "statusDate": "2026-11-02",
-        "days": 2,
+        "statusDate": "2026-11-03",
+        "days": 3,
         "trackDays": 40,
         "useStop": false,
-        "change": 0.060570592538405243,
-        "maxUp": 0.060570592538405243,
+        "change": 0.09290416971470394,
+        "maxUp": 0.09290416971470394,
         "launched": false,
         "stopPrice": 63.459999999999994,
-        "stopDistance": 0.14229435865111895,
+        "stopDistance": 0.17711944531988677,
         "final": false
       }
     },
@@ -7268,15 +7293,15 @@
       "lastClose": 56.18,
       "followUp": {
         "status": "跟踪中",
-        "statusDate": "2026-11-02",
-        "days": 2,
+        "statusDate": "2026-11-03",
+        "days": 3,
         "trackDays": 40,
         "useStop": false,
-        "change": -0.03417586329654687,
+        "change": -0.07529369882520465,
         "maxUp": 0.0,
         "launched": false,
         "stopPrice": 52.0315,
-        "stopDistance": 0.042829824241084724,
+        "stopDistance": -0.0015663588403178608,
         "final": false
       }
     },
@@ -7298,15 +7323,15 @@
       "lastClose": 11.16,
       "followUp": {
         "status": "跟踪中",
-        "statusDate": "2026-11-02",
-        "days": 2,
+        "statusDate": "2026-11-03",
+        "days": 3,
         "trackDays": 40,
         "useStop": false,
-        "change": -0.06093189964157708,
+        "change": -0.10304659498207891,
         "maxUp": 0.0,
         "launched": false,
         "stopPrice": 10.222,
-        "stopDistance": 0.025239679123459258,
+        "stopDistance": -0.020739581295245557,
         "final": false
       }
     },
@@ -7328,15 +7353,15 @@
       "lastClose": 23.0,
       "followUp": {
         "status": "跟踪中",
-        "statusDate": "2026-11-02",
-        "days": 2,
+        "statusDate": "2026-11-03",
+        "days": 3,
         "trackDays": 40,
         "useStop": true,
-        "change": -0.023913043478260954,
+        "change": -0.02043478260869558,
         "maxUp": 0.0,
         "launched": false,
         "stopPrice": 21.3465,
-        "stopDistance": 0.0516946572037571,
+        "stopDistance": 0.055442344178202596,
         "final": false
       }
     },
@@ -7346,7 +7371,7 @@
       "name": "电投产融",
       "firstSelectedDate": "2026-10-29",
       "firstClose": 4.97,
-      "selectedCount": 3,
+      "selectedCount": 4,
       "history": [
         {
           "date": "2026-10-29",
@@ -7362,22 +7387,27 @@
           "date": "2026-11-02",
           "close": 5.08,
           "state": "强启动确认"
+        },
+        {
+          "date": "2026-11-03",
+          "close": 5.06,
+          "state": "右沿初确认"
         }
       ],
-      "lastSelectedDate": "2026-11-02",
-      "lastClose": 5.08,
+      "lastSelectedDate": "2026-11-03",
+      "lastClose": 5.06,
       "featured": true,
       "followUp": {
         "status": "跟踪中",
-        "statusDate": "2026-11-02",
-        "days": 2,
+        "statusDate": "2026-11-03",
+        "days": 3,
         "trackDays": 20,
         "useStop": false,
-        "change": 0.03673469387755102,
+        "change": 0.03265306122448974,
         "maxUp": 0.03673469387755102,
         "launched": false,
         "stopPrice": 4.4079999999999995,
-        "stopDistance": 0.15245009074410176,
+        "stopDistance": 0.14791288566243188,
         "final": false
       }
     },
@@ -7399,15 +7429,15 @@
       "lastClose": 34.6,
       "followUp": {
         "status": "跟踪中",
-        "statusDate": "2026-11-02",
-        "days": 1,
+        "statusDate": "2026-11-03",
+        "days": 2,
         "trackDays": 40,
         "useStop": true,
-        "change": 0.01156069364161838,
-        "maxUp": 0.01156069364161838,
+        "change": 0.037572254335260125,
+        "maxUp": 0.037572254335260125,
         "launched": false,
         "stopPrice": 31.492499999999996,
-        "stopDistance": 0.11137572437882048,
+        "stopDistance": 0.1399539572914188,
         "final": false
       }
     },
@@ -7417,27 +7447,37 @@
       "name": "中科电气",
       "firstSelectedDate": "2026-10-30",
       "firstClose": 11.35,
-      "selectedCount": 1,
+      "selectedCount": 3,
       "history": [
         {
           "date": "2026-10-30",
           "close": 11.35,
           "state": "当前统一观察"
+        },
+        {
+          "date": "2026-11-02",
+          "close": 11.45,
+          "state": "当前统一观察"
+        },
+        {
+          "date": "2026-11-04",
+          "close": 11.54,
+          "state": "当前统一观察"
         }
       ],
-      "lastSelectedDate": "2026-10-30",
-      "lastClose": 11.35,
+      "lastSelectedDate": "2026-11-04",
+      "lastClose": 11.54,
       "followUp": {
         "status": "跟踪中",
-        "statusDate": "2026-11-02",
-        "days": 1,
+        "statusDate": "2026-11-03",
+        "days": 2,
         "trackDays": 40,
         "useStop": true,
-        "change": 0.008810572687224738,
-        "maxUp": 0.008810572687224738,
+        "change": 0.022907488986784186,
+        "maxUp": 0.022907488986784186,
         "launched": false,
         "stopPrice": 10.165,
-        "stopDistance": 0.1264141662567635,
+        "stopDistance": 0.1421544515494344,
         "final": false
       }
     },
@@ -7459,15 +7499,15 @@
       "lastClose": 45.0,
       "followUp": {
         "status": "跟踪中",
-        "statusDate": "2026-11-02",
-        "days": 1,
+        "statusDate": "2026-11-03",
+        "days": 2,
         "trackDays": 40,
         "useStop": true,
-        "change": -0.01733333333333331,
-        "maxUp": 0.0,
+        "change": 0.046222222222222165,
+        "maxUp": 0.046222222222222165,
         "launched": false,
         "stopPrice": 41.9995,
-        "stopDistance": 0.05286967701996459,
+        "stopDistance": 0.1209657257824499,
         "final": false
       }
     },
@@ -7489,15 +7529,15 @@
       "lastClose": 6.22,
       "followUp": {
         "status": "跟踪中",
-        "statusDate": "2026-11-02",
-        "days": 1,
+        "statusDate": "2026-11-03",
+        "days": 2,
         "trackDays": 40,
         "useStop": true,
-        "change": 0.05144694533762073,
-        "maxUp": 0.05144694533762073,
+        "change": 0.05466237942122176,
+        "maxUp": 0.05466237942122176,
         "launched": false,
         "stopPrice": 5.89,
-        "stopDistance": 0.11035653650254673,
+        "stopDistance": 0.11375212224108666,
         "final": false
       }
     },
@@ -7519,15 +7559,15 @@
       "lastClose": 7.08,
       "followUp": {
         "status": "跟踪中",
-        "statusDate": "2026-11-02",
-        "days": 1,
+        "statusDate": "2026-11-03",
+        "days": 2,
         "trackDays": 40,
         "useStop": true,
-        "change": 0.0197740112994349,
-        "maxUp": 0.0197740112994349,
+        "change": 0.033898305084745894,
+        "maxUp": 0.033898305084745894,
         "launched": false,
         "stopPrice": 6.517,
-        "stopDistance": 0.10787172011661794,
+        "stopDistance": 0.12321620377474307,
         "final": false
       }
     },
@@ -7549,15 +7589,15 @@
       "lastClose": 4.62,
       "followUp": {
         "status": "跟踪中",
-        "statusDate": "2026-11-02",
-        "days": 1,
+        "statusDate": "2026-11-03",
+        "days": 2,
         "trackDays": 40,
         "useStop": true,
-        "change": 0.01948051948051943,
-        "maxUp": 0.01948051948051943,
+        "change": 0.03246753246753231,
+        "maxUp": 0.03246753246753231,
         "launched": false,
         "stopPrice": 4.3035,
-        "stopDistance": 0.09445799930289311,
+        "stopDistance": 0.10840013942140114,
         "final": false
       }
     },
@@ -7579,15 +7619,15 @@
       "lastClose": 6.89,
       "followUp": {
         "status": "跟踪中",
-        "statusDate": "2026-11-02",
-        "days": 1,
+        "statusDate": "2026-11-03",
+        "days": 2,
         "trackDays": 40,
         "useStop": true,
-        "change": 0.007256894049346929,
-        "maxUp": 0.007256894049346929,
+        "change": 0.027576197387518153,
+        "maxUp": 0.027576197387518153,
         "launched": false,
         "stopPrice": 6.536,
-        "stopDistance": 0.061811505507956,
+        "stopDistance": 0.08323133414932693,
         "final": false
       }
     },
@@ -7610,15 +7650,15 @@
       "featured": true,
       "followUp": {
         "status": "跟踪中",
-        "statusDate": "2026-11-02",
-        "days": 1,
+        "statusDate": "2026-11-03",
+        "days": 2,
         "trackDays": 20,
         "useStop": false,
-        "change": 0.047195013357079096,
-        "maxUp": 0.047195013357079096,
+        "change": 0.08637577916295625,
+        "maxUp": 0.08637577916295625,
         "launched": false,
         "stopPrice": 10.012999999999998,
-        "stopDistance": 0.17447318485968255,
+        "stopDistance": 0.2184160591231401,
         "final": false
       }
     },
@@ -7646,15 +7686,15 @@
       "featured": true,
       "followUp": {
         "status": "跟踪中",
-        "statusDate": "2026-11-02",
-        "days": 1,
+        "statusDate": "2026-11-03",
+        "days": 2,
         "trackDays": 20,
         "useStop": false,
-        "change": 0.0,
-        "maxUp": 0.0,
+        "change": 0.010139416983523386,
+        "maxUp": 0.010139416983523386,
         "launched": false,
         "stopPrice": 7.162999999999999,
-        "stopDistance": 0.10149378751919591,
+        "stopDistance": 0.11266229233561353,
         "final": false
       }
     },
@@ -7676,15 +7716,15 @@
       "lastClose": 17.39,
       "followUp": {
         "status": "跟踪中",
-        "statusDate": "2026-11-02",
-        "days": 1,
+        "statusDate": "2026-11-03",
+        "days": 2,
         "trackDays": 40,
         "useStop": false,
-        "change": 0.0517538815411156,
+        "change": 0.021276595744680993,
         "maxUp": 0.0517538815411156,
         "launched": false,
         "stopPrice": 15.845999999999998,
-        "stopDistance": 0.1542345071311373,
+        "stopDistance": 0.12078758046194649,
         "final": false
       }
     },
@@ -7706,15 +7746,15 @@
       "lastClose": 4.05,
       "followUp": {
         "status": "跟踪中",
-        "statusDate": "2026-11-02",
-        "days": 1,
+        "statusDate": "2026-11-03",
+        "days": 2,
         "trackDays": 40,
         "useStop": false,
-        "change": 0.029629629629629672,
-        "maxUp": 0.029629629629629672,
+        "change": 0.1333333333333333,
+        "maxUp": 0.1333333333333333,
         "launched": false,
         "stopPrice": 3.667,
-        "stopDistance": 0.13716934824106897,
+        "stopDistance": 0.25170439050995363,
         "final": false
       }
     },
@@ -7736,15 +7776,15 @@
       "lastClose": 9.23,
       "followUp": {
         "status": "跟踪中",
-        "statusDate": "2026-11-02",
-        "days": 1,
+        "statusDate": "2026-11-03",
+        "days": 2,
         "trackDays": 40,
         "useStop": false,
-        "change": 0.005417118093174356,
-        "maxUp": 0.005417118093174356,
+        "change": 0.019501625135427858,
+        "maxUp": 0.019501625135427858,
         "launched": false,
         "stopPrice": 8.5405,
-        "stopDistance": 0.08658743633276744,
+        "stopDistance": 0.10180902757449806,
         "final": false
       }
     },
@@ -7766,15 +7806,15 @@
       "lastClose": 38.25,
       "followUp": {
         "status": "跟踪中",
-        "statusDate": "2026-11-02",
-        "days": 1,
+        "statusDate": "2026-11-03",
+        "days": 2,
         "trackDays": 40,
         "useStop": false,
-        "change": 0.01699346405228752,
-        "maxUp": 0.01699346405228752,
+        "change": 0.04653594771241831,
+        "maxUp": 0.04653594771241831,
         "launched": false,
         "stopPrice": 34.675,
-        "stopDistance": 0.12184571016582568,
+        "stopDistance": 0.15443403028118263,
         "final": false
       }
     },
@@ -7796,15 +7836,15 @@
       "lastClose": 9.69,
       "followUp": {
         "status": "跟踪中",
-        "statusDate": "2026-11-02",
-        "days": 1,
+        "statusDate": "2026-11-03",
+        "days": 2,
         "trackDays": 40,
         "useStop": false,
-        "change": -0.0041279669762640525,
+        "change": -0.0020639834881320818,
         "maxUp": 0.0,
         "launched": false,
         "stopPrice": 8.796999999999999,
-        "stopDistance": 0.09696487438899637,
+        "stopDistance": 0.09923837671933633,
         "final": false
       }
     },
@@ -7814,28 +7854,38 @@
       "name": "中航光电",
       "firstSelectedDate": "2026-11-02",
       "firstClose": 33.84,
-      "selectedCount": 1,
+      "selectedCount": 3,
       "history": [
         {
           "date": "2026-11-02",
           "close": 33.84,
           "state": "右沿初确认"
+        },
+        {
+          "date": "2026-11-03",
+          "close": 33.86,
+          "state": "强启动确认"
+        },
+        {
+          "date": "2026-11-04",
+          "close": 33.95,
+          "state": "强启动确认"
         }
       ],
-      "lastSelectedDate": "2026-11-02",
-      "lastClose": 33.84,
+      "lastSelectedDate": "2026-11-04",
+      "lastClose": 33.95,
       "featured": true,
       "followUp": {
         "status": "跟踪中",
-        "statusDate": "2026-11-02",
-        "days": 0,
+        "statusDate": "2026-11-03",
+        "days": 1,
         "trackDays": 20,
         "useStop": false,
-        "change": 0.0,
-        "maxUp": 0.0,
+        "change": 0.0005910165484632746,
+        "maxUp": 0.0005910165484632746,
         "launched": false,
         "stopPrice": 29.421499999999998,
-        "stopDistance": 0.1501792906547934,
+        "stopDistance": 0.1508590656492701,
         "final": false
       }
     },
@@ -7857,15 +7907,15 @@
       "lastClose": 11.14,
       "followUp": {
         "status": "跟踪中",
-        "statusDate": "2026-11-02",
-        "days": 0,
+        "statusDate": "2026-11-03",
+        "days": 1,
         "trackDays": 40,
         "useStop": false,
-        "change": 0.0,
-        "maxUp": 0.0,
+        "change": 0.017055655296229766,
+        "maxUp": 0.017055655296229766,
         "launched": false,
         "stopPrice": 10.1365,
-        "stopDistance": 0.09899866817935199,
+        "stopDistance": 0.1177428106348346,
         "final": false
       }
     },
@@ -7887,15 +7937,15 @@
       "lastClose": 4.92,
       "followUp": {
         "status": "跟踪中",
-        "statusDate": "2026-11-02",
-        "days": 0,
+        "statusDate": "2026-11-03",
+        "days": 1,
         "trackDays": 40,
         "useStop": false,
-        "change": 0.0,
-        "maxUp": 0.0,
+        "change": 0.008130081300812941,
+        "maxUp": 0.008130081300812941,
         "launched": false,
         "stopPrice": 4.503,
-        "stopDistance": 0.09260493004663561,
+        "stopDistance": 0.10148789695758387,
         "final": false
       }
     },
@@ -7917,15 +7967,15 @@
       "lastClose": 6.79,
       "followUp": {
         "status": "跟踪中",
-        "statusDate": "2026-11-02",
-        "days": 0,
+        "statusDate": "2026-11-03",
+        "days": 1,
         "trackDays": 40,
         "useStop": false,
-        "change": 0.0,
-        "maxUp": 0.0,
+        "change": 0.00589101620029453,
+        "maxUp": 0.00589101620029453,
         "launched": false,
         "stopPrice": 6.1465,
-        "stopDistance": 0.10469372813796474,
+        "stopDistance": 0.11120149678678937,
         "final": false
       }
     },
@@ -7947,15 +7997,15 @@
       "lastClose": 14.96,
       "followUp": {
         "status": "跟踪中",
-        "statusDate": "2026-11-02",
-        "days": 0,
+        "statusDate": "2026-11-03",
+        "days": 1,
         "trackDays": 40,
         "useStop": false,
-        "change": 0.0,
+        "change": -0.0013368983957220415,
         "maxUp": 0.0,
         "launched": false,
         "stopPrice": 13.793999999999999,
-        "stopDistance": 0.08452950558213734,
+        "stopDistance": 0.08307959982601143,
         "final": false
       }
     },
@@ -7977,15 +8027,15 @@
       "lastClose": 33.81,
       "followUp": {
         "status": "跟踪中",
-        "statusDate": "2026-11-02",
-        "days": 0,
+        "statusDate": "2026-11-03",
+        "days": 1,
         "trackDays": 40,
         "useStop": false,
-        "change": 0.0,
-        "maxUp": 0.0,
+        "change": 0.010351966873705765,
+        "maxUp": 0.010351966873705765,
         "launched": false,
         "stopPrice": 30.9985,
-        "stopDistance": 0.09069793699695161,
+        "stopDistance": 0.10198880590996318,
         "final": false
       }
     },
@@ -8007,15 +8057,15 @@
       "lastClose": 19.94,
       "followUp": {
         "status": "跟踪中",
-        "statusDate": "2026-11-02",
-        "days": 0,
+        "statusDate": "2026-11-03",
+        "days": 1,
         "trackDays": 40,
         "useStop": false,
-        "change": 0.0,
-        "maxUp": 0.0,
+        "change": 0.015546639919759242,
+        "maxUp": 0.015546639919759242,
         "launched": false,
         "stopPrice": 18.183,
-        "stopDistance": 0.09662871913325644,
+        "stopDistance": 0.11367761095528794,
         "final": false
       }
     },
@@ -8037,15 +8087,15 @@
       "lastClose": 12.69,
       "followUp": {
         "status": "跟踪中",
-        "statusDate": "2026-11-02",
-        "days": 0,
+        "statusDate": "2026-11-03",
+        "days": 1,
         "trackDays": 40,
         "useStop": false,
-        "change": 0.0,
-        "maxUp": 0.0,
+        "change": 0.010244286840031647,
+        "maxUp": 0.010244286840031647,
         "launched": false,
         "stopPrice": 11.6945,
-        "stopDistance": 0.08512548633973238,
+        "stopDistance": 0.09624182307922524,
         "final": false
       }
     },
@@ -8067,15 +8117,15 @@
       "lastClose": 8.26,
       "followUp": {
         "status": "跟踪中",
-        "statusDate": "2026-11-02",
-        "days": 0,
+        "statusDate": "2026-11-03",
+        "days": 1,
         "trackDays": 40,
         "useStop": false,
-        "change": 0.0,
+        "change": -0.008474576271186529,
         "maxUp": 0.0,
         "launched": false,
         "stopPrice": 7.4765,
-        "stopDistance": 0.10479502440981747,
+        "stopDistance": 0.09543235471142908,
         "final": false
       }
     },
@@ -8097,18 +8147,1281 @@
       "lastClose": 3.24,
       "followUp": {
         "status": "跟踪中",
-        "statusDate": "2026-11-02",
+        "statusDate": "2026-11-03",
+        "days": 1,
+        "trackDays": 40,
+        "useStop": false,
+        "change": 0.006172839506172645,
+        "maxUp": 0.006172839506172645,
+        "launched": false,
+        "stopPrice": 2.9354999999999998,
+        "stopDistance": 0.11054334866291948,
+        "final": false
+      }
+    },
+    "v26:003035": {
+      "model": "v26",
+      "code": "003035",
+      "name": "南网能源",
+      "firstSelectedDate": "2026-11-03",
+      "firstClose": 4.96,
+      "selectedCount": 2,
+      "history": [
+        {
+          "date": "2026-11-03",
+          "close": 4.96,
+          "state": "当前统一观察"
+        },
+        {
+          "date": "2026-11-04",
+          "close": 4.92,
+          "state": "当前统一观察"
+        }
+      ],
+      "lastSelectedDate": "2026-11-04",
+      "lastClose": 4.92,
+      "followUp": {
+        "status": "跟踪中",
+        "statusDate": "2026-11-03",
+        "days": 0,
+        "trackDays": 40,
+        "useStop": true,
+        "change": 0.0,
+        "maxUp": 0.0,
+        "launched": false,
+        "stopPrice": 4.503,
+        "stopDistance": 0.10148789695758387,
+        "final": false
+      }
+    },
+    "v26:601677": {
+      "model": "v26",
+      "code": "601677",
+      "name": "明泰铝业",
+      "firstSelectedDate": "2026-11-03",
+      "firstClose": 14.75,
+      "selectedCount": 2,
+      "history": [
+        {
+          "date": "2026-11-03",
+          "close": 14.75,
+          "state": "当前统一观察"
+        },
+        {
+          "date": "2026-11-04",
+          "close": 14.56,
+          "state": "当前统一观察"
+        }
+      ],
+      "lastSelectedDate": "2026-11-04",
+      "lastClose": 14.56,
+      "followUp": {
+        "status": "跟踪中",
+        "statusDate": "2026-11-03",
+        "days": 0,
+        "trackDays": 40,
+        "useStop": true,
+        "change": 0.0,
+        "maxUp": 0.0,
+        "launched": false,
+        "stopPrice": 13.2905,
+        "stopDistance": 0.10981528159211473,
+        "final": false
+      }
+    },
+    "v26:603223": {
+      "model": "v26",
+      "code": "603223",
+      "name": "恒通股份",
+      "firstSelectedDate": "2026-11-02",
+      "firstClose": 8.26,
+      "selectedCount": 3,
+      "history": [
+        {
+          "date": "2026-11-02",
+          "close": 8.26,
+          "state": "当前统一观察"
+        },
+        {
+          "date": "2026-11-03",
+          "close": 8.19,
+          "state": "当前统一观察"
+        },
+        {
+          "date": "2026-11-04",
+          "close": 8.11,
+          "state": "当前统一观察"
+        }
+      ],
+      "lastSelectedDate": "2026-11-04",
+      "lastClose": 8.11,
+      "followUp": {
+        "status": "跟踪中",
+        "statusDate": "2026-11-03",
+        "days": 1,
+        "trackDays": 40,
+        "useStop": true,
+        "change": -0.008474576271186529,
+        "maxUp": 0.0,
+        "launched": false,
+        "stopPrice": 7.4765,
+        "stopDistance": 0.09543235471142908,
+        "final": false
+      }
+    },
+    "v26:300174": {
+      "model": "v26",
+      "code": "300174",
+      "name": "元力股份",
+      "firstSelectedDate": "2026-11-03",
+      "firstClose": 14.94,
+      "selectedCount": 2,
+      "history": [
+        {
+          "date": "2026-11-03",
+          "close": 14.94,
+          "state": "当前统一观察"
+        },
+        {
+          "date": "2026-11-04",
+          "close": 14.88,
+          "state": "当前统一观察"
+        }
+      ],
+      "lastSelectedDate": "2026-11-04",
+      "lastClose": 14.88,
+      "followUp": {
+        "status": "跟踪中",
+        "statusDate": "2026-11-03",
+        "days": 0,
+        "trackDays": 40,
+        "useStop": true,
+        "change": 0.0,
+        "maxUp": 0.0,
+        "launched": false,
+        "stopPrice": 13.793999999999999,
+        "stopDistance": 0.08307959982601143,
+        "final": false
+      }
+    },
+    "v26:000796": {
+      "model": "v26",
+      "code": "000796",
+      "name": "凯撒旅业",
+      "firstSelectedDate": "2026-11-03",
+      "firstClose": 3.26,
+      "selectedCount": 1,
+      "history": [
+        {
+          "date": "2026-11-03",
+          "close": 3.26,
+          "state": "当前统一观察"
+        }
+      ],
+      "lastSelectedDate": "2026-11-03",
+      "lastClose": 3.26,
+      "followUp": {
+        "status": "跟踪中",
+        "statusDate": "2026-11-03",
+        "days": 0,
+        "trackDays": 40,
+        "useStop": true,
+        "change": 0.0,
+        "maxUp": 0.0,
+        "launched": false,
+        "stopPrice": 2.9354999999999998,
+        "stopDistance": 0.11054334866291948,
+        "final": false
+      }
+    },
+    "v26:600595": {
+      "model": "v26",
+      "code": "600595",
+      "name": "中孚实业",
+      "firstSelectedDate": "2026-11-02",
+      "firstClose": 5.63,
+      "selectedCount": 2,
+      "history": [
+        {
+          "date": "2026-11-02",
+          "close": 5.63,
+          "state": "当前统一观察"
+        },
+        {
+          "date": "2026-11-03",
+          "close": 5.65,
+          "state": "当前统一观察"
+        }
+      ],
+      "lastSelectedDate": "2026-11-03",
+      "lastClose": 5.65,
+      "followUp": {
+        "status": "跟踪中",
+        "statusDate": "2026-11-03",
+        "days": 1,
+        "trackDays": 40,
+        "useStop": true,
+        "change": 0.00355239786856143,
+        "maxUp": 0.00355239786856143,
+        "launched": false,
+        "stopPrice": 5.1395,
+        "stopDistance": 0.09932872847553265,
+        "final": false
+      }
+    },
+    "v26:000792": {
+      "model": "v26",
+      "code": "000792",
+      "name": "盐湖股份",
+      "firstSelectedDate": "2026-11-03",
+      "firstClose": 22.49,
+      "selectedCount": 1,
+      "history": [
+        {
+          "date": "2026-11-03",
+          "close": 22.49,
+          "state": "当前统一观察"
+        }
+      ],
+      "lastSelectedDate": "2026-11-03",
+      "lastClose": 22.49,
+      "followUp": {
+        "status": "跟踪中",
+        "statusDate": "2026-11-03",
+        "days": 0,
+        "trackDays": 40,
+        "useStop": true,
+        "change": 0.0,
+        "maxUp": 0.0,
+        "launched": false,
+        "stopPrice": 20.3205,
+        "stopDistance": 0.10676410521394653,
+        "final": false
+      }
+    },
+    "v26:300316": {
+      "model": "v26",
+      "code": "300316",
+      "name": "晶盛机电",
+      "firstSelectedDate": "2026-11-03",
+      "firstClose": 32.73,
+      "selectedCount": 1,
+      "history": [
+        {
+          "date": "2026-11-03",
+          "close": 32.73,
+          "state": "当前统一观察"
+        }
+      ],
+      "lastSelectedDate": "2026-11-03",
+      "lastClose": 32.73,
+      "followUp": {
+        "status": "跟踪中",
+        "statusDate": "2026-11-03",
+        "days": 0,
+        "trackDays": 40,
+        "useStop": true,
+        "change": 0.0,
+        "maxUp": 0.0,
+        "launched": false,
+        "stopPrice": 29.3645,
+        "stopDistance": 0.1146111801665275,
+        "final": false
+      }
+    },
+    "v13:600273": {
+      "model": "v13",
+      "code": "600273",
+      "name": "嘉化能源",
+      "firstSelectedDate": "2026-11-03",
+      "firstClose": 6.36,
+      "selectedCount": 2,
+      "history": [
+        {
+          "date": "2026-11-03",
+          "close": 6.36,
+          "state": "右沿初确认"
+        },
+        {
+          "date": "2026-11-04",
+          "close": 6.37,
+          "state": "右沿初确认"
+        }
+      ],
+      "lastSelectedDate": "2026-11-04",
+      "lastClose": 6.37,
+      "featured": true,
+      "followUp": {
+        "status": "跟踪中",
+        "statusDate": "2026-11-03",
+        "days": 0,
+        "trackDays": 20,
+        "useStop": false,
+        "change": 0.0,
+        "maxUp": 0.0,
+        "launched": false,
+        "stopPrice": 5.699999999999999,
+        "stopDistance": 0.11578947368421066,
+        "final": false
+      }
+    },
+    "v13:002601": {
+      "model": "v13",
+      "code": "002601",
+      "name": "龙佰集团",
+      "firstSelectedDate": "2026-11-03",
+      "firstClose": 15.01,
+      "selectedCount": 1,
+      "history": [
+        {
+          "date": "2026-11-03",
+          "close": 15.01,
+          "state": "右沿初确认"
+        }
+      ],
+      "lastSelectedDate": "2026-11-03",
+      "lastClose": 15.01,
+      "featured": true,
+      "followUp": {
+        "status": "跟踪中",
+        "statusDate": "2026-11-03",
+        "days": 0,
+        "trackDays": 20,
+        "useStop": false,
+        "change": 0.0,
+        "maxUp": 0.0,
+        "launched": false,
+        "stopPrice": 13.148,
+        "stopDistance": 0.14161849710982666,
+        "final": false
+      }
+    },
+    "v13:002304": {
+      "model": "v13",
+      "code": "002304",
+      "name": "洋河股份",
+      "firstSelectedDate": "2026-11-03",
+      "firstClose": 38.58,
+      "selectedCount": 2,
+      "history": [
+        {
+          "date": "2026-11-03",
+          "close": 38.58,
+          "state": "右沿初确认"
+        },
+        {
+          "date": "2026-11-04",
+          "close": 38.41,
+          "state": "右沿初确认"
+        }
+      ],
+      "lastSelectedDate": "2026-11-04",
+      "lastClose": 38.41,
+      "featured": true,
+      "followUp": {
+        "status": "跟踪中",
+        "statusDate": "2026-11-03",
+        "days": 0,
+        "trackDays": 20,
+        "useStop": false,
+        "change": 0.0,
+        "maxUp": 0.0,
+        "launched": false,
+        "stopPrice": 33.0695,
+        "stopDistance": 0.1666339073768881,
+        "final": false
+      }
+    },
+    "ucross:000762": {
+      "model": "ucross",
+      "code": "000762",
+      "name": "西藏矿业",
+      "firstSelectedDate": "2026-11-03",
+      "firstClose": 18.59,
+      "selectedCount": 1,
+      "history": [
+        {
+          "date": "2026-11-03",
+          "close": 18.59,
+          "state": "低位水下金叉"
+        }
+      ],
+      "lastSelectedDate": "2026-11-03",
+      "lastClose": 18.59,
+      "followUp": {
+        "status": "跟踪中",
+        "statusDate": "2026-11-03",
         "days": 0,
         "trackDays": 40,
         "useStop": false,
         "change": 0.0,
         "maxUp": 0.0,
         "launched": false,
-        "stopPrice": 2.9354999999999998,
-        "stopDistance": 0.10373019928461957,
+        "stopPrice": 16.929,
+        "stopDistance": 0.09811565951916834,
+        "final": false
+      }
+    },
+    "ucross:300101": {
+      "model": "ucross",
+      "code": "300101",
+      "name": "振芯科技",
+      "firstSelectedDate": "2026-11-03",
+      "firstClose": 12.5,
+      "selectedCount": 1,
+      "history": [
+        {
+          "date": "2026-11-03",
+          "close": 12.5,
+          "state": "低位水下金叉"
+        }
+      ],
+      "lastSelectedDate": "2026-11-03",
+      "lastClose": 12.5,
+      "followUp": {
+        "status": "跟踪中",
+        "statusDate": "2026-11-03",
+        "days": 0,
+        "trackDays": 40,
+        "useStop": false,
+        "change": 0.0,
+        "maxUp": 0.0,
+        "launched": false,
+        "stopPrice": 11.3525,
+        "stopDistance": 0.10107905747632695,
+        "final": false
+      }
+    },
+    "ucross:300196": {
+      "model": "ucross",
+      "code": "300196",
+      "name": "长海股份",
+      "firstSelectedDate": "2026-11-03",
+      "firstClose": 14.19,
+      "selectedCount": 1,
+      "history": [
+        {
+          "date": "2026-11-03",
+          "close": 14.19,
+          "state": "低位水下金叉"
+        }
+      ],
+      "lastSelectedDate": "2026-11-03",
+      "lastClose": 14.19,
+      "followUp": {
+        "status": "跟踪中",
+        "statusDate": "2026-11-03",
+        "days": 0,
+        "trackDays": 40,
+        "useStop": false,
+        "change": 0.0,
+        "maxUp": 0.0,
+        "launched": false,
+        "stopPrice": 12.977,
+        "stopDistance": 0.09347306773522379,
+        "final": false
+      }
+    },
+    "ucross:300666": {
+      "model": "ucross",
+      "code": "300666",
+      "name": "江丰电子",
+      "firstSelectedDate": "2026-11-03",
+      "firstClose": 154.61,
+      "selectedCount": 1,
+      "history": [
+        {
+          "date": "2026-11-03",
+          "close": 154.61,
+          "state": "低位水下金叉"
+        }
+      ],
+      "lastSelectedDate": "2026-11-03",
+      "lastClose": 154.61,
+      "followUp": {
+        "status": "跟踪中",
+        "statusDate": "2026-11-03",
+        "days": 0,
+        "trackDays": 40,
+        "useStop": false,
+        "change": 0.0,
+        "maxUp": 0.0,
+        "launched": false,
+        "stopPrice": 144.5615,
+        "stopDistance": 0.06951020845799216,
+        "final": false
+      }
+    },
+    "ucross:600995": {
+      "model": "ucross",
+      "code": "600995",
+      "name": "南网储能",
+      "firstSelectedDate": "2026-11-03",
+      "firstClose": 11.31,
+      "selectedCount": 1,
+      "history": [
+        {
+          "date": "2026-11-03",
+          "close": 11.31,
+          "state": "低位水下金叉"
+        }
+      ],
+      "lastSelectedDate": "2026-11-03",
+      "lastClose": 11.31,
+      "followUp": {
+        "status": "跟踪中",
+        "statusDate": "2026-11-03",
+        "days": 0,
+        "trackDays": 40,
+        "useStop": false,
+        "change": 0.0,
+        "maxUp": 0.0,
+        "launched": false,
+        "stopPrice": 10.316999999999998,
+        "stopDistance": 0.09624890956673471,
+        "final": false
+      }
+    },
+    "ucross:600151": {
+      "model": "ucross",
+      "code": "600151",
+      "name": "航天机电",
+      "firstSelectedDate": "2026-11-03",
+      "firstClose": 8.21,
+      "selectedCount": 1,
+      "history": [
+        {
+          "date": "2026-11-03",
+          "close": 8.21,
+          "state": "低位水下金叉"
+        }
+      ],
+      "lastSelectedDate": "2026-11-03",
+      "lastClose": 8.21,
+      "followUp": {
+        "status": "跟踪中",
+        "statusDate": "2026-11-03",
+        "days": 0,
+        "trackDays": 40,
+        "useStop": false,
+        "change": 0.0,
+        "maxUp": 0.0,
+        "launched": false,
+        "stopPrice": 7.4575,
+        "stopDistance": 0.10090512906470006,
+        "final": false
+      }
+    },
+    "ucross:002782": {
+      "model": "ucross",
+      "code": "002782",
+      "name": "可立克",
+      "firstSelectedDate": "2026-11-03",
+      "firstClose": 11.9,
+      "selectedCount": 1,
+      "history": [
+        {
+          "date": "2026-11-03",
+          "close": 11.9,
+          "state": "低位水下金叉"
+        }
+      ],
+      "lastSelectedDate": "2026-11-03",
+      "lastClose": 11.9,
+      "followUp": {
+        "status": "跟踪中",
+        "statusDate": "2026-11-03",
+        "days": 0,
+        "trackDays": 40,
+        "useStop": false,
+        "change": 0.0,
+        "maxUp": 0.0,
+        "launched": false,
+        "stopPrice": 11.001,
+        "stopDistance": 0.08171984365057727,
+        "final": false
+      }
+    },
+    "ucross:002056": {
+      "model": "ucross",
+      "code": "002056",
+      "name": "横店东磁",
+      "firstSelectedDate": "2026-11-03",
+      "firstClose": 16.36,
+      "selectedCount": 1,
+      "history": [
+        {
+          "date": "2026-11-03",
+          "close": 16.36,
+          "state": "低位水下金叉"
+        }
+      ],
+      "lastSelectedDate": "2026-11-03",
+      "lastClose": 16.36,
+      "followUp": {
+        "status": "跟踪中",
+        "statusDate": "2026-11-03",
+        "days": 0,
+        "trackDays": 40,
+        "useStop": false,
+        "change": 0.0,
+        "maxUp": 0.0,
+        "launched": false,
+        "stopPrice": 15.123999999999999,
+        "stopDistance": 0.08172441153134091,
+        "final": false
+      }
+    },
+    "ucross:600420": {
+      "model": "ucross",
+      "code": "600420",
+      "name": "国药现代",
+      "firstSelectedDate": "2026-11-03",
+      "firstClose": 8.33,
+      "selectedCount": 1,
+      "history": [
+        {
+          "date": "2026-11-03",
+          "close": 8.33,
+          "state": "低位水下金叉"
+        }
+      ],
+      "lastSelectedDate": "2026-11-03",
+      "lastClose": 8.33,
+      "followUp": {
+        "status": "跟踪中",
+        "statusDate": "2026-11-03",
+        "days": 0,
+        "trackDays": 40,
+        "useStop": false,
+        "change": 0.0,
+        "maxUp": 0.0,
+        "launched": false,
+        "stopPrice": 7.5714999999999995,
+        "stopDistance": 0.10017830020471519,
+        "final": false
+      }
+    },
+    "ucross:601619": {
+      "model": "ucross",
+      "code": "601619",
+      "name": "嘉泽新能",
+      "firstSelectedDate": "2026-11-03",
+      "firstClose": 3.63,
+      "selectedCount": 1,
+      "history": [
+        {
+          "date": "2026-11-03",
+          "close": 3.63,
+          "state": "低位水下金叉"
+        }
+      ],
+      "lastSelectedDate": "2026-11-03",
+      "lastClose": 3.63,
+      "followUp": {
+        "status": "跟踪中",
+        "statusDate": "2026-11-03",
+        "days": 0,
+        "trackDays": 40,
+        "useStop": false,
+        "change": 0.0,
+        "maxUp": 0.0,
+        "launched": false,
+        "stopPrice": 3.363,
+        "stopDistance": 0.07939339875111506,
+        "final": false
+      }
+    },
+    "ucross:603505": {
+      "model": "ucross",
+      "code": "603505",
+      "name": "金石资源",
+      "firstSelectedDate": "2026-11-03",
+      "firstClose": 11.87,
+      "selectedCount": 1,
+      "history": [
+        {
+          "date": "2026-11-03",
+          "close": 11.87,
+          "state": "低位水下金叉"
+        }
+      ],
+      "lastSelectedDate": "2026-11-03",
+      "lastClose": 11.87,
+      "followUp": {
+        "status": "跟踪中",
+        "statusDate": "2026-11-03",
+        "days": 0,
+        "trackDays": 40,
+        "useStop": false,
+        "change": 0.0,
+        "maxUp": 0.0,
+        "launched": false,
+        "stopPrice": 10.8395,
+        "stopDistance": 0.09506896074542182,
+        "final": false
+      }
+    },
+    "v26:002125": {
+      "model": "v26",
+      "code": "002125",
+      "name": "湘潭电化",
+      "firstSelectedDate": "2026-11-02",
+      "firstClose": 10.9,
+      "selectedCount": 1,
+      "history": [
+        {
+          "date": "2026-11-02",
+          "close": 10.9,
+          "state": "当前统一观察"
+        }
+      ],
+      "lastSelectedDate": "2026-11-02",
+      "lastClose": 10.9,
+      "followUp": {
+        "status": "跟踪中",
+        "statusDate": "2026-11-03",
+        "days": 1,
+        "trackDays": 40,
+        "useStop": true,
+        "change": 0.010091743119265972,
+        "maxUp": 0.010091743119265972,
+        "launched": false,
+        "stopPrice": 9.785,
+        "stopDistance": 0.1251916198262646,
+        "final": false
+      }
+    },
+    "v26:600160": {
+      "model": "v26",
+      "code": "600160",
+      "name": "巨化股份",
+      "firstSelectedDate": "2026-11-02",
+      "firstClose": 29.43,
+      "selectedCount": 1,
+      "history": [
+        {
+          "date": "2026-11-02",
+          "close": 29.43,
+          "state": "当前统一观察"
+        }
+      ],
+      "lastSelectedDate": "2026-11-02",
+      "lastClose": 29.43,
+      "followUp": {
+        "status": "跟踪中",
+        "statusDate": "2026-11-03",
+        "days": 1,
+        "trackDays": 40,
+        "useStop": true,
+        "change": 0.04451240231056741,
+        "maxUp": 0.04451240231056741,
+        "launched": false,
+        "stopPrice": 26.077499999999997,
+        "stopDistance": 0.1787939794842297,
+        "final": false
+      }
+    },
+    "v26:000009": {
+      "model": "v26",
+      "code": "000009",
+      "name": "中国宝安",
+      "firstSelectedDate": "2026-11-02",
+      "firstClose": 6.53,
+      "selectedCount": 1,
+      "history": [
+        {
+          "date": "2026-11-02",
+          "close": 6.53,
+          "state": "当前统一观察"
+        }
+      ],
+      "lastSelectedDate": "2026-11-02",
+      "lastClose": 6.53,
+      "followUp": {
+        "status": "跟踪中",
+        "statusDate": "2026-11-03",
+        "days": 1,
+        "trackDays": 40,
+        "useStop": true,
+        "change": 0.016845329249617125,
+        "maxUp": 0.016845329249617125,
+        "launched": false,
+        "stopPrice": 5.956499999999999,
+        "stopDistance": 0.11474859397297088,
+        "final": false
+      }
+    },
+    "v26:603568": {
+      "model": "v26",
+      "code": "603568",
+      "name": "伟明环保",
+      "firstSelectedDate": "2026-11-02",
+      "firstClose": 12.75,
+      "selectedCount": 1,
+      "history": [
+        {
+          "date": "2026-11-02",
+          "close": 12.75,
+          "state": "当前统一观察"
+        }
+      ],
+      "lastSelectedDate": "2026-11-02",
+      "lastClose": 12.75,
+      "followUp": {
+        "status": "跟踪中",
+        "statusDate": "2026-11-03",
+        "days": 1,
+        "trackDays": 40,
+        "useStop": true,
+        "change": 0.019607843137254832,
+        "maxUp": 0.019607843137254832,
+        "launched": false,
+        "stopPrice": 11.685,
+        "stopDistance": 0.11253744116388531,
+        "final": false
+      }
+    },
+    "v26:002064": {
+      "model": "v26",
+      "code": "002064",
+      "name": "华峰化学",
+      "firstSelectedDate": "2026-11-02",
+      "firstClose": 8.64,
+      "selectedCount": 1,
+      "history": [
+        {
+          "date": "2026-11-02",
+          "close": 8.64,
+          "state": "当前统一观察"
+        }
+      ],
+      "lastSelectedDate": "2026-11-02",
+      "lastClose": 8.64,
+      "followUp": {
+        "status": "跟踪中",
+        "statusDate": "2026-11-03",
+        "days": 1,
+        "trackDays": 40,
+        "useStop": true,
+        "change": 0.04166666666666652,
+        "maxUp": 0.04166666666666652,
+        "launched": false,
+        "stopPrice": 8.094,
+        "stopDistance": 0.11193476649369916,
+        "final": false
+      }
+    },
+    "v26:688981": {
+      "model": "v26",
+      "code": "688981",
+      "name": "中芯国际",
+      "firstSelectedDate": "2026-11-02",
+      "firstClose": 100.0,
+      "selectedCount": 1,
+      "history": [
+        {
+          "date": "2026-11-02",
+          "close": 100.0,
+          "state": "当前统一观察"
+        }
+      ],
+      "lastSelectedDate": "2026-11-02",
+      "lastClose": 100.0,
+      "followUp": {
+        "status": "跟踪中",
+        "statusDate": "2026-11-03",
+        "days": 1,
+        "trackDays": 40,
+        "useStop": true,
+        "change": 0.021099999999999897,
+        "maxUp": 0.021099999999999897,
+        "launched": false,
+        "stopPrice": 90.05999999999999,
+        "stopDistance": 0.13379968909615836,
+        "final": false
+      }
+    },
+    "v26:002219": {
+      "model": "v26",
+      "code": "002219",
+      "name": "新里程",
+      "firstSelectedDate": "2026-11-04",
+      "firstClose": 1.91,
+      "selectedCount": 1,
+      "history": [
+        {
+          "date": "2026-11-04",
+          "close": 1.91,
+          "state": "当前统一观察"
+        }
+      ],
+      "lastSelectedDate": "2026-11-04",
+      "lastClose": 1.91,
+      "followUp": {
+        "status": "数据待复核",
+        "final": false
+      }
+    },
+    "v26:002326": {
+      "model": "v26",
+      "code": "002326",
+      "name": "永太科技",
+      "firstSelectedDate": "2026-11-04",
+      "firstClose": 14.11,
+      "selectedCount": 1,
+      "history": [
+        {
+          "date": "2026-11-04",
+          "close": 14.11,
+          "state": "当前统一观察"
+        }
+      ],
+      "lastSelectedDate": "2026-11-04",
+      "lastClose": 14.11,
+      "followUp": {
+        "status": "数据待复核",
+        "final": false
+      }
+    },
+    "v26:601369": {
+      "model": "v26",
+      "code": "601369",
+      "name": "陕鼓动力",
+      "firstSelectedDate": "2026-11-04",
+      "firstClose": 7.98,
+      "selectedCount": 1,
+      "history": [
+        {
+          "date": "2026-11-04",
+          "close": 7.98,
+          "state": "当前统一观察"
+        }
+      ],
+      "lastSelectedDate": "2026-11-04",
+      "lastClose": 7.98,
+      "followUp": {
+        "status": "数据待复核",
+        "final": false
+      }
+    },
+    "v13:600089": {
+      "model": "v13",
+      "code": "600089",
+      "name": "特变电工",
+      "firstSelectedDate": "2026-11-04",
+      "firstClose": 17.94,
+      "selectedCount": 1,
+      "history": [
+        {
+          "date": "2026-11-04",
+          "close": 17.94,
+          "state": "右沿初确认"
+        }
+      ],
+      "lastSelectedDate": "2026-11-04",
+      "lastClose": 17.94,
+      "featured": true,
+      "followUp": {
+        "status": "数据待复核",
+        "final": false
+      }
+    },
+    "v13:000157": {
+      "model": "v13",
+      "code": "000157",
+      "name": "中联重科",
+      "firstSelectedDate": "2026-11-04",
+      "firstClose": 6.2,
+      "selectedCount": 1,
+      "history": [
+        {
+          "date": "2026-11-04",
+          "close": 6.2,
+          "state": "右沿初确认"
+        }
+      ],
+      "lastSelectedDate": "2026-11-04",
+      "lastClose": 6.2,
+      "featured": true,
+      "followUp": {
+        "status": "数据待复核",
+        "final": false
+      }
+    },
+    "ucross:600133": {
+      "model": "ucross",
+      "code": "600133",
+      "name": "东湖高新",
+      "firstSelectedDate": "2026-11-04",
+      "firstClose": 7.25,
+      "selectedCount": 1,
+      "history": [
+        {
+          "date": "2026-11-04",
+          "close": 7.25,
+          "state": "低位水下金叉"
+        }
+      ],
+      "lastSelectedDate": "2026-11-04",
+      "lastClose": 7.25,
+      "followUp": {
+        "status": "数据待复核",
+        "final": false
+      }
+    },
+    "ucross:002810": {
+      "model": "ucross",
+      "code": "002810",
+      "name": "山东赫达",
+      "firstSelectedDate": "2026-11-04",
+      "firstClose": 16.08,
+      "selectedCount": 1,
+      "history": [
+        {
+          "date": "2026-11-04",
+          "close": 16.08,
+          "state": "低位水下金叉"
+        }
+      ],
+      "lastSelectedDate": "2026-11-04",
+      "lastClose": 16.08,
+      "followUp": {
+        "status": "数据待复核",
+        "final": false
+      }
+    },
+    "ucross:300390": {
+      "model": "ucross",
+      "code": "300390",
+      "name": "天华新能",
+      "firstSelectedDate": "2026-11-04",
+      "firstClose": 34.38,
+      "selectedCount": 1,
+      "history": [
+        {
+          "date": "2026-11-04",
+          "close": 34.38,
+          "state": "低位水下金叉"
+        }
+      ],
+      "lastSelectedDate": "2026-11-04",
+      "lastClose": 34.38,
+      "followUp": {
+        "status": "数据待复核",
+        "final": false
+      }
+    },
+    "ucross:300726": {
+      "model": "ucross",
+      "code": "300726",
+      "name": "宏达电子",
+      "firstSelectedDate": "2026-11-04",
+      "firstClose": 38.01,
+      "selectedCount": 1,
+      "history": [
+        {
+          "date": "2026-11-04",
+          "close": 38.01,
+          "state": "低位水下金叉"
+        }
+      ],
+      "lastSelectedDate": "2026-11-04",
+      "lastClose": 38.01,
+      "followUp": {
+        "status": "数据待复核",
+        "final": false
+      }
+    },
+    "ucross:300913": {
+      "model": "ucross",
+      "code": "300913",
+      "name": "兆龙互连",
+      "firstSelectedDate": "2026-11-04",
+      "firstClose": 28.49,
+      "selectedCount": 1,
+      "history": [
+        {
+          "date": "2026-11-04",
+          "close": 28.49,
+          "state": "低位水下金叉"
+        }
+      ],
+      "lastSelectedDate": "2026-11-04",
+      "lastClose": 28.49,
+      "followUp": {
+        "status": "数据待复核",
+        "final": false
+      }
+    },
+    "ucross:300576": {
+      "model": "ucross",
+      "code": "300576",
+      "name": "容大感光",
+      "firstSelectedDate": "2026-11-04",
+      "firstClose": 22.08,
+      "selectedCount": 1,
+      "history": [
+        {
+          "date": "2026-11-04",
+          "close": 22.08,
+          "state": "低位水下金叉"
+        }
+      ],
+      "lastSelectedDate": "2026-11-04",
+      "lastClose": 22.08,
+      "followUp": {
+        "status": "数据待复核",
+        "final": false
+      }
+    },
+    "ucross:002721": {
+      "model": "ucross",
+      "code": "002721",
+      "name": "金一文化",
+      "firstSelectedDate": "2026-11-04",
+      "firstClose": 2.37,
+      "selectedCount": 1,
+      "history": [
+        {
+          "date": "2026-11-04",
+          "close": 2.37,
+          "state": "低位水下金叉"
+        }
+      ],
+      "lastSelectedDate": "2026-11-04",
+      "lastClose": 2.37,
+      "followUp": {
+        "status": "数据待复核",
+        "final": false
+      }
+    },
+    "ucross:300373": {
+      "model": "ucross",
+      "code": "300373",
+      "name": "扬杰科技",
+      "firstSelectedDate": "2026-11-04",
+      "firstClose": 72.96,
+      "selectedCount": 1,
+      "history": [
+        {
+          "date": "2026-11-04",
+          "close": 72.96,
+          "state": "低位水下金叉"
+        }
+      ],
+      "lastSelectedDate": "2026-11-04",
+      "lastClose": 72.96,
+      "followUp": {
+        "status": "数据待复核",
+        "final": false
+      }
+    },
+    "ucross:300009": {
+      "model": "ucross",
+      "code": "300009",
+      "name": "安科生物",
+      "firstSelectedDate": "2026-11-04",
+      "firstClose": 7.92,
+      "selectedCount": 1,
+      "history": [
+        {
+          "date": "2026-11-04",
+          "close": 7.92,
+          "state": "低位水下金叉"
+        }
+      ],
+      "lastSelectedDate": "2026-11-04",
+      "lastClose": 7.92,
+      "followUp": {
+        "status": "数据待复核",
+        "final": false
+      }
+    },
+    "ucross:603031": {
+      "model": "ucross",
+      "code": "603031",
+      "name": "安孚科技",
+      "firstSelectedDate": "2026-11-04",
+      "firstClose": 24.29,
+      "selectedCount": 1,
+      "history": [
+        {
+          "date": "2026-11-04",
+          "close": 24.29,
+          "state": "低位水下金叉"
+        }
+      ],
+      "lastSelectedDate": "2026-11-04",
+      "lastClose": 24.29,
+      "followUp": {
+        "status": "数据待复核",
+        "final": false
+      }
+    },
+    "ucross:002215": {
+      "model": "ucross",
+      "code": "002215",
+      "name": "诺普信",
+      "firstSelectedDate": "2026-11-04",
+      "firstClose": 8.51,
+      "selectedCount": 1,
+      "history": [
+        {
+          "date": "2026-11-04",
+          "close": 8.51,
+          "state": "低位水下金叉"
+        }
+      ],
+      "lastSelectedDate": "2026-11-04",
+      "lastClose": 8.51,
+      "followUp": {
+        "status": "数据待复核",
+        "final": false
+      }
+    },
+    "ucross:002239": {
+      "model": "ucross",
+      "code": "002239",
+      "name": "奥特佳",
+      "firstSelectedDate": "2026-11-04",
+      "firstClose": 2.4,
+      "selectedCount": 1,
+      "history": [
+        {
+          "date": "2026-11-04",
+          "close": 2.4,
+          "state": "低位水下金叉"
+        }
+      ],
+      "lastSelectedDate": "2026-11-04",
+      "lastClose": 2.4,
+      "followUp": {
+        "status": "数据待复核",
+        "final": false
+      }
+    },
+    "ucross:603977": {
+      "model": "ucross",
+      "code": "603977",
+      "name": "国泰集团",
+      "firstSelectedDate": "2026-11-04",
+      "firstClose": 9.56,
+      "selectedCount": 1,
+      "history": [
+        {
+          "date": "2026-11-04",
+          "close": 9.56,
+          "state": "低位水下金叉"
+        }
+      ],
+      "lastSelectedDate": "2026-11-04",
+      "lastClose": 9.56,
+      "followUp": {
+        "status": "数据待复核",
         "final": false
       }
     }
   },
-  "updatedAt": "2026-11-02T17:09:16+08:00"
+  "updatedAt": "2026-11-04T11:41:09+08:00"
 }

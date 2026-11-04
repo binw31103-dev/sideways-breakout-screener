@@ -314,6 +314,41 @@ def fetch_eastmoney_daily_quotes() -> dict[str, dict]:
     return quotes
 
 
+SINA_QUOTE_BATCH = 80
+
+
+def fetch_sina_daily_quotes(codes: list[str]) -> dict[str, dict]:
+    """Third source: Sina batch quotes (unadjusted, fine for one day's bar and caps)."""
+    def batch(chunk: list[str]) -> dict[str, dict]:
+        out: dict[str, dict] = {}
+        raw = subprocess.run(
+            ["curl", "-sS", "-m", "15", "-H", "User-Agent: Mozilla/5.0", "-H", "Referer: https://finance.sina.com.cn",
+             "https://hq.sinajs.cn/list=" + ",".join(("sh" if c.startswith("6") else "sz") + c for c in chunk)],
+            capture_output=True,
+        ).stdout
+        for line in raw.decode("gbk", errors="replace").splitlines():
+            if '"' not in line or "=" not in line:
+                continue
+            code = line.split("=")[0][-6:]
+            f = line.split('"')[1].split(",")
+            if len(f) < 32 or code not in chunk or not f[3] or float(f[3]) <= 0:
+                continue
+            close, prev = float(f[3]), float(f[2])
+            out[code] = {
+                "date": f[30], "prevClose": prev, "open": float(f[1]), "close": close,
+                "high": float(f[4]), "low": float(f[5]), "volume": float(f[8]), "amount": float(f[9]),
+                "turnoverRate": 0.0, "totalMarketCap": 0.0, "floatMarketCap": 0.0,
+                "source": "新浪收盘快照",
+            }
+        return out
+    batches = [codes[i:i + SINA_QUOTE_BATCH] for i in range(0, len(codes), SINA_QUOTE_BATCH)]
+    quotes: dict[str, dict] = {}
+    with concurrent.futures.ThreadPoolExecutor(max_workers=3) as executor:
+        for part in executor.map(batch, batches):
+            quotes.update(part)
+    return quotes
+
+
 TENCENT_QUOTE_BATCH = 60
 
 
@@ -426,11 +461,24 @@ def fetch_daily_quotes(codes: Iterable[str] | None = None) -> dict[str, dict]:
     # covers less than half the universe as a failure so the Tencent fallback runs.
     if codes is not None and len(quotes) < 0.5 * len(set(codes)):
         quotes = {}
-    if not quotes and codes is not None:
-        print("[quotes] Eastmoney snapshot empty, falling back to Tencent", file=sys.stderr, flush=True)
-        quotes = fetch_tencent_daily_quotes(sorted(set(codes)))
+    wanted = sorted(set(codes)) if codes is not None else []
+    for name, fetch in (("Tencent", fetch_tencent_daily_quotes), ("Sina", fetch_sina_daily_quotes)):
+        if quotes and (not wanted or len(quotes) >= 0.8 * len(wanted)):
+            break
+        if not wanted:
+            break
+        print(f"[quotes] {name} fallback for {len(wanted) - len(quotes)} stocks", file=sys.stderr, flush=True)
+        try:
+            extra = fetch(wanted)
+        except Exception as exc:
+            print(f"[quotes] {name} failed: {exc}", file=sys.stderr, flush=True)
+            continue
+        # Keep Eastmoney rows; fill whatever the other sources cover.
+        quotes = {**extra, **quotes}
     if not quotes:
-        raise RuntimeError("daily quote snapshot is empty: Eastmoney and Tencent both unavailable")
+        raise RuntimeError("daily quote snapshot is empty: Eastmoney, Tencent and Sina all unavailable")
+    if wanted and len(quotes) < 0.8 * len(wanted):
+        raise RuntimeError(f"quote snapshot covers only {len(quotes)}/{len(wanted)} stocks")
     save_quote_snapshot(quotes)
     return quotes
 
